@@ -62,6 +62,52 @@ The dataset will later contain hospital event records with information such as:
 
 **Completed ✅**
 
-### Next Step
+## Day 2 — Create Raw Event Table
 
-**Day 2 — Create the raw hospital event table.**
+### Objective
+Create the raw hospital event-log table in Google BigQuery.
+
+### BigQuery Setup
+
+- **Project:** `careflow-process-mining`
+- **Dataset:** `careflow_raw`
+- **Raw Table:** `hospital_event`
+
+### Dataset Information
+
+- **Records:** 89,103
+- **Columns:** 10
+- **Source:** Hospital Event Log CSV
+- **Storage:** Google BigQuery
+
+### Raw Table Schema
+
+| Column | Data Type |
+|--------|-----------|
+| Case_ID | STRING |
+| Patient_ID | STRING |
+| Activity | STRING |
+| Department | STRING |
+| Timestamp | TIMESTAMP |
+| Doctor_ID | STRING |
+| Nurse_ID | STRING |
+| Severity | STRING |
+| Waiting_Time_Minutes | INT64 |
+| Status | STRING |
+
+### Work Completed
+
+- Created the raw event table in BigQuery.
+- Defined the schema for the hospital event log.
+- Verified the table structure.
+- Prepared the table for CSV ingestion.
+
+### SQL
+
+The raw table creation query is available in:
+
+`sql/02_create_raw_table.sql`
+
+### Day 2 GitHub Commit
+
+`feat: create raw event table`
