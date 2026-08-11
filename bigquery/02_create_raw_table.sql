@@ -1,3 +1,4 @@
+-- Create a hospital_event table
 CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event`
 (
   Case_ID STRING,
@@ -11,3 +12,12 @@ CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event`
   Waiting_Time_Minutes INT64,
   Status STRING
 );
+
+-- Verification of the table 
+SELECT
+  column_name,
+  data_type,
+  ordinal_position
+FROM `careflow-process-mining.careflow_raw.INFORMATION_SCHEMA.COLUMNS`
+WHERE table_name = 'hospital_event'
+ORDER BY ordinal_position;
