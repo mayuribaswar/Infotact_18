@@ -1,46 +1,27 @@
-import os
-import pandas as pd
+"""
+Day 1 - PM4Py Setup
+CareFlow Process Mining
+
+Purpose:
+- Verify that PM4Py is installed correctly.
+- Verify that pandas is available.
+- Print the installed PM4Py version.
+"""
+
 import pm4py
+import pandas as pd
 
 
-DATA_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "..",
-    "data",
-    "hospital_event_log.xls"
-)
-
-
-def main():
+def check_pm4py_setup():
     print("=" * 50)
-    print("CareFlow - PM4Py Environment Setup")
+    print("CareFlow - PM4Py Setup Check")
     print("=" * 50)
 
-    # Check PM4Py
-    print(f"\nPM4Py version: {pm4py.__version__}")
-    print("PM4Py installation: SUCCESS")
-
-    # Check dataset
-    if os.path.exists(DATA_PATH):
-        print("\nHospital event log: FOUND")
-
-        try:
-            df = pd.read_excel(DATA_PATH)
-
-            print(f"Rows: {len(df)}")
-            print(f"Columns: {len(df.columns)}")
-            print("\nColumns:")
-            print(list(df.columns))
-
-            print("\nDataset loaded successfully.")
-
-        except Exception as e:
-            print(f"\nDataset loading failed: {e}")
-
-    else:
-        print("\nHospital event log: NOT FOUND")
-        print(f"Expected path: {DATA_PATH}")
+    print(f"PM4Py version : {pm4py.__version__}")
+    print(f"Pandas version: {pd.__version__}")
+    print("PM4Py import  : SUCCESS")
+    print("Setup is ready for process mining.")
 
 
 if __name__ == "__main__":
-    main()
+    check_pm4py_setup()
