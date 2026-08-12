@@ -8,11 +8,11 @@
 
 ### BigQuery Dataset
 
-**hospital_event_log**
+**careflow_raw**
 
 ### Description
 
-The `hospital_event_log` dataset is created in Google BigQuery to store and analyze hospital event-log data for the CareFlow clinical process mining project.
+The `careflow_raw` dataset is created in Google BigQuery to store and analyze raw hospital event-log data for the CareFlow clinical process mining project.
 
 The project will be used to identify:
 
@@ -25,22 +25,24 @@ The project will be used to identify:
 ### Day 1 Work Completed
 
 * Created Google Cloud project
-* Created BigQuery dataset: `hospital_event_log`
-* Prepared the project structure for hospital event-log analysis
+* Created BigQuery dataset: `careflow_raw`
+* Prepared the BigQuery environment for hospital event-log analysis
 
 ### Dataset Purpose
 
-The dataset will later contain hospital event records with information such as:
+The dataset will store raw hospital event records containing information such as:
 
+* `Event_ID`
 * `Case_ID`
 * `Patient_ID`
+* `Visit_Type`
 * `Activity`
 * `Department`
 * `Timestamp`
 * `Doctor_ID`
-* `Nurse_ID`
 * `Severity`
 * `Waiting_Time_Minutes`
+* `Cost`
 * `Status`
 
 ### Project Roadmap
@@ -62,52 +64,143 @@ The dataset will later contain hospital event records with information such as:
 
 **Completed ✅**
 
+---
+
 ## Day 2 — Create Raw Event Table
 
 ### Objective
+
 Create the raw hospital event-log table in Google BigQuery.
 
 ### BigQuery Setup
 
-- **Project:** `careflow-process-mining`
-- **Dataset:** `careflow_raw`
-- **Raw Table:** `hospital_event`
+* **Project:** `careflow-process-mining`
+* **Dataset:** `careflow_raw`
+* **Raw Table:** `hospital_event_log`
 
-### Dataset Information
+### Source Data
 
-- **Records:** 89,103
-- **Columns:** 10
-- **Source:** Hospital Event Log CSV
-- **Storage:** Google BigQuery
+The raw table is designed to store the hospital event-log data provided as the project source dataset.
 
 ### Raw Table Schema
 
-| Column | Data Type |
-|--------|-----------|
-| Case_ID | STRING |
-| Patient_ID | STRING |
-| Activity | STRING |
-| Department | STRING |
-| Timestamp | TIMESTAMP |
-| Doctor_ID | STRING |
-| Nurse_ID | STRING |
-| Severity | STRING |
-| Waiting_Time_Minutes | INT64 |
-| Status | STRING |
+| Column                 | Data Type |
+| ---------------------- | --------- |
+| `Event_ID`             | STRING    |
+| `Case_ID`              | STRING    |
+| `Patient_ID`           | STRING    |
+| `Visit_Type`           | STRING    |
+| `Activity`             | STRING    |
+| `Department`           | STRING    |
+| `Timestamp`            | TIMESTAMP |
+| `Doctor_ID`            | STRING    |
+| `Severity`             | STRING    |
+| `Waiting_Time_Minutes` | INT64     |
+| `Cost`                 | FLOAT64   |
+| `Status`               | STRING    |
 
 ### Work Completed
 
-- Created the raw event table in BigQuery.
-- Defined the schema for the hospital event log.
-- Verified the table structure.
-- Prepared the table for CSV ingestion.
+* Created the raw event table in BigQuery.
+* Defined the table schema according to the source CSV.
+* Verified the table structure.
+* Prepared the table for CSV ingestion.
 
 ### SQL
 
 The raw table creation query is available in:
 
-`sql/02_create_raw_table.sql`
+`bigquery/02_create_raw_table.sql`
 
 ### Day 2 GitHub Commit
 
 `feat: create raw event table`
+
+### Day 2 Status
+
+**Completed ✅**
+
+---
+
+## Day 3 — Load Event Log into BigQuery
+
+### Objective
+
+Load the raw hospital event-log CSV into the BigQuery raw table.
+
+### Data Preparation
+
+* Received the hospital event-log data in Excel format.
+* Converted the Excel file into CSV format.
+* Prepared the raw CSV file for BigQuery ingestion.
+
+### BigQuery Setup
+
+* **Project:** `careflow-process-mining`
+* **Dataset:** `careflow_raw`
+* **Raw Table:** `hospital_event_log`
+
+### Raw Event Log Information
+
+* **Source:** Hospital Event Log CSV
+* **Format:** CSV
+* **Storage:** Google BigQuery
+* **Table:** `hospital_event_log`
+
+### Loaded CSV Schema
+
+| Column                 | Data Type |
+| ---------------------- | --------- |
+| `Event_ID`             | STRING    |
+| `Case_ID`              | STRING    |
+| `Patient_ID`           | STRING    |
+| `Visit_Type`           | STRING    |
+| `Activity`             | STRING    |
+| `Department`           | STRING    |
+| `Timestamp`            | TIMESTAMP |
+| `Doctor_ID`            | STRING    |
+| `Severity`             | STRING    |
+| `Waiting_Time_Minutes` | INT64     |
+| `Cost`                 | FLOAT64   |
+| `Status`               | STRING    |
+
+### Work Completed
+
+* Converted the source Excel file into CSV format.
+* Loaded the raw CSV file into BigQuery.
+* Stored the data in the `hospital_event_log` table.
+* Verified that the data was successfully loaded.
+* Verified the loaded records using BigQuery SQL queries.
+
+### Data File
+
+The raw CSV file is stored in:
+
+`data/hospital_event_log_raw.csv`
+
+### SQL
+
+The Day 3 SQL file is available in:
+
+`bigquery/03_load_event_log.sql`
+
+### Verification Queries
+
+```sql
+SELECT COUNT(*) AS total_records
+FROM `careflow-process-mining.careflow_raw.hospital_event_log`;
+```
+
+```sql
+SELECT *
+FROM `careflow-process-mining.careflow_raw.hospital_event_log`
+LIMIT 10;
+```
+
+### Day 3 GitHub Commit
+
+`feat: load event log into BigQuery`
+
+### Day 3 Status
+
+**Completed ✅**
