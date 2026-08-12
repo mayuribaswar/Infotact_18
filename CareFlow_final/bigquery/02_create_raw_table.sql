@@ -1,5 +1,5 @@
 -- Create a hospital_event table
-CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event` (
+CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event_log_raw` (
   Event_ID STRING,
   Case_ID STRING,
   Patient_ID STRING,
