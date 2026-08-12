@@ -1,15 +1,16 @@
 -- Create a hospital_event table
-CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event`
-(
+CREATE TABLE `careflow-process-mining.careflow_raw.hospital_event` (
+  Event_ID STRING,
   Case_ID STRING,
   Patient_ID STRING,
+  Visit_Type STRING,
   Activity STRING,
   Department STRING,
   Timestamp TIMESTAMP,
   Doctor_ID STRING,
-  Nurse_ID STRING,
   Severity STRING,
   Waiting_Time_Minutes INT64,
+  Cost FLOAT64,
   Status STRING
 );
 
