@@ -204,3 +204,30 @@ LIMIT 10;
 ### Day 3 Status
 
 **Completed ✅**
+## Day 4 – Pre-Cleaning Data Validation
+
+### Objective
+Validate the CareFlow raw event-log dataset before performing data cleaning and transformation.
+
+### Tasks Completed
+
+- Validated the raw table schema and column data types.
+- Checked the total number of records.
+- Checked unique patients, cases, and events.
+- Identified NULL and blank values.
+- Checked duplicate Event IDs and duplicate event records.
+- Analyzed activity and status distributions.
+- Validated timestamp ranges and case durations.
+- Checked events and activities within each case.
+- Analyzed patient journeys and activity sequences.
+- Identified repeated and loop-back activities.
+- Performed an overall data-quality assessment.
+- Documented all validation queries in `04_pre_cleaning_validation.sql`.
+
+### SQL File
+
+`04_pre_cleaning_validation.sql`
+
+### Outcome
+
+The raw CareFlow dataset was successfully validated and its data-quality issues were identified. The dataset is now ready for the **data-cleaning and transformation stage**.
