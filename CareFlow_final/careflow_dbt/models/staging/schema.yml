@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: stg_hospital_event_log
+    description: "Staging model for hospital clinical event log"
+
+    columns:
+      - name: Event_ID
+        description: "Unique event identifier"
+        tests:
+          - not_null
+
+      - name: Patient_ID
+        description: "Patient identifier"
+        tests:
+          - not_null
+
+      - name: Patient_Name
+        description: "Patient name"
+
+      - name: Age
+        description: "Patient age"
+
+      - name: Gender
+        description: "Patient gender"
+
+      - name: Disease
+        description: "Patient disease"
+
+      - name: Severity
+        description: "Severity level"
+
+      - name: Patient_Type
+        description: "Type of patient"
+
+      - name: Department
+        description: "Hospital department"
+
+      - name: Activity
+        description: "Clinical activity"
+        tests:
+          - not_null
+
+      - name: Activity_Status
+        description: "Status of the activity"
+
+      - name: event_timestamp
+        description: "Timestamp of the clinical event"
+        tests:
+          - not_null
+
+      - name: Event_Order
+        description: "Order of the event"
+
+      - name: Doctor_ID
+        description: "Doctor identifier"
+
+      - name: Doctor_Name
+        description: "Doctor name"
+
+      - name: Shift
+        description: "Hospital shift"
+
+      - name: wait_time_minutes
+        description: "Waiting time in minutes"
+
+      - name: service_time_minutes
+        description: "Service time in minutes"
+
+      - name: total_process_time
+        description: "Total process time"
+
+      - name: Rework_Flag
+        description: "Indicates whether rework occurred"
+
+      - name: Previous_Activity
+        description: "Previous clinical activity"
+
+      - name: Next_Activity
+        description: "Next clinical activity"
+
+      - name: Delay_Reason
+        description: "Reason for delay"
+
+      - name: Resource
+        description: "Resource used"
+
+      - name: Ward
+        description: "Hospital ward"
+
+      - name: Bed_Number
+        description: "Bed number"
+
+      - name: Admission_Date
+        description: "Patient admission date"
+
+      - name: Discharge_Date
+        description: "Patient discharge date"
+
+      - name: Outcome
+        description: "Patient outcome"
+
+      - name: Total_Bill
+        description: "Total patient bill"
