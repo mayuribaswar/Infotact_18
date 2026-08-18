@@ -231,3 +231,111 @@ Validate the CareFlow raw event-log dataset before performing data cleaning and 
 ### Outcome
 
 The raw CareFlow dataset was successfully validated and its data-quality issues were identified. The dataset is now ready for the **data-cleaning and transformation stage**.
+# CareFlow Process Mining — Day 6
+
+## BigQuery and dbt Setup
+
+### Objective
+
+The objective of Day 6 was to configure the CareFlow Process Mining project using Google BigQuery and dbt.
+
+The setup establishes the foundation for transforming hospital event data into analytics-ready datasets.
+
+---
+
+## Technology Stack
+
+- Google Cloud Platform
+- Google BigQuery
+- dbt Core
+- dbt BigQuery Adapter
+- SQL
+- Git
+- GitHub
+
+---
+
+## Google Cloud Project
+
+Project Name:
+
+`CareFlow Process Mining`
+
+Project ID:
+
+`careflow-process-mining`
+
+---
+
+## BigQuery Datasets
+
+The project uses the following datasets:
+
+```text
+careflow_raw
+careflow_staging
+careflow_mart
+
+---
+
+# 2. `README_Day7.md`
+
+```markdown
+# CareFlow Process Mining — Day 7
+
+## Staging and Intermediate Transformation
+
+### Objective
+
+The objective of Day 7 was to create the dbt staging and intermediate transformation layers and validate the transformed hospital event data.
+
+---
+
+## dbt Models
+
+### Staging Model
+
+File:
+
+```text
+models/staging/stg_hospital_event_log.sql
+
+---
+
+# 3. `README_Day8.md`
+
+```markdown
+# CareFlow Process Mining — Day 8
+
+## Mart Layer and Analytics-Ready Data
+
+### Objective
+
+The objective of Day 8 was to create analytics-ready fact and dimension models using dbt.
+
+The Mart layer provides structured data for process analysis and future Power BI dashboards.
+
+---
+
+# Mart Architecture
+
+The project follows this transformation flow:
+
+```text
+Raw Data
+   │
+   ▼
+Staging
+   │
+   ▼
+Intermediate
+   │
+   ▼
+Mart
+   │
+   ├── dim_patients
+   │
+   └── fct_hospital_events
+   │
+   ▼
+Power BI / Analytics

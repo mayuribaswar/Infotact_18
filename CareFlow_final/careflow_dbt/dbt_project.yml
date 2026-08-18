@@ -51,4 +51,11 @@ models:
     intermediate:
       +materialized: view
 
+    # --------------------------------------------------------
+    # Mart Models
+    # --------------------------------------------------------
+    marts:
+      +materialized: table
+
+
    
