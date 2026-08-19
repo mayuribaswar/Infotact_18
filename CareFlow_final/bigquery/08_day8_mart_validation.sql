@@ -301,3 +301,290 @@ SELECT
     'fct_hospital_events' AS model_name,
     COUNT(*) AS record_count
 FROM `careflow-process-mining.careflow_staging.fct_hospital_events`;
+
+-- 25. DUPLICATE PATIENT CHECK
+-- ============================================================
+
+SELECT
+    Patient_ID,
+    COUNT(*) AS record_count
+FROM `careflow-process-mining.careflow_staging.dim_patients`
+GROUP BY Patient_ID
+HAVING COUNT(*) > 1
+ORDER BY record_count DESC;
+
+
+-- 26. DUPLICATE EVENT CHECK
+-- ============================================================
+
+SELECT
+    Event_ID,
+    COUNT(*) AS record_count
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY Event_ID
+HAVING COUNT(*) > 1
+ORDER BY record_count DESC;
+
+
+-- 27. INVALID WAITING TIME CHECK
+-- ============================================================
+
+SELECT
+    COUNT(*) AS invalid_wait_time_records
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+WHERE wait_time_minutes < 0;
+
+
+-- 28. INVALID SERVICE TIME CHECK
+-- ============================================================
+
+SELECT
+    COUNT(*) AS invalid_service_time_records
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+WHERE service_time_minutes < 0;
+
+
+-- 29. INVALID PROCESS TIME CHECK
+-- ============================================================
+
+SELECT
+    COUNT(*) AS invalid_process_time_records
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+WHERE total_process_time < 0;
+
+
+-- 30. WAIT TIME CATEGORY CONSISTENCY
+-- ============================================================
+
+SELECT
+    wait_category,
+    COUNT(*) AS total_records,
+    COUNTIF(wait_time_minutes < 0) AS invalid_records
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY wait_category
+ORDER BY total_records DESC;
+
+
+-- 31. REWORK RATE
+-- ============================================================
+
+SELECT
+    COUNT(*) AS total_events,
+    COUNTIF(Rework_Flag = TRUE) AS rework_events,
+    ROUND(
+        SAFE_DIVIDE(
+            COUNTIF(Rework_Flag = TRUE) * 100,
+            COUNT(*)
+        ), 2
+    ) AS rework_percentage
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`;
+
+
+-- 32. PATIENT EVENT DISTRIBUTION
+-- ============================================================
+
+SELECT
+    Patient_ID,
+    COUNT(*) AS event_count
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY Patient_ID
+ORDER BY event_count DESC
+LIMIT 20;
+
+
+-- 33. DEPARTMENT WAITING TIME RANKING
+-- ============================================================
+
+SELECT
+    Department,
+    ROUND(AVG(wait_time_minutes), 2) AS avg_wait_time,
+    RANK() OVER (
+        ORDER BY AVG(wait_time_minutes) DESC
+    ) AS wait_time_rank
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY Department
+ORDER BY wait_time_rank;
+
+
+-- 34. ACTIVITY FREQUENCY RANKING
+-- ============================================================
+
+SELECT
+    Activity,
+    COUNT(*) AS event_count,
+    RANK() OVER (
+        ORDER BY COUNT(*) DESC
+    ) AS activity_rank
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY Activity
+ORDER BY activity_rank;
+
+
+-- 35. OUTLIER WAITING TIME
+-- ============================================================
+
+SELECT
+    Event_ID,
+    Patient_ID,
+    Activity,
+    Department,
+    wait_time_minutes
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+WHERE wait_time_minutes > (
+    SELECT AVG(wait_time_minutes)
+           + 3 * STDDEV(wait_time_minutes)
+    FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+)
+ORDER BY wait_time_minutes DESC
+LIMIT 100;
+
+
+-- 36. OUTLIER PROCESS TIME
+-- ============================================================
+
+SELECT
+    Event_ID,
+    Patient_ID,
+    Activity,
+    Department,
+    total_process_time
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+WHERE total_process_time > (
+    SELECT AVG(total_process_time)
+           + 3 * STDDEV(total_process_time)
+    FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+)
+ORDER BY total_process_time DESC
+LIMIT 100;
+
+
+-- 37. DEPARTMENT EVENT SHARE
+-- ============================================================
+
+SELECT
+    Department,
+    COUNT(*) AS event_count,
+    ROUND(
+        SAFE_DIVIDE(
+            COUNT(*) * 100,
+            SUM(COUNT(*)) OVER ()
+        ), 2
+    ) AS event_percentage
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY Department
+ORDER BY event_count DESC;
+
+
+-- 38. OUTCOME DISTRIBUTION
+-- ============================================================
+
+SELECT
+    Outcome,
+    COUNT(*) AS patient_count,
+    ROUND(
+        SAFE_DIVIDE(
+            COUNT(*) * 100,
+            SUM(COUNT(*)) OVER ()
+        ), 2
+    ) AS percentage
+FROM `careflow-process-mining.careflow_staging.dim_patients`
+GROUP BY Outcome
+ORDER BY patient_count DESC;
+
+
+-- 39. AGE GROUP ANALYSIS
+-- ============================================================
+
+SELECT
+    CASE
+        WHEN Age < 18 THEN 'Under 18'
+        WHEN Age BETWEEN 18 AND 30 THEN '18-30'
+        WHEN Age BETWEEN 31 AND 45 THEN '31-45'
+        WHEN Age BETWEEN 46 AND 60 THEN '46-60'
+        ELSE '60+'
+    END AS age_group,
+    COUNT(*) AS patients,
+    ROUND(AVG(Total_Bill), 2) AS avg_bill,
+    ROUND(AVG(Avg_Wait_Time), 2) AS avg_wait_time
+FROM `careflow-process-mining.careflow_staging.dim_patients`
+GROUP BY age_group
+ORDER BY patients DESC;
+
+
+-- 40. HIGH BILL PATIENT ANALYSIS
+-- ============================================================
+
+SELECT
+    Patient_ID,
+    Patient_Name,
+    Disease,
+    Total_Bill,
+    Total_Events,
+    Avg_Wait_Time,
+    Outcome
+FROM `careflow-process-mining.careflow_staging.dim_patients`
+WHERE Total_Bill > (
+    SELECT AVG(Total_Bill) + STDDEV(Total_Bill)
+    FROM `careflow-process-mining.careflow_staging.dim_patients`
+)
+ORDER BY Total_Bill DESC;
+
+
+-- 41. DEPARTMENT + OUTCOME ANALYSIS
+-- ============================================================
+
+SELECT
+    f.Department,
+    d.Outcome,
+    COUNT(DISTINCT f.Patient_ID) AS patients,
+    ROUND(AVG(f.wait_time_minutes), 2) AS avg_wait_time
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events` f
+JOIN `careflow-process-mining.careflow_staging.dim_patients` d
+    ON f.Patient_ID = d.Patient_ID
+GROUP BY
+    f.Department,
+    d.Outcome
+ORDER BY
+    f.Department,
+    patients DESC;
+
+
+-- 42. DAILY EVENT VOLUME
+-- ============================================================
+
+SELECT
+    DATE(event_timestamp) AS event_date,
+    COUNT(*) AS total_events,
+    COUNT(DISTINCT Patient_ID) AS patients,
+    ROUND(AVG(wait_time_minutes), 2) AS avg_wait_time
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY event_date
+ORDER BY event_date;
+
+
+-- 43. HOURLY EVENT VOLUME
+-- ============================================================
+
+SELECT
+    EXTRACT(HOUR FROM event_timestamp) AS event_hour,
+    COUNT(*) AS total_events,
+    COUNT(DISTINCT Patient_ID) AS patients,
+    ROUND(AVG(wait_time_minutes), 2) AS avg_wait_time
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`
+GROUP BY event_hour
+ORDER BY event_hour;
+
+
+-- 44. FINAL DATA QUALITY SCORE
+-- ============================================================
+
+SELECT
+    COUNT(*) AS total_events,
+    COUNTIF(Event_ID IS NULL) AS null_event_ids,
+    COUNTIF(Patient_ID IS NULL) AS null_patient_ids,
+    COUNTIF(Activity IS NULL) AS null_activities,
+    COUNTIF(Department IS NULL) AS null_departments,
+    COUNTIF(wait_time_minutes < 0) AS negative_wait_times,
+    COUNTIF(service_time_minutes < 0) AS negative_service_times,
+    COUNTIF(total_process_time < 0) AS negative_process_times
+FROM `careflow-process-mining.careflow_staging.fct_hospital_events`;
