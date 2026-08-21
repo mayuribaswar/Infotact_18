@@ -920,8 +920,3 @@ SELECT
         ), 2
     ) AS rework_rate
 FROM `careflow-process-mining.careflow_staging.fct_hospital_events`;
-
-/* git add bigquery/09_dashboard_analytics.sql
-git commit -m "Day 9: Add dashboard analytics and KPI queries"
-git push
-*/
