@@ -1,4 +1,0 @@
-pm4py
-pandas
-openpyxl
-xlrd
