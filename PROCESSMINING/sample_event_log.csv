@@ -1,0 +1,14 @@
+Case_ID,Activity,Timestamp
+C001,Registration,2026-08-11 09:00:00
+C001,Triage,2026-08-11 09:10:00
+C001,Doctor Consultation,2026-08-11 09:30:00
+C001,Discharge,2026-08-11 10:00:00
+C002,Registration,2026-08-11 09:05:00
+C002,Triage,2026-08-11 09:15:00
+C002,X-Ray,2026-08-11 09:40:00
+C002,Doctor Consultation,2026-08-11 10:10:00
+C002,Discharge,2026-08-11 10:40:00
+C003,Registration,2026-08-11 09:20:00
+C003,Triage,2026-08-11 09:30:00
+C003,Doctor Consultation,2026-08-11 10:00:00
+C003,Discharge,2026-08-11 10:30:00

@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: int_normalized_event_log
+    description: "Normalized hospital event log derived from the staging model"
+
+    columns:
+      - name: Event_ID
+        description: "Unique event identifier"
+        tests:
+          - not_null
+
+      - name: Patient_ID
+        description: "Patient identifier"
+        tests:
+          - not_null
+
+      - name: Activity
+        description: "Clinical activity"
+        tests:
+          - not_null
+
+      - name: event_timestamp
+        description: "Clinical event timestamp"
+        tests:
+          - not_null
+
+      - name: wait_category
+        description: "Waiting time classification"
+
+      - name: rework_status
+        description: "Rework classification"
+
+      - name: activity_priority
+        description: "Priority assigned to the activity"

@@ -1,0 +1,61 @@
+# ============================================================
+# CareFlow Process Mining - dbt Project Configuration
+# ============================================================
+
+name: 'careflow_dbt'
+version: '1.0.0'
+config-version: 2
+
+# Profile used by this dbt project
+profile: 'careflow_dbt'
+
+
+# ============================================================
+# Project Paths
+# ============================================================
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+
+# ============================================================
+# Directories removed by `dbt clean`
+# ============================================================
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+
+# ============================================================
+# Model Configuration
+# ============================================================
+
+models:
+
+  careflow_dbt:
+
+    # --------------------------------------------------------
+    # Staging Models
+    # --------------------------------------------------------
+    staging:
+      +materialized: view
+
+    # --------------------------------------------------------
+    # Intermediate Models
+    # --------------------------------------------------------
+    intermediate:
+      +materialized: view
+
+    # --------------------------------------------------------
+    # Mart Models
+    # --------------------------------------------------------
+    marts:
+      +materialized: table
+
+
+   
