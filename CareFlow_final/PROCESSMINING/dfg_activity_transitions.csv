@@ -1,0 +1,35 @@
+Activity,Next_Activity,Frequency
+Billing,Discharge,2002
+Doctor Consultation,Diagnosis,2002
+Patient Arrival,Registration,2002
+Registration,Waiting,2001
+Pharmacy,Billing,2001
+Treatment,Pharmacy,2001
+Waiting,Doctor Consultation,2001
+Diagnosis,Treatment,1292
+Ward Transfer,Treatment,709
+Diagnosis,Ward Transfer,709
+Doctor Consultation,Urine Test,406
+Urine Test,Doctor Consultation,406
+Doctor Consultation,Blood Test,341
+Blood Test,Doctor Consultation,341
+Doctor Consultation,ECG,237
+ECG,Doctor Consultation,237
+X-Ray,Doctor Consultation,235
+Doctor Consultation,X-Ray,235
+Doctor Consultation,Doctor Consultation,61
+Treatment,Treatment,52
+Pharmacy,Pharmacy,47
+Billing,Billing,44
+Waiting,Waiting,41
+Patient Arrival,Patient Arrival,41
+Discharge,Discharge,40
+Diagnosis,Diagnosis,37
+Registration,Registration,33
+Urine Test,Urine Test,14
+Blood Test,Blood Test,12
+Ward Transfer,Ward Transfer,11
+ECG,ECG,6
+X-Ray,X-Ray,5
+Diagnosis,Billing,1
+Registration,Doctor Consultation,1
