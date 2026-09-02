@@ -1,0 +1,1001 @@
+Event_ID,Patient_ID,Activity,event_timestamp,wait_category,rework_status,activity_priority,event_order
+9386e38d-72b2-4792-ad7c-74a8c0cf4b1c,P04456,Patient Arrival,2026-02-10 09:44:14.000000 UTC,Medium Wait,Rework,3,1
+9f4aa736-9556-49db-bf6b-3816ac66ca42,P03563,Patient Arrival,2026-05-19 09:54:29.000000 UTC,Low Wait,Rework,3,1
+ea452417-a11b-47ce-bf74-c7960ebfb456,P01117,Patient Arrival,2026-06-08 12:42:09.000000 UTC,Low Wait,No Rework,3,1
+91feb2cd-61f2-41df-b2f8-68728f46a6bc,P04526,Patient Arrival,2026-05-02 12:42:04.000000 UTC,Low Wait,No Rework,3,1
+6f450f5b-d0fc-4203-aff0-188c35abd97f,P01056,Patient Arrival,2026-05-26 17:12:01.000000 UTC,Low Wait,No Rework,3,1
+5ca36d72-dd43-4a57-af41-f331d3400be4,P03454,Patient Arrival,2026-05-16 09:41:07.000000 UTC,Medium Wait,No Rework,3,1
+eee13287-6354-4bd6-801d-acc6016b5be8,P00255,Patient Arrival,2026-01-11 13:09:43.000000 UTC,Low Wait,No Rework,3,1
+60fb20da-a8cd-46c9-97de-52cb1f72612e,P02687,Patient Arrival,2026-06-07 11:35:31.000000 UTC,Low Wait,No Rework,3,1
+fffe566a-981e-4a75-8aa3-c9a09875588a,P03345,Patient Arrival,2026-08-20 11:27:58.000000 UTC,Low Wait,No Rework,3,1
+e3049b39-93f1-4cb5-9402-04559d78ef92,P02557,Patient Arrival,2026-04-06 18:42:22.000000 UTC,Medium Wait,Rework,3,1
+451d9297-fcd4-410f-a215-219a788ea8ee,P03613,Patient Arrival,2026-06-28 09:08:01.000000 UTC,Low Wait,No Rework,3,1
+08a421b3-e029-4943-96fd-94efa084e27a,P01138,Patient Arrival,2026-09-20 02:04:32.000000 UTC,Low Wait,No Rework,3,1
+571d2e6e-36a6-42c3-b0e1-a5474fea73ee,P02862,Patient Arrival,2026-12-06 18:26:30.000000 UTC,Medium Wait,No Rework,3,1
+1c3184a2-6436-4e9f-83d1-bd44982cd861,P01701,Patient Arrival,2026-12-20 10:39:48.000000 UTC,Low Wait,No Rework,3,1
+5183cb00-26c2-41d9-80b2-32b8db87dcd0,P01728,Patient Arrival,2026-08-02 03:18:04.000000 UTC,Low Wait,No Rework,3,1
+da0878c0-ebf3-49a2-86fe-039e9b4642bb,P01993,Patient Arrival,2026-06-26 06:17:20.000000 UTC,Low Wait,No Rework,3,1
+f2929833-18c3-4a9d-b430-041d864edda9,P01051,Patient Arrival,2026-12-22 07:59:06.000000 UTC,Low Wait,Rework,3,1
+44045a12-2bd1-475e-bbd3-436aca10182f,P04268,Patient Arrival,2026-09-10 22:45:31.000000 UTC,Low Wait,No Rework,3,1
+1e099415-a144-44cc-9e89-e354351848ab,P00752,Patient Arrival,2026-10-14 06:01:34.000000 UTC,Low Wait,No Rework,3,1
+020d4a4f-8a2e-4d3d-840d-63bbea3a73cd,P03754,Patient Arrival,2026-08-25 07:39:25.000000 UTC,Low Wait,Rework,3,1
+d3f5d5be-d42e-4957-8b9d-c4aa5ad627e2,P02959,Patient Arrival,2026-12-30 08:12:28.000000 UTC,Low Wait,Rework,3,1
+11474c9b-049c-43f6-9470-328b81381f18,P00962,Patient Arrival,2026-11-14 02:32:11.000000 UTC,Low Wait,No Rework,3,1
+9da4d2b2-fd22-45bc-9265-6f7dcd1bd5dc,P01753,Patient Arrival,2026-10-27 06:23:03.000000 UTC,Low Wait,No Rework,3,1
+48efa43e-495b-4344-85b4-06d5ffb3bcdb,P03316,Patient Arrival,2026-02-28 15:16:18.000000 UTC,Medium Wait,No Rework,3,1
+bcc7d452-4aa4-44a3-ac24-c12712196f6e,P03326,Patient Arrival,2026-02-19 10:10:39.000000 UTC,Medium Wait,No Rework,3,1
+0945e92e-d6fa-487f-b84c-ade21de20550,P03677,Patient Arrival,2026-08-05 08:27:34.000000 UTC,Low Wait,No Rework,3,1
+0c91aae4-a98c-4556-a91f-7b6745466145,P01212,Patient Arrival,2026-07-24 20:36:04.000000 UTC,Medium Wait,Rework,3,1
+41d2f26c-c069-44a3-b5ed-31a521a171b0,P03539,Patient Arrival,2026-01-02 18:10:14.000000 UTC,Low Wait,Rework,3,1
+d396d4b9-01f1-4592-b054-11cdcea578ba,P02858,Patient Arrival,2026-08-27 15:49:46.000000 UTC,Medium Wait,No Rework,3,1
+5378b065-1aa4-460f-9539-ab28e5137b35,P02870,Patient Arrival,2026-10-31 04:38:15.000000 UTC,Medium Wait,No Rework,3,1
+a7aa824b-ee12-4ff3-ad91-5325de358f14,P00530,Patient Arrival,2026-06-10 16:44:35.000000 UTC,Low Wait,Rework,3,1
+c34884b4-f08b-475a-9773-c37b6f50af66,P01519,Patient Arrival,2026-10-25 22:41:09.000000 UTC,Low Wait,Rework,3,1
+9835e97f-cb1c-428d-97f4-b9f264ba8221,P00603,Patient Arrival,2026-08-23 15:31:41.000000 UTC,Low Wait,No Rework,3,1
+2d4e186e-cbe7-4319-9ef8-bfd810b32bd0,P00230,Patient Arrival,2026-05-09 14:56:27.000000 UTC,Medium Wait,No Rework,3,1
+f8629cd5-6015-4c67-a54b-6bb83a7112db,P02518,Patient Arrival,2026-03-17 17:04:48.000000 UTC,Low Wait,No Rework,3,1
+ca4a7167-ce9f-4afb-9bc8-023f9a4f2ece,P00292,Patient Arrival,2026-12-08 01:46:25.000000 UTC,Medium Wait,No Rework,3,1
+3134dd17-820f-4767-b63f-67e3e4044fb5,P00842,Patient Arrival,2026-08-24 14:24:23.000000 UTC,Low Wait,Rework,3,1
+a3a6faa3-7738-466c-878a-ce760f783e0f,P03862,Patient Arrival,2026-04-13 17:06:50.000000 UTC,Low Wait,No Rework,3,1
+ea90ee4e-2916-465a-ab5a-c07e64de69eb,P02011,Patient Arrival,2026-09-30 22:06:30.000000 UTC,Low Wait,Rework,3,1
+9db8726c-f298-4ac7-aaf9-079577c743f2,P02299,Patient Arrival,2026-01-19 00:07:51.000000 UTC,Low Wait,No Rework,3,1
+8383bda3-8c61-4580-afc8-5bc54c7bc445,P01880,Patient Arrival,2026-06-08 09:04:55.000000 UTC,Low Wait,No Rework,3,1
+fc13de4c-2772-4715-833e-9e52517142fe,P03363,Patient Arrival,2026-03-31 22:01:45.000000 UTC,Medium Wait,No Rework,3,1
+a17fe8fd-e07f-4298-8276-4e6410ba6b11,P01145,Patient Arrival,2026-02-09 01:55:26.000000 UTC,Low Wait,No Rework,3,1
+c65ef64f-298a-4915-a582-a38dd686a8ff,P03334,Patient Arrival,2026-02-13 05:01:05.000000 UTC,Medium Wait,No Rework,3,1
+1c3056d8-eba7-4819-beae-d470dc62896e,P03711,Patient Arrival,2026-04-01 22:17:57.000000 UTC,Medium Wait,No Rework,3,1
+0248ab53-9024-4e65-8498-5a53fdaad495,P04490,Patient Arrival,2026-06-04 03:05:36.000000 UTC,Medium Wait,No Rework,3,1
+8971fd0b-7cde-40dc-80d9-cc6239f791df,P00597,Patient Arrival,2026-10-10 15:36:18.000000 UTC,Medium Wait,No Rework,3,1
+c9c84271-3b29-4ab0-a23b-ab98a1c9428a,P01062,Patient Arrival,2026-04-23 18:53:28.000000 UTC,Medium Wait,No Rework,3,1
+d51d4208-b4e1-4382-b2eb-d0496220fcb0,P01617,Patient Arrival,2026-02-06 00:52:30.000000 UTC,Medium Wait,No Rework,3,1
+f04b337e-d5fb-440c-9a07-f25569c3b437,P01168,Patient Arrival,2026-06-17 02:37:30.000000 UTC,Low Wait,No Rework,3,1
+453fab4b-dd27-45b6-954e-534e4023acaa,P03175,Patient Arrival,2026-06-18 04:32:46.000000 UTC,Low Wait,Rework,3,1
+f241f629-5447-496d-9a96-621ca2b4932a,P03516,Patient Arrival,2026-06-09 23:47:50.000000 UTC,Low Wait,Rework,3,1
+95747bf5-688a-459a-87ff-ceb82d283bda,P04582,Patient Arrival,2026-11-18 13:34:25.000000 UTC,Low Wait,Rework,3,1
+aacc24c8-aa3d-46e9-9cf8-97ad0201f63d,P00500,Patient Arrival,2026-03-31 15:28:15.000000 UTC,Low Wait,No Rework,3,1
+b02249c1-6597-4fcb-aa9b-73f4e2deba51,P01353,Patient Arrival,2026-10-02 11:59:42.000000 UTC,Medium Wait,No Rework,3,1
+cbad4ae3-6f6e-482f-bf76-aaf3fda0326d,P02594,Patient Arrival,2026-08-15 03:01:54.000000 UTC,Low Wait,Rework,3,1
+a48d719d-4d94-4801-984e-59f952e80ac1,P01286,Patient Arrival,2026-12-23 05:13:30.000000 UTC,Low Wait,Rework,3,1
+31aef660-a564-4f22-ae72-4a982614432d,P02307,Patient Arrival,2026-12-29 22:00:55.000000 UTC,Medium Wait,No Rework,3,1
+5a3baaba-d78f-4f75-84b7-5ab0c70327ae,P00507,Patient Arrival,2026-07-21 14:26:19.000000 UTC,Low Wait,Rework,3,1
+8b835831-4bd8-4080-81ba-da2c00dadade,P04009,Patient Arrival,2026-08-13 21:04:16.000000 UTC,Medium Wait,No Rework,3,1
+4d6ff93e-803b-471b-8373-6dc9b7532ddb,P01881,Patient Arrival,2026-10-26 00:56:50.000000 UTC,Low Wait,No Rework,3,1
+57d8b125-8ff6-4626-9a2e-b9508406ba30,P01905,Patient Arrival,2026-01-02 05:44:06.000000 UTC,Low Wait,No Rework,3,1
+a487fef4-9c17-44f3-b139-2875b87994f0,P00373,Patient Arrival,2026-10-23 07:16:26.000000 UTC,Low Wait,Rework,3,1
+d8613e68-afef-4a68-af26-a29789637db4,P02164,Patient Arrival,2026-11-05 08:29:08.000000 UTC,Low Wait,No Rework,3,1
+32e070b5-bbde-4e0e-9f24-ba05fd305fdb,P02602,Patient Arrival,2026-07-15 07:35:35.000000 UTC,Low Wait,No Rework,3,1
+11b9eedc-f939-4f63-ae77-0343741ac1a7,P01057,Patient Arrival,2026-05-18 17:39:30.000000 UTC,Low Wait,No Rework,3,1
+e73e94a7-6f3d-4243-816a-b937c6c8a096,P03275,Patient Arrival,2026-06-04 21:40:42.000000 UTC,Low Wait,Rework,3,1
+15e20e82-8ca5-4602-9d96-a6e7ce6849bd,P01257,Patient Arrival,2026-02-03 04:10:04.000000 UTC,Medium Wait,Rework,3,1
+671032d6-abdc-439e-90c8-a61350205153,P02805,Patient Arrival,2026-09-13 07:45:58.000000 UTC,Low Wait,No Rework,3,1
+38bcf56d-4272-4351-9e7b-2b1ab7605a36,P02897,Patient Arrival,2026-04-04 07:22:32.000000 UTC,Low Wait,No Rework,3,1
+2ec6a99d-86b7-4b98-a075-de15694cb9ff,P01913,Patient Arrival,2026-12-21 21:52:09.000000 UTC,Medium Wait,No Rework,3,1
+ba43bcaa-d0d4-4a4a-a302-8e319262bd2d,P01954,Patient Arrival,2026-06-22 08:26:41.000000 UTC,Low Wait,No Rework,3,1
+49b5abe1-cb7a-4a90-aefe-c893c3785b03,P01219,Patient Arrival,2026-08-31 13:38:08.000000 UTC,Medium Wait,No Rework,3,1
+1e6eed7c-1c43-4123-9b91-601dd10b1f02,P02481,Patient Arrival,2026-03-08 06:37:18.000000 UTC,Medium Wait,No Rework,3,1
+89d1d984-ff2f-4a9b-bf88-817cdd9e0674,P03892,Patient Arrival,2026-08-16 14:49:34.000000 UTC,Low Wait,No Rework,3,1
+c331467e-a232-4242-a09f-cdbda4b9dcdc,P02882,Patient Arrival,2026-04-04 19:19:12.000000 UTC,Medium Wait,No Rework,3,1
+c2c0edd6-a6eb-4c17-875c-98f2f6f62304,P02984,Patient Arrival,2026-08-24 04:41:32.000000 UTC,Medium Wait,No Rework,3,1
+6b0b7a69-ee70-40ca-aa12-e6b1fe289045,P01690,Patient Arrival,2026-01-05 04:32:55.000000 UTC,Low Wait,Rework,3,1
+a5403304-a82b-4456-ab7d-446413243d06,P03983,Patient Arrival,2026-07-28 21:55:26.000000 UTC,Low Wait,No Rework,3,1
+83006287-0e06-46c7-8982-eee150918589,P01134,Patient Arrival,2026-04-12 03:02:24.000000 UTC,Medium Wait,No Rework,3,1
+c057e1b4-5046-418c-98b1-612991f02d5e,P03576,Patient Arrival,2026-07-03 03:04:21.000000 UTC,Low Wait,No Rework,3,1
+8f02cc81-b1ec-4353-9cf6-3fa215899e69,P04414,Patient Arrival,2026-03-24 04:18:00.000000 UTC,Medium Wait,No Rework,3,1
+21264376-2a3b-4f12-9aed-c2730db950b0,P00270,Patient Arrival,2026-02-03 16:35:29.000000 UTC,Low Wait,Rework,3,1
+eec905e0-1981-4ca7-ac2c-291f65d96529,P03087,Patient Arrival,2026-04-19 11:39:27.000000 UTC,Low Wait,Rework,3,1
+5c93745a-271e-484c-ad31-8905d8fac351,P04146,Patient Arrival,2026-09-11 23:57:29.000000 UTC,Medium Wait,No Rework,3,1
+d77e6a3b-9176-4c12-a67c-59b5b0c2f482,P02932,Patient Arrival,2026-11-04 03:27:49.000000 UTC,Low Wait,No Rework,3,1
+0b0418a7-df38-4cc6-8818-d8be6f28bd60,P04565,Patient Arrival,2026-12-10 20:39:07.000000 UTC,Low Wait,Rework,3,1
+487adc23-da31-45a1-a1ce-8337ef3113a2,P02716,Patient Arrival,2026-11-26 09:38:36.000000 UTC,Medium Wait,No Rework,3,1
+5f829a96-8ff6-4e62-9c1f-b54a788fd50e,P03085,Patient Arrival,2026-09-19 13:22:13.000000 UTC,Medium Wait,No Rework,3,1
+ca6dbafb-185a-4948-9dc8-01dec56e905f,P03807,Patient Arrival,2026-11-06 08:50:48.000000 UTC,Low Wait,Rework,3,1
+68c299a0-b480-4d72-b7e9-8053a4604f38,P03263,Patient Arrival,2026-02-22 14:50:05.000000 UTC,Low Wait,No Rework,3,1
+1bb0e141-f1de-4837-892a-ce28480fdee4,P00011,Patient Arrival,2026-12-10 17:05:57.000000 UTC,Low Wait,No Rework,3,1
+b9dcf5df-0dc4-4e4d-aae7-7e80fa6c0db1,P03632,Patient Arrival,2026-12-01 02:08:03.000000 UTC,Medium Wait,Rework,3,1
+35e728d8-4327-4612-8875-53f12e48bee6,P01113,Patient Arrival,2026-04-16 04:32:57.000000 UTC,Low Wait,No Rework,3,1
+ed4b2e2e-3dc9-4040-8976-48062bdbfd0c,P02162,Patient Arrival,2026-02-19 18:15:59.000000 UTC,Low Wait,No Rework,3,1
+0eb2e485-d9f9-493f-acdf-b8a951fd1dc0,P02847,Patient Arrival,2026-08-08 23:02:07.000000 UTC,Medium Wait,No Rework,3,1
+a71a41d1-e368-4212-b707-98684af4d253,P00782,Patient Arrival,2026-04-27 02:00:01.000000 UTC,Medium Wait,No Rework,3,1
+069fa7fa-02b5-4bdd-9f0a-68e00ff4d8df,P02163,Patient Arrival,2026-06-12 15:52:39.000000 UTC,Medium Wait,No Rework,3,1
+2e4cf8f5-d7b4-48cb-910d-cda75be9db68,P00758,Patient Arrival,2026-09-02 09:19:32.000000 UTC,Low Wait,Rework,3,1
+9f594821-80e8-45b6-b063-e999321d26cf,P04333,Patient Arrival,2026-10-09 03:22:56.000000 UTC,Low Wait,No Rework,3,1
+38da3921-90d5-41f9-9633-d8f24839b11a,P04471,Patient Arrival,2026-07-14 09:21:30.000000 UTC,Low Wait,No Rework,3,1
+4aa600b7-9c4b-4e51-a152-579101135439,P01762,Patient Arrival,2026-05-21 17:12:05.000000 UTC,Low Wait,Rework,3,1
+3ce88f7d-e334-4675-847a-300653a1319a,P01440,Patient Arrival,2026-04-20 03:45:06.000000 UTC,Low Wait,No Rework,3,1
+05342e27-5bfd-472e-8c91-5cfbdf610f85,P01007,Patient Arrival,2026-08-07 13:45:13.000000 UTC,Low Wait,No Rework,3,1
+7bdb6f9c-63b8-4fce-94c7-da41da2282f0,P01449,Patient Arrival,2026-07-02 06:45:26.000000 UTC,Medium Wait,No Rework,3,1
+c31a1685-8377-4e50-a48d-69bdcebcb50d,P00899,Patient Arrival,2026-09-27 11:25:45.000000 UTC,Low Wait,No Rework,3,1
+1e516794-96b5-47fb-8255-2fe4314381ff,P02638,Patient Arrival,2026-03-01 17:41:33.000000 UTC,Low Wait,Rework,3,1
+e721e45f-f907-4619-b658-92a1973aae4e,P03160,Patient Arrival,2026-12-28 13:11:34.000000 UTC,Medium Wait,No Rework,3,1
+9a5701bd-3ce0-4a15-9964-dc4b427bf756,P02092,Patient Arrival,2026-08-27 22:39:56.000000 UTC,Low Wait,No Rework,3,1
+709976ed-1d56-45ce-95ef-de8499b9fbd6,P00085,Patient Arrival,2026-01-04 12:05:42.000000 UTC,Low Wait,No Rework,3,1
+0d1f46c2-edcd-4dfb-9163-4d7ba9db0cad,P00315,Patient Arrival,2026-03-07 03:42:50.000000 UTC,Low Wait,No Rework,3,1
+15292c72-8e94-4e85-804d-028631213df2,P01303,Patient Arrival,2026-09-15 14:33:06.000000 UTC,Low Wait,No Rework,3,1
+2f60195e-6be5-4d15-924d-2069647dc839,P00087,Patient Arrival,2026-02-23 11:14:29.000000 UTC,Medium Wait,No Rework,3,1
+7acb8c62-6ced-4286-b178-d0907f2bda71,P04515,Patient Arrival,2026-08-22 01:28:19.000000 UTC,Medium Wait,No Rework,3,1
+3239db04-8ec9-41d0-8b71-f5f9108cb8e0,P02468,Patient Arrival,2026-06-06 06:14:19.000000 UTC,Low Wait,Rework,3,1
+426c7571-c997-4f17-be7a-4bf9a7ab7624,P02606,Patient Arrival,2026-07-29 20:26:13.000000 UTC,Low Wait,No Rework,3,1
+806ce906-51d5-4e3c-b47f-84670daa1402,P02792,Patient Arrival,2026-10-20 05:52:36.000000 UTC,Low Wait,No Rework,3,1
+309ad29a-dbe0-41d2-b550-1ddff19ead40,P03248,Patient Arrival,2026-03-25 15:07:28.000000 UTC,Medium Wait,No Rework,3,1
+2d49689a-9ce8-4281-b121-cf00bbc58130,P02998,Patient Arrival,2026-07-23 09:46:35.000000 UTC,Low Wait,No Rework,3,1
+be6b9b20-4053-48d9-a2d3-590778e11f80,P01596,Patient Arrival,2026-10-14 21:42:46.000000 UTC,Medium Wait,Rework,3,1
+b3d22612-303b-4076-a093-b6986c6bca4d,P02332,Patient Arrival,2026-12-12 10:38:40.000000 UTC,Low Wait,Rework,3,1
+b7a12dc2-e74a-462e-9353-0a5646d87d1c,P02276,Patient Arrival,2026-08-21 16:57:36.000000 UTC,Medium Wait,No Rework,3,1
+7bfb17cc-8c91-4bb5-ae2e-f6598701ed3e,P01509,Patient Arrival,2026-03-29 12:58:56.000000 UTC,Medium Wait,No Rework,3,1
+5a3d2c6c-2c9e-4682-9872-7847362d9aa9,P03774,Patient Arrival,2026-11-18 19:22:01.000000 UTC,Low Wait,Rework,3,1
+555144d1-30e7-47c1-907e-ae5c6eb2c1e2,P00555,Patient Arrival,2026-11-25 11:05:36.000000 UTC,Medium Wait,No Rework,3,1
+384b080b-c816-4be6-a641-af45714b0c4b,P02799,Patient Arrival,2026-08-18 08:34:37.000000 UTC,Low Wait,No Rework,3,1
+c279654f-a7eb-4851-badd-cc4ead56b431,P04413,Patient Arrival,2026-04-06 03:02:10.000000 UTC,Low Wait,No Rework,3,1
+bc2f5fcd-0fc6-4413-9da1-e700e01f816f,P00655,Patient Arrival,2026-03-12 13:30:49.000000 UTC,Low Wait,No Rework,3,1
+febd2134-9590-416a-91f4-b09938455708,P02457,Patient Arrival,2026-12-27 05:00:03.000000 UTC,Low Wait,No Rework,3,1
+818eb699-c4e2-4acb-b3d7-65878592a5c1,P04503,Patient Arrival,2026-01-27 21:28:34.000000 UTC,Low Wait,No Rework,3,1
+a0b4775d-ffc8-44ae-88d2-d24f2e906b25,P00413,Patient Arrival,2026-09-12 17:31:46.000000 UTC,Low Wait,No Rework,3,1
+a448ab3b-5943-4052-9534-f7aa93ee5b6d,P04264,Patient Arrival,2026-07-08 01:43:17.000000 UTC,Medium Wait,Rework,3,1
+4edfeb5c-d2ac-4b09-b598-86b80b4d91f8,P03124,Patient Arrival,2026-12-11 18:39:48.000000 UTC,Medium Wait,No Rework,3,1
+4b191d86-2e42-4be1-9e0b-fd61516195eb,P04140,Patient Arrival,2026-12-21 06:29:14.000000 UTC,Medium Wait,No Rework,3,1
+3008242e-4fdf-4ad7-aecd-1667181c4596,P01385,Patient Arrival,2026-06-05 23:37:49.000000 UTC,Low Wait,No Rework,3,1
+4ab5b53e-70f4-42f3-95cc-771184178f5b,P04546,Patient Arrival,2026-07-25 09:55:15.000000 UTC,Low Wait,No Rework,3,1
+4d8c1265-1955-4cc4-bf49-7bd983eed855,P03578,Patient Arrival,2026-01-02 14:48:43.000000 UTC,Low Wait,Rework,3,1
+c4d1877a-7211-47cf-9eca-2de245b2f84d,P02238,Patient Arrival,2026-08-27 20:07:16.000000 UTC,Low Wait,No Rework,3,1
+6ad72cf9-81ea-4d21-9260-7721757e1d06,P03581,Patient Arrival,2026-08-04 15:34:13.000000 UTC,Low Wait,No Rework,3,1
+905a2b14-c519-4bfc-b581-30cda2eec493,P04420,Patient Arrival,2026-07-23 16:49:45.000000 UTC,Medium Wait,No Rework,3,1
+59eb0144-3d0e-4ca4-bac1-a11f38c7703e,P02876,Patient Arrival,2026-03-28 13:45:40.000000 UTC,Low Wait,No Rework,3,1
+d3093c89-3771-4cb8-bec4-04c1a2fbd16e,P03604,Patient Arrival,2026-11-01 23:07:54.000000 UTC,Low Wait,Rework,3,1
+1957f4ce-4712-40df-91ff-8ebf2dff3bce,P03678,Patient Arrival,2026-01-30 10:37:45.000000 UTC,Low Wait,No Rework,3,1
+c240f7a3-8de8-487f-acb9-c790dafb909b,P03778,Patient Arrival,2026-12-08 09:06:55.000000 UTC,Low Wait,No Rework,3,1
+defef4e0-3641-4404-9176-a8544b356530,P04482,Patient Arrival,2026-09-14 23:41:03.000000 UTC,Low Wait,Rework,3,1
+dd68ac69-fcd8-4d36-81cd-af53bf982c0a,P02021,Patient Arrival,2026-11-11 08:03:44.000000 UTC,Low Wait,No Rework,3,1
+a45ad138-524c-47d9-abab-f03dfb9bd3d1,P03966,Patient Arrival,2026-05-28 07:51:01.000000 UTC,Medium Wait,Rework,3,1
+d778dfa6-977c-4f30-9e98-80edceeb7bc7,P02098,Patient Arrival,2026-09-08 20:03:32.000000 UTC,Low Wait,Rework,3,1
+b9dcb135-08c8-4766-9849-40c93fb8bb94,P02338,Patient Arrival,2026-02-25 10:04:49.000000 UTC,Low Wait,No Rework,3,1
+b44777e7-eaff-4e7e-a675-ade101b09ea3,P01136,Patient Arrival,2026-01-05 05:10:06.000000 UTC,Medium Wait,No Rework,3,1
+5c82bb16-c751-448b-8179-4c5d6a878aaf,P01632,Patient Arrival,2026-12-07 17:32:22.000000 UTC,Low Wait,No Rework,3,1
+89b51b60-0d76-46ee-be93-81b587c30b0d,P01730,Patient Arrival,2026-10-09 15:29:56.000000 UTC,Medium Wait,Rework,3,1
+af089dbb-45e7-4a74-8aa3-96ac5a2a6ee9,P03343,Patient Arrival,2026-06-24 11:41:32.000000 UTC,Low Wait,Rework,3,1
+1e22b603-7447-435a-bfab-a76bc06bf594,P04053,Patient Arrival,2026-05-11 04:24:28.000000 UTC,Low Wait,Rework,3,1
+df523ce2-d336-4bb1-9a66-5899b7754ad1,P00049,Patient Arrival,2026-06-26 13:33:44.000000 UTC,Low Wait,Rework,3,1
+ad3d9752-8795-477c-99e9-5d0ff7874106,P00844,Patient Arrival,2026-03-30 09:33:22.000000 UTC,Medium Wait,No Rework,3,1
+3ef8f44d-1683-4fe0-bb7a-f42ba7bdd65b,P04326,Patient Arrival,2026-04-24 03:40:42.000000 UTC,Medium Wait,No Rework,3,1
+21ea4612-f7b1-4d67-b45a-d300b5f2357b,P00850,Patient Arrival,2026-05-21 10:20:24.000000 UTC,Medium Wait,No Rework,3,1
+a05dc90c-547b-4230-9dcb-1fa68d3ab1a4,P00984,Patient Arrival,2026-09-29 05:25:17.000000 UTC,Low Wait,Rework,3,1
+807bd41b-632f-4d88-9039-9d40b1da2cb0,P02060,Patient Arrival,2026-09-20 19:34:17.000000 UTC,Medium Wait,No Rework,3,1
+5517b253-618e-4af1-b705-d4c36537cf46,P03038,Patient Arrival,2026-12-22 20:22:39.000000 UTC,Low Wait,No Rework,3,1
+436c396d-3dcf-4cf1-858c-8b98a45a2a7b,P01783,Patient Arrival,2026-11-16 15:36:56.000000 UTC,Low Wait,No Rework,3,1
+8b2b06e7-ff29-4b13-92a3-80e01fff4df2,P02393,Patient Arrival,2026-12-14 01:39:42.000000 UTC,Medium Wait,No Rework,3,1
+32bd0681-f3a7-479f-802f-71cd713468cc,P03987,Patient Arrival,2026-09-07 10:24:34.000000 UTC,Low Wait,No Rework,3,1
+604ec0a2-5256-4025-92b6-4fcfb3d75a42,P03057,Patient Arrival,2026-11-22 18:24:31.000000 UTC,Low Wait,No Rework,3,1
+e8406e1f-78ef-417e-afae-62a58fd8ae45,P04154,Patient Arrival,2026-08-14 17:33:11.000000 UTC,Low Wait,No Rework,3,1
+52d386ac-8f2b-40c4-905e-4a0ac6fc3d0c,P00437,Patient Arrival,2026-12-21 08:16:07.000000 UTC,Medium Wait,Rework,3,1
+c6ab89f8-3e5c-40c1-b619-5ca407b789ab,P04559,Patient Arrival,2026-12-24 06:23:39.000000 UTC,Low Wait,No Rework,3,1
+9324bac1-54b7-4437-aa66-1179955a3973,P03392,Patient Arrival,2026-01-02 23:30:16.000000 UTC,Medium Wait,Rework,3,1
+c35b5550-53e1-457d-a864-52092205471c,P03053,Patient Arrival,2026-01-04 20:54:11.000000 UTC,Medium Wait,No Rework,3,1
+917f5e41-a8ca-406a-8da2-911bc0dbc38f,P04446,Patient Arrival,2026-11-05 19:14:45.000000 UTC,Medium Wait,No Rework,3,1
+99e64589-918c-4bc0-9538-97adff648417,P03612,Patient Arrival,2026-09-19 23:45:10.000000 UTC,Medium Wait,No Rework,3,1
+c1bafc85-7277-49aa-b4d2-65be08c054c8,P04555,Patient Arrival,2026-10-09 13:22:03.000000 UTC,Low Wait,No Rework,3,1
+bb1ad13e-1307-4b53-b798-af1cb3c6b51b,P04430,Patient Arrival,2026-12-09 06:41:18.000000 UTC,Low Wait,No Rework,3,1
+2e260729-8c93-48a1-96ba-d1d39d8fb80d,P01831,Patient Arrival,2026-09-05 14:43:30.000000 UTC,Low Wait,No Rework,3,1
+c22c8f84-c879-4ab7-a1fe-1428ae2bb6dd,P01885,Patient Arrival,2026-11-13 14:21:15.000000 UTC,Medium Wait,No Rework,3,1
+f88b3f9c-6934-47b7-ada9-242665224e20,P04148,Patient Arrival,2026-12-14 11:44:55.000000 UTC,Medium Wait,No Rework,3,1
+e4029e3b-a5fa-40bf-9404-a053ca490add,P04054,Patient Arrival,2026-11-08 11:45:46.000000 UTC,Low Wait,No Rework,3,1
+e5a510e3-a933-46bd-957e-521493b8f701,P01935,Patient Arrival,2026-10-12 19:41:41.000000 UTC,Low Wait,No Rework,3,1
+0bd1325c-700f-4802-8c2d-7a25d6c67551,P01439,Patient Arrival,2026-10-09 02:07:32.000000 UTC,Low Wait,No Rework,3,1
+4a0ed109-89de-4b13-a28d-c6a4f9ea460a,P04563,Patient Arrival,2026-02-06 20:35:40.000000 UTC,Low Wait,No Rework,3,1
+eb3d1f53-e739-49ad-be1e-fc74f9150e76,P01381,Patient Arrival,2026-09-05 08:09:18.000000 UTC,Low Wait,No Rework,3,1
+5dfdd332-977e-4161-a87b-e2035cb19ef1,P00110,Patient Arrival,2026-08-17 02:57:02.000000 UTC,Medium Wait,No Rework,3,1
+07f4670a-d446-46f0-9e16-56b173ec991b,P03799,Patient Arrival,2026-08-05 16:59:10.000000 UTC,Low Wait,No Rework,3,1
+4753f8c7-31df-47cd-a52a-22477d517321,P04520,Patient Arrival,2026-02-11 20:07:08.000000 UTC,Low Wait,No Rework,3,1
+4d7c3a36-9cc8-4ae7-9137-d190c7903dec,P02762,Patient Arrival,2026-06-29 02:12:47.000000 UTC,Medium Wait,No Rework,3,1
+52626ec4-1194-4e86-a74d-49578ae74871,P02066,Patient Arrival,2026-09-05 02:39:48.000000 UTC,Medium Wait,No Rework,3,1
+0c43bcb2-c51b-4613-bd1b-41f49dc7a13a,P00459,Patient Arrival,2026-08-29 22:40:20.000000 UTC,Low Wait,Rework,3,1
+80283dae-ef14-461c-89ca-331a3d8e9e6d,P00685,Patient Arrival,2026-03-12 00:58:56.000000 UTC,Medium Wait,No Rework,3,1
+6e7159a2-abb4-4ca2-9415-dd5cdbed6af5,P04231,Patient Arrival,2026-01-10 16:22:11.000000 UTC,Low Wait,No Rework,3,1
+4dda3405-d6f2-4655-ba0f-f30a3de3ec33,P02881,Patient Arrival,2026-03-01 20:48:17.000000 UTC,Medium Wait,Rework,3,1
+c7f298fe-5c10-4f6d-8f42-44f2da2b378f,P01327,Patient Arrival,2026-03-21 18:16:20.000000 UTC,Low Wait,No Rework,3,1
+4aad07a7-2e56-4a9b-b960-88a5925d886e,P00553,Patient Arrival,2026-09-06 08:43:35.000000 UTC,Low Wait,Rework,3,1
+1919d69f-7494-4ac3-9217-3902ae964859,P00487,Patient Arrival,2026-06-10 20:06:56.000000 UTC,Medium Wait,No Rework,3,1
+79d5ab74-cad3-4ae1-a853-ad345d68b46a,P01944,Patient Arrival,2026-04-29 03:20:38.000000 UTC,Medium Wait,No Rework,3,1
+54394ca5-6343-47f4-8b7e-58602eb516b4,P00506,Patient Arrival,2026-07-06 02:42:58.000000 UTC,Medium Wait,No Rework,3,1
+227383d4-e688-4927-a8df-2af44e50e672,P02581,Patient Arrival,2026-12-26 10:34:54.000000 UTC,Medium Wait,No Rework,3,1
+ef9606c2-2b1f-46cc-8eba-3dd754c4cf17,P02094,Patient Arrival,2026-10-25 01:38:03.000000 UTC,Low Wait,Rework,3,1
+31308abe-3e7f-4566-9f3d-4cb88ed57307,P02175,Patient Arrival,2026-07-20 05:52:52.000000 UTC,Medium Wait,No Rework,3,1
+4051d474-57e4-434d-bbed-e50a0bb2ba6d,P01773,Patient Arrival,2026-11-16 15:39:45.000000 UTC,Medium Wait,Rework,3,1
+dfbcc9e6-d097-4e1f-bd2c-399a0b0330da,P04534,Patient Arrival,2026-05-10 15:51:41.000000 UTC,Medium Wait,No Rework,3,1
+0065166c-ca74-4e4e-9691-430d1c37be16,P00310,Patient Arrival,2026-09-04 16:28:03.000000 UTC,Medium Wait,No Rework,3,1
+3f385a8e-291c-48e8-9053-c8c8808c0f3e,P00938,Patient Arrival,2026-09-29 09:52:02.000000 UTC,Low Wait,No Rework,3,1
+52df6401-54a6-4d78-9025-4e2977bb6256,P01784,Patient Arrival,2026-10-29 19:43:20.000000 UTC,Low Wait,No Rework,3,1
+bf9a30ad-d707-4851-b05b-c39a17ebac78,P01815,Patient Arrival,2026-11-12 22:33:36.000000 UTC,Low Wait,No Rework,3,1
+e34e8a69-19af-4512-85a3-a3a2de3d66db,P00557,Patient Arrival,2026-08-20 17:08:43.000000 UTC,Low Wait,No Rework,3,1
+827f5221-21f3-4fda-aea2-a1ef0cedb10a,P02237,Patient Arrival,2026-02-13 03:02:39.000000 UTC,Low Wait,No Rework,3,1
+9ce540c4-7c05-48ed-8330-756fcd7431b1,P02979,Patient Arrival,2026-01-21 00:06:06.000000 UTC,Low Wait,No Rework,3,1
+9d8145a1-29bc-4ed5-95cc-adac57a74043,P00556,Patient Arrival,2026-10-25 17:48:04.000000 UTC,Medium Wait,No Rework,3,1
+c7573cbd-c3a2-4e03-85b8-ba7e07ac1932,P03239,Patient Arrival,2026-04-28 02:05:12.000000 UTC,Low Wait,Rework,3,1
+e58af35c-45c2-4e3a-a932-df99aef5bfe7,P02632,Patient Arrival,2026-09-05 04:30:15.000000 UTC,Low Wait,Rework,3,1
+225916ad-3f6a-43b5-b2d6-e3d99862b1dd,P04448,Patient Arrival,2026-01-26 09:02:37.000000 UTC,Medium Wait,No Rework,3,1
+6fb14697-fe42-4ed0-9620-e2033c89e400,P03834,Patient Arrival,2026-08-23 19:40:28.000000 UTC,Medium Wait,No Rework,3,1
+851fcd86-5e72-4a53-a3fb-275edc2a6d8f,P00330,Patient Arrival,2026-08-05 06:24:52.000000 UTC,Low Wait,Rework,3,1
+52cb4958-d8db-48fe-bcef-b7a7d4fecc6b,P00019,Patient Arrival,2026-07-17 07:06:27.000000 UTC,Low Wait,No Rework,3,1
+3699c065-d291-4b69-95a7-d86c3dac1b95,P03984,Patient Arrival,2026-01-15 08:39:38.000000 UTC,Low Wait,No Rework,3,1
+00db0b94-2bcf-47c3-8e5b-adf07d8a3977,P01405,Patient Arrival,2026-01-13 08:20:48.000000 UTC,Low Wait,No Rework,3,1
+3ee67abd-8f7d-4afc-9a9f-fa9d7a5758d5,P00190,Patient Arrival,2026-05-24 10:00:37.000000 UTC,Low Wait,No Rework,3,1
+492fc678-75e8-4e34-9a3d-636a61bdccfe,P02128,Patient Arrival,2026-02-13 10:54:13.000000 UTC,Low Wait,No Rework,3,1
+09fba45e-1454-404a-8ddf-39244b3b27c3,P02266,Patient Arrival,2026-11-06 22:26:00.000000 UTC,Low Wait,Rework,3,1
+bbde92fc-f14a-476d-b358-033ae532afd8,P01476,Patient Arrival,2026-07-20 03:51:10.000000 UTC,Low Wait,No Rework,3,1
+fa069f33-f30a-40ed-9779-ef3c4288dd10,P00098,Patient Arrival,2026-06-04 23:29:49.000000 UTC,Medium Wait,No Rework,3,1
+30fa0636-4e63-407e-b765-06c32a99e11b,P01275,Patient Arrival,2026-09-03 03:34:56.000000 UTC,Low Wait,No Rework,3,1
+c42fb9a9-6c1d-4a5b-9780-607ca842eed3,P04443,Patient Arrival,2026-10-14 02:45:36.000000 UTC,Low Wait,No Rework,3,1
+4c145a5d-9dad-4e3e-9418-09a1473c5b20,P01480,Patient Arrival,2026-11-23 13:50:12.000000 UTC,Low Wait,No Rework,3,1
+2d23a6f3-bccd-4770-8565-5d7738a7288e,P03324,Patient Arrival,2026-05-23 02:32:03.000000 UTC,Low Wait,No Rework,3,1
+a8f6df17-3be5-4f19-8a14-52f56ea8129e,P01288,Patient Arrival,2026-01-20 02:30:34.000000 UTC,Medium Wait,No Rework,3,1
+e47f05e1-88d3-4c7e-89e5-f7c4310924e4,P01830,Patient Arrival,2026-01-17 00:45:54.000000 UTC,Low Wait,No Rework,3,1
+6ca6cb51-8ea3-40a9-93a0-d593080a0c0f,P04243,Patient Arrival,2026-02-09 18:10:08.000000 UTC,Low Wait,No Rework,3,1
+20ed38ae-e12e-426a-93c1-3f5861329b47,P02524,Patient Arrival,2026-11-14 16:27:46.000000 UTC,Medium Wait,Rework,3,1
+d3aec29b-623e-43b8-b3f1-e2172b382de7,P04351,Patient Arrival,2026-02-03 05:32:50.000000 UTC,Low Wait,No Rework,3,1
+ee469684-cb1c-47f9-9411-4037c7dcd0b5,P02182,Patient Arrival,2026-10-08 15:36:26.000000 UTC,Low Wait,No Rework,3,1
+05cb1986-6ffe-455a-bb0b-a006e06fc399,P03289,Patient Arrival,2026-02-15 13:00:29.000000 UTC,Medium Wait,No Rework,3,1
+c3a8970b-90cd-4713-85c3-e49c6deb091c,P02689,Patient Arrival,2026-10-28 03:55:52.000000 UTC,Medium Wait,No Rework,3,1
+cb522d3a-eaea-4f6c-8414-6a500a67310e,P00006,Patient Arrival,2026-04-17 03:07:09.000000 UTC,Low Wait,No Rework,3,1
+200f1da4-e716-40bc-ad56-36b6519d9c29,P04316,Patient Arrival,2026-01-07 12:16:37.000000 UTC,Low Wait,Rework,3,1
+0e549aa8-918d-4478-92e3-0aa2006371bb,P02432,Patient Arrival,2026-06-08 02:22:01.000000 UTC,Medium Wait,Rework,3,1
+0f21b5f9-7d04-4286-91d9-684b552bd828,P00647,Patient Arrival,2026-08-13 04:25:35.000000 UTC,Low Wait,No Rework,3,1
+b0703894-f1d2-44bd-ba75-8caf818a5167,P01733,Patient Arrival,2026-05-03 06:57:28.000000 UTC,Low Wait,Rework,3,1
+fcb088ee-964d-4d01-a992-03ebf57a88d6,P01687,Patient Arrival,2026-04-14 13:04:53.000000 UTC,Medium Wait,No Rework,3,1
+0f58a7e0-0556-4634-a605-6328944da618,P04240,Patient Arrival,2026-03-08 03:16:14.000000 UTC,Low Wait,No Rework,3,1
+993b0e9b-0c69-430a-b735-d321e4159254,P03758,Patient Arrival,2026-10-31 19:37:59.000000 UTC,Low Wait,Rework,3,1
+359a8c41-255c-49dc-b258-b7d0f2dedda1,P02567,Patient Arrival,2026-02-08 20:51:06.000000 UTC,Medium Wait,No Rework,3,1
+ab44bef1-f82e-4b9b-a4a0-44d889acd8f6,P01724,Patient Arrival,2026-03-18 14:39:04.000000 UTC,Low Wait,Rework,3,1
+df78f50c-ca0c-4f4e-bdb4-9043f8618af0,P02904,Patient Arrival,2026-07-14 03:23:52.000000 UTC,Medium Wait,No Rework,3,1
+e2eb50b4-6f5d-4d56-9c47-4f0a0142ec34,P01351,Patient Arrival,2026-05-04 15:37:35.000000 UTC,Low Wait,Rework,3,1
+918cb001-e094-4539-8e5b-17cdbf3afe62,P02565,Patient Arrival,2026-02-05 08:45:18.000000 UTC,Medium Wait,No Rework,3,1
+618701f6-6302-47ae-9fae-d657895849cf,P04172,Patient Arrival,2026-12-27 20:55:18.000000 UTC,Low Wait,No Rework,3,1
+3a5189d7-747d-4544-8dcb-b9753e4739d9,P03229,Patient Arrival,2026-03-10 04:47:15.000000 UTC,Low Wait,No Rework,3,1
+7fe6c93c-891d-4ed9-a524-55989a7c1c60,P00428,Patient Arrival,2026-10-24 10:23:48.000000 UTC,Low Wait,No Rework,3,1
+32f6ecbd-07fb-44fb-8c69-c61dcddb8520,P01619,Patient Arrival,2026-10-24 14:04:35.000000 UTC,Low Wait,No Rework,3,1
+2ef9a85b-bb3c-4fb9-a39e-40b381e9f3d1,P02051,Patient Arrival,2026-12-09 15:34:59.000000 UTC,Medium Wait,No Rework,3,1
+89e21580-3f3a-44a0-b845-f03a282ad59a,P03870,Patient Arrival,2026-07-12 23:14:48.000000 UTC,Medium Wait,No Rework,3,1
+0ba1f08c-25be-49ca-b388-7662b5c5e7e2,P01098,Patient Arrival,2026-10-08 11:48:30.000000 UTC,Low Wait,No Rework,3,1
+79290e40-6a4a-4479-8b0d-bd362581b032,P03801,Patient Arrival,2026-05-28 19:40:32.000000 UTC,Medium Wait,No Rework,3,1
+dd0447dd-793b-46f1-aa5b-a22595911927,P00695,Patient Arrival,2026-09-03 19:22:49.000000 UTC,Low Wait,Rework,3,1
+5b7215ca-d4cf-4366-9c50-bb5577b286af,P00388,Patient Arrival,2026-03-13 10:36:14.000000 UTC,Low Wait,Rework,3,1
+8b5f952a-204b-4b5b-b18a-ca4f73f5de26,P02641,Patient Arrival,2026-03-08 04:56:51.000000 UTC,Medium Wait,Rework,3,1
+e669801b-7ba6-43dc-b39e-4db34d502c61,P03730,Patient Arrival,2026-03-14 12:56:50.000000 UTC,Low Wait,No Rework,3,1
+5ba21cc9-1bd5-4554-89ec-0cd516620d43,P02211,Patient Arrival,2026-03-23 20:29:57.000000 UTC,Medium Wait,No Rework,3,1
+06daa0ed-d687-471b-979f-eabce6fdaa08,P00142,Patient Arrival,2026-04-20 18:47:10.000000 UTC,Low Wait,No Rework,3,1
+2a90cee8-2575-4726-95a5-0fc7c5e287c2,P00727,Patient Arrival,2026-10-16 08:07:19.000000 UTC,Medium Wait,No Rework,3,1
+2b54dee8-2d3c-49e9-ab8e-881380722c56,P01338,Patient Arrival,2026-04-19 05:12:39.000000 UTC,Low Wait,No Rework,3,1
+72f53ac8-30ae-46a9-8b97-398085f54594,P00564,Patient Arrival,2026-01-20 23:29:43.000000 UTC,Low Wait,No Rework,3,1
+07f35020-902f-4d4c-9151-3851b943e3ef,P04192,Patient Arrival,2026-05-29 23:18:12.000000 UTC,Low Wait,No Rework,3,1
+2e7d7956-25ed-49e3-8299-a62ad1c5d118,P01289,Patient Arrival,2026-11-13 11:27:37.000000 UTC,Medium Wait,No Rework,3,1
+65c1615a-655b-4ed6-92bd-8358720d85d1,P00920,Patient Arrival,2026-03-09 23:51:50.000000 UTC,Medium Wait,Rework,3,1
+a52ee65c-f5b1-4e31-b6b6-bc47409671e7,P02110,Patient Arrival,2026-06-17 10:01:32.000000 UTC,Low Wait,No Rework,3,1
+7bb6dd4b-7493-46f7-b691-41f93e5e3a44,P04087,Patient Arrival,2026-04-06 12:31:03.000000 UTC,Low Wait,No Rework,3,1
+c1f8ea74-4851-40b1-831a-83a00cce0dfb,P03523,Patient Arrival,2026-06-09 13:13:28.000000 UTC,Low Wait,Rework,3,1
+33aab824-1f16-4139-bcc1-a79d2e746f83,P01604,Patient Arrival,2026-08-04 21:37:07.000000 UTC,Medium Wait,No Rework,3,1
+7884a476-09d9-4884-8166-d9eb9e26ea9d,P02052,Patient Arrival,2026-02-10 14:34:48.000000 UTC,Medium Wait,No Rework,3,1
+fbfec8ad-cfb4-4997-a3af-6418e254bbb5,P01369,Patient Arrival,2026-10-12 00:15:41.000000 UTC,Medium Wait,No Rework,3,1
+2d25f549-7bc2-4a40-8520-03e0e6d18d48,P00575,Patient Arrival,2026-02-12 05:59:15.000000 UTC,Low Wait,No Rework,3,1
+24ae24c1-96fe-40ae-8c4b-42008c17562c,P03284,Patient Arrival,2026-02-06 13:14:53.000000 UTC,Low Wait,No Rework,3,1
+996b88bc-79da-4de4-ab1f-317dda22f4fe,P04282,Patient Arrival,2026-09-08 13:50:02.000000 UTC,Low Wait,Rework,3,1
+4c0f2346-5840-466a-92b2-2c554c6c92cd,P00288,Patient Arrival,2026-07-29 14:28:12.000000 UTC,Medium Wait,No Rework,3,1
+3494d775-abfc-4ab6-8f30-d29a35f26031,P01279,Patient Arrival,2026-11-18 10:47:04.000000 UTC,Low Wait,No Rework,3,1
+fad18c06-bc30-4bec-ab00-ccfac71e15fa,P00466,Patient Arrival,2026-07-18 13:45:04.000000 UTC,Low Wait,No Rework,3,1
+d83d2146-710e-49f6-8169-825f2efcf7db,P04390,Patient Arrival,2026-08-22 03:08:00.000000 UTC,Low Wait,No Rework,3,1
+41adf37f-44ee-4e1a-aaf2-b1e269168850,P00795,Patient Arrival,2026-04-08 06:50:25.000000 UTC,Low Wait,Rework,3,1
+4275a80b-0344-4e89-8b15-27af49bae1ee,P01677,Patient Arrival,2026-07-28 05:50:23.000000 UTC,Medium Wait,No Rework,3,1
+dd2cfc1d-4635-4d6e-9222-73e5d18159a5,P04279,Patient Arrival,2026-06-25 01:29:36.000000 UTC,Medium Wait,Rework,3,1
+68685ca8-aa1d-4c18-ae3d-f98f8f757f85,P03937,Patient Arrival,2026-10-03 21:58:40.000000 UTC,Low Wait,No Rework,3,1
+316e0420-cf4a-4ae9-9b43-ce8460f4004f,P00644,Patient Arrival,2026-01-29 05:27:16.000000 UTC,Medium Wait,No Rework,3,1
+cc8e83a5-69d0-4884-af29-e4ccdd5515a5,P00133,Patient Arrival,2026-01-21 16:23:55.000000 UTC,Low Wait,No Rework,3,1
+8173aa70-b39f-4d0e-b131-d50db9bcc914,P01910,Patient Arrival,2026-01-16 00:46:39.000000 UTC,Medium Wait,No Rework,3,1
+95b2a179-f19c-4244-8c97-302140c146bb,P02722,Patient Arrival,2026-06-06 00:09:13.000000 UTC,Medium Wait,No Rework,3,1
+e7f13f24-0a50-4c15-958e-5b999d0aee7f,P01305,Patient Arrival,2026-11-27 20:25:10.000000 UTC,Low Wait,No Rework,3,1
+2fe9650b-02b4-4df9-83cb-b257e6c76ead,P04044,Patient Arrival,2026-06-10 22:26:28.000000 UTC,Low Wait,No Rework,3,1
+2343609d-d4b0-413a-a3d3-78536344befd,P01017,Patient Arrival,2026-02-21 04:28:58.000000 UTC,Low Wait,No Rework,3,1
+481d61d3-c3a3-4eb8-b794-0758ca06ae5b,P01597,Patient Arrival,2026-01-06 18:31:29.000000 UTC,Low Wait,No Rework,3,1
+75ea6a0a-1274-45c0-a68f-f407a1fbb892,P03908,Patient Arrival,2026-01-21 02:15:52.000000 UTC,Medium Wait,No Rework,3,1
+cd05b74d-db65-4157-976f-76aaa1ad17d6,P02183,Patient Arrival,2026-11-30 06:50:54.000000 UTC,Low Wait,Rework,3,1
+97a31a9a-4152-4a54-9813-252adb5b68fc,P02517,Patient Arrival,2026-01-11 03:47:50.000000 UTC,Low Wait,No Rework,3,1
+7257bca5-e56e-4b40-99a7-71abec3df046,P03798,Patient Arrival,2026-05-02 01:24:07.000000 UTC,Low Wait,No Rework,3,1
+cb304bbc-5d2c-4ded-8290-9b2629a7994a,P03117,Patient Arrival,2026-01-18 18:14:51.000000 UTC,Low Wait,No Rework,3,1
+641e7a0e-7a0d-414f-a6fa-96517d1b3e8e,P04226,Patient Arrival,2026-03-14 03:38:27.000000 UTC,Low Wait,Rework,3,1
+047f31a8-6c8f-42b1-89ab-406442c52eff,P03857,Patient Arrival,2026-06-16 04:31:44.000000 UTC,Low Wait,No Rework,3,1
+bcb179d3-f684-47bf-bc8b-b61730daf09c,P01835,Patient Arrival,2026-12-31 20:33:29.000000 UTC,Low Wait,No Rework,3,1
+d1ea7d9a-b1c6-4d3b-ad14-9a828b4c06fc,P01976,Patient Arrival,2026-09-14 19:13:20.000000 UTC,Low Wait,No Rework,3,1
+e08e9e1d-854b-47eb-8360-cf5acd2fdd01,P02721,Patient Arrival,2026-06-23 01:48:39.000000 UTC,Low Wait,No Rework,3,1
+68258cf3-300a-40f1-b11f-dca0cc263bcf,P00047,Patient Arrival,2026-04-04 16:32:53.000000 UTC,Low Wait,No Rework,3,1
+117ce3a6-862f-4296-9167-5737153b36bd,P04311,Patient Arrival,2026-12-29 02:14:18.000000 UTC,Low Wait,No Rework,3,1
+c4e80ab3-f59b-4df5-8e95-f187642307e7,P04358,Patient Arrival,2026-12-16 23:56:17.000000 UTC,Low Wait,No Rework,3,1
+179ab2eb-6aaf-4254-bf70-59623ce73a2d,P03569,Patient Arrival,2026-04-14 03:39:25.000000 UTC,Low Wait,No Rework,3,1
+35e33c79-1e26-4ddd-b967-09d47d94d043,P03989,Patient Arrival,2026-07-06 18:51:55.000000 UTC,Medium Wait,No Rework,3,1
+92ea2f0d-73bd-46fd-85d6-71e991e527dc,P03222,Patient Arrival,2026-07-05 20:44:00.000000 UTC,Low Wait,No Rework,3,1
+a3e8fcdc-7cec-44df-a8ad-3fdef1976ae1,P03221,Patient Arrival,2026-05-13 11:23:44.000000 UTC,Low Wait,No Rework,3,1
+97f36bc3-4a93-4947-80d7-9fa2763dc030,P00665,Patient Arrival,2026-09-13 06:22:28.000000 UTC,Low Wait,No Rework,3,1
+a0ebaf2a-7927-4e45-a6ec-3ec294b1ea28,P04274,Patient Arrival,2026-06-02 22:20:44.000000 UTC,Low Wait,No Rework,3,1
+e4a0842e-a896-47ad-aaa2-84be971e6b98,P02627,Patient Arrival,2026-06-18 20:14:23.000000 UTC,Low Wait,No Rework,3,1
+50962991-cd29-48bb-a000-4f662ba5ca60,P02560,Patient Arrival,2026-10-06 21:19:08.000000 UTC,Medium Wait,No Rework,3,1
+b260d289-352f-4f1b-b064-8b56a1d725ec,P01744,Patient Arrival,2026-01-24 04:12:18.000000 UTC,Medium Wait,No Rework,3,1
+e64b923c-eb6d-4d28-a038-671f042a53f3,P02384,Patient Arrival,2026-06-14 04:02:11.000000 UTC,Low Wait,No Rework,3,1
+0502ca57-1bd6-45ef-807c-ce931ecf702d,P03081,Patient Arrival,2026-09-26 05:35:23.000000 UTC,Medium Wait,No Rework,3,1
+d78ce823-6aec-4298-bb2d-e455a8d84b9d,P04007,Patient Arrival,2026-05-30 20:09:30.000000 UTC,Low Wait,Rework,3,1
+8800f3e7-42d7-4b2a-bcf2-803aa3f25334,P00777,Patient Arrival,2026-10-10 12:57:35.000000 UTC,Low Wait,No Rework,3,1
+2ef600e8-82ed-41cb-b6e0-9e963e2b3c87,P04393,Patient Arrival,2026-08-09 17:53:13.000000 UTC,Low Wait,No Rework,3,1
+0770873f-6164-47b9-850a-56356a53c491,P02032,Patient Arrival,2026-07-12 19:53:06.000000 UTC,Low Wait,Rework,3,1
+279a1887-2913-4c49-b023-3e41ec749d5b,P01357,Patient Arrival,2026-11-05 19:51:58.000000 UTC,Medium Wait,Rework,3,1
+805b700a-c6ea-47d4-ab31-ef633576db63,P00352,Patient Arrival,2026-06-20 12:44:27.000000 UTC,Low Wait,Rework,3,1
+0263e709-2967-468c-adc1-4524263c42a7,P01397,Patient Arrival,2026-03-04 03:54:57.000000 UTC,Medium Wait,No Rework,3,1
+bc3565bf-ba76-4fc5-bd28-2377dba5c627,P01231,Patient Arrival,2026-07-05 09:04:27.000000 UTC,Medium Wait,No Rework,3,1
+a7abe723-e1b4-443f-bbc1-e4c0c7bca42d,P00849,Patient Arrival,2026-01-03 21:53:02.000000 UTC,Medium Wait,No Rework,3,1
+8c579939-cd38-46bf-84c4-35f337198ac9,P01225,Patient Arrival,2026-09-10 22:57:31.000000 UTC,Low Wait,No Rework,3,1
+86f784b3-1cbb-494c-b325-890ba9edf678,P02353,Patient Arrival,2026-08-22 17:21:51.000000 UTC,Medium Wait,Rework,3,1
+0f9b4805-8e28-4cd6-9042-e8a32c913479,P03435,Patient Arrival,2026-04-03 12:31:29.000000 UTC,Low Wait,No Rework,3,1
+dbfbed05-575a-4b54-ad96-9193b3a0c8a1,P03357,Patient Arrival,2026-05-23 08:22:19.000000 UTC,Low Wait,No Rework,3,1
+d977a59b-2150-4abd-b1e5-a9d74793ed4b,P04360,Patient Arrival,2026-05-31 00:06:24.000000 UTC,Medium Wait,Rework,3,1
+e4de9139-9426-4f11-b634-a46b548bbd1b,P03039,Patient Arrival,2026-09-07 21:28:27.000000 UTC,Medium Wait,No Rework,3,1
+426be44d-e518-4332-9637-92e9025a3e25,P00814,Patient Arrival,2026-12-24 19:17:22.000000 UTC,Low Wait,No Rework,3,1
+706cee16-bf90-4f4b-b789-4da3b7cecad0,P03407,Patient Arrival,2026-12-06 17:34:55.000000 UTC,Medium Wait,Rework,3,1
+99d1a680-67c3-4289-afda-e2612d17314f,P00475,Patient Arrival,2026-02-20 00:23:32.000000 UTC,Medium Wait,No Rework,3,1
+5a352fbb-d6d3-458f-b353-14d7a71a6022,P02532,Patient Arrival,2026-05-08 23:08:30.000000 UTC,Low Wait,Rework,3,1
+b8a726dd-cfd2-4a08-9707-2524c7f94648,P00129,Patient Arrival,2026-11-20 08:29:28.000000 UTC,Low Wait,Rework,3,1
+67a3054c-a920-4c19-844b-f29469533361,P03365,Patient Arrival,2026-05-04 01:01:59.000000 UTC,Low Wait,No Rework,3,1
+50be03c6-57ad-4110-92c0-16e85619d185,P00873,Patient Arrival,2026-06-09 10:18:45.000000 UTC,Low Wait,No Rework,3,1
+8da6ea47-4297-4dca-be55-d561dcb8246e,P00636,Patient Arrival,2026-06-23 06:07:57.000000 UTC,Low Wait,No Rework,3,1
+2070ebdb-b2a9-4b63-b163-265bacac6c47,P00169,Patient Arrival,2026-04-03 06:56:28.000000 UTC,Low Wait,No Rework,3,1
+2601ebe2-8395-49dd-8003-8b02bb4f6a4c,P01889,Patient Arrival,2026-06-24 17:50:01.000000 UTC,Medium Wait,Rework,3,1
+10481d2e-99cc-4f6d-9239-7216ae4be600,P03115,Patient Arrival,2026-07-23 11:50:20.000000 UTC,Medium Wait,Rework,3,1
+d9fb5df1-887c-4e4a-aa1b-d84272ccac22,P03826,Patient Arrival,2026-05-17 03:00:38.000000 UTC,Low Wait,No Rework,3,1
+5aba8ab8-2776-416b-adef-8725c1db72ab,P04242,Patient Arrival,2026-02-04 00:28:37.000000 UTC,Medium Wait,Rework,3,1
+c35900c6-ddf1-421b-a80d-62ec2479146d,P04487,Patient Arrival,2026-04-24 20:11:23.000000 UTC,Medium Wait,Rework,3,1
+88a5c7e6-40fb-409d-a5d7-36261e449e1f,P02433,Patient Arrival,2026-07-12 09:33:51.000000 UTC,Medium Wait,No Rework,3,1
+b51e35c4-5a5e-4d51-b9e6-bcfdd1941475,P03971,Patient Arrival,2026-11-03 05:47:54.000000 UTC,Low Wait,No Rework,3,1
+aa59c016-86c2-4c1c-9df0-46f406af5997,P03322,Patient Arrival,2026-01-05 10:04:50.000000 UTC,Medium Wait,Rework,3,1
+d935f2e5-575b-4ff8-83eb-1ef34a65513b,P00037,Patient Arrival,2026-01-28 00:02:10.000000 UTC,Low Wait,Rework,3,1
+7a70af1b-18dc-4af7-95f6-f1e4a0b6c174,P00986,Patient Arrival,2026-12-17 06:21:17.000000 UTC,Low Wait,No Rework,3,1
+8a76dbb5-7b8f-46a2-a52d-2020ca718996,P02893,Patient Arrival,2026-02-24 06:47:54.000000 UTC,Medium Wait,No Rework,3,1
+aef4dc57-e029-4fa7-89eb-5f6d6ba452b9,P02413,Patient Arrival,2026-12-25 10:44:21.000000 UTC,Low Wait,Rework,3,1
+4f8a3f71-3eae-4008-b4f0-046bb126ebd0,P04323,Patient Arrival,2026-09-07 06:21:43.000000 UTC,Medium Wait,No Rework,3,1
+01def1f0-4166-4087-953e-030b6ce5eeae,P03281,Patient Arrival,2026-09-04 21:02:03.000000 UTC,Medium Wait,No Rework,3,1
+f939b33f-907f-43fc-8816-c26cb6d1b8cb,P02230,Patient Arrival,2026-05-18 01:29:28.000000 UTC,Medium Wait,Rework,3,1
+b32a71b2-e963-4b83-a622-5be541433078,P03913,Patient Arrival,2026-09-21 14:38:03.000000 UTC,Medium Wait,Rework,3,1
+5e292d89-5fc9-48c3-aa67-e6db6c105b2a,P02838,Patient Arrival,2026-05-17 06:07:41.000000 UTC,Medium Wait,No Rework,3,1
+c1746f10-e59d-40af-9d09-b6be096096e2,P04116,Patient Arrival,2026-12-29 05:36:26.000000 UTC,Medium Wait,No Rework,3,1
+a9710e80-9f11-4019-9bae-79ed75484b9a,P04262,Patient Arrival,2026-10-14 12:18:06.000000 UTC,Low Wait,No Rework,3,1
+f7d6678c-8c61-40c8-962e-5d4549ba001b,P03812,Patient Arrival,2026-08-11 18:12:05.000000 UTC,Low Wait,No Rework,3,1
+afa38cc3-6663-48ea-bc06-317c2a7b4b89,P01626,Patient Arrival,2026-01-17 12:57:00.000000 UTC,Low Wait,No Rework,3,1
+8adc3ffc-5a36-4992-ac0f-341bedbfdb5d,P00628,Patient Arrival,2026-09-18 21:28:50.000000 UTC,Low Wait,No Rework,3,1
+3f9c2d70-4a7b-43af-9cf5-8f636a43cfe4,P04576,Patient Arrival,2026-01-25 05:51:45.000000 UTC,Medium Wait,No Rework,3,1
+48b2db5e-8d4f-4654-8d77-c83e803ddeb8,P01671,Patient Arrival,2026-11-09 12:56:39.000000 UTC,Low Wait,No Rework,3,1
+052d3d2f-4a2c-4a5c-a9c8-2904add554ad,P03359,Patient Arrival,2026-08-19 22:19:35.000000 UTC,Low Wait,No Rework,3,1
+e9d11f9d-3027-4001-ba54-d48ff7ba9d79,P02181,Patient Arrival,2026-09-26 06:07:18.000000 UTC,Medium Wait,Rework,3,1
+c87a6c86-bb8c-42b8-b816-81956dfadb61,P00458,Patient Arrival,2026-04-08 17:03:40.000000 UTC,Low Wait,No Rework,3,1
+dc26ec5e-f39f-4274-ab4c-948f4d1a4e64,P01228,Patient Arrival,2026-10-24 12:41:04.000000 UTC,Low Wait,No Rework,3,1
+55c93151-d438-4919-9487-124085df7b56,P01987,Patient Arrival,2026-12-22 09:51:21.000000 UTC,Medium Wait,No Rework,3,1
+04890729-226c-4d8e-b9fe-04f7c3a0f331,P03240,Patient Arrival,2026-10-11 16:27:35.000000 UTC,Medium Wait,No Rework,3,1
+0e5f785a-63a4-443a-b165-96a9a479e8d0,P01264,Patient Arrival,2026-11-12 00:21:57.000000 UTC,Low Wait,No Rework,3,1
+c915ab3b-288c-4a67-b981-e17a6cf3f314,P01342,Patient Arrival,2026-01-14 08:57:19.000000 UTC,Medium Wait,No Rework,3,1
+66ba98a5-bb32-469e-9b59-7bfe826a9968,P00262,Patient Arrival,2026-06-02 23:02:15.000000 UTC,Medium Wait,No Rework,3,1
+6a01e1e4-7b60-4d00-91e0-2bdbf77fcf3e,P01200,Patient Arrival,2026-11-29 21:48:23.000000 UTC,Medium Wait,No Rework,3,1
+7fa05eb8-912d-4421-85e7-a6a6f38f108b,P00601,Patient Arrival,2026-07-05 02:33:25.000000 UTC,Low Wait,No Rework,3,1
+d8e431e1-f1f0-4d5d-8b9f-9f3b49d165c5,P04481,Patient Arrival,2026-07-20 11:46:19.000000 UTC,Low Wait,Rework,3,1
+b3c8d90f-ea22-4d2d-8fe9-7df1380b8d24,P00508,Patient Arrival,2026-04-12 05:09:11.000000 UTC,Medium Wait,Rework,3,1
+af2c3b39-6116-4e24-ac7c-c755734b2bb7,P00680,Patient Arrival,2026-09-04 01:04:55.000000 UTC,Low Wait,Rework,3,1
+3bf6b63d-16e4-41de-ae56-17d59d2e4b51,P01982,Patient Arrival,2026-01-11 20:33:04.000000 UTC,Low Wait,No Rework,3,1
+9cafb378-cbc0-41f0-a8db-7c1ae1a49965,P03768,Patient Arrival,2026-08-24 10:40:53.000000 UTC,Medium Wait,No Rework,3,1
+119bbd06-7997-43cf-be58-57c3c44e490c,P02610,Patient Arrival,2026-08-22 07:29:17.000000 UTC,Medium Wait,No Rework,3,1
+0eff8dd9-e975-4337-b887-299e47e12b7f,P01118,Patient Arrival,2026-12-04 18:38:04.000000 UTC,Low Wait,No Rework,3,1
+c1a8b427-68d2-47a9-a200-fc5d0bce0938,P02489,Patient Arrival,2026-03-31 03:39:55.000000 UTC,Medium Wait,No Rework,3,1
+be032bdf-1f76-4da3-8460-ea3e11b71074,P00034,Patient Arrival,2026-08-31 00:15:18.000000 UTC,Low Wait,No Rework,3,1
+65658410-f97b-4b2b-b77c-2a972d777439,P00946,Patient Arrival,2026-03-22 05:18:55.000000 UTC,Low Wait,No Rework,3,1
+d8c9a4bf-3316-4375-8fbc-3c6380b87d4c,P02199,Patient Arrival,2026-06-30 05:06:30.000000 UTC,Medium Wait,Rework,3,1
+333ced8f-0f8a-476c-a33d-0caf4a868a17,P01474,Patient Arrival,2026-11-06 00:18:50.000000 UTC,Medium Wait,No Rework,3,1
+88b1a4fb-cc23-4265-99df-53837b1a6999,P04318,Patient Arrival,2026-10-16 13:01:12.000000 UTC,Medium Wait,No Rework,3,1
+cf897098-31c4-4fb8-ae10-39b2b589a418,P04579,Patient Arrival,2026-02-20 03:01:57.000000 UTC,Medium Wait,No Rework,3,1
+1c4a3182-678a-4a90-a187-c6daf9f4b6d5,P03610,Patient Arrival,2026-04-06 11:14:50.000000 UTC,Low Wait,Rework,3,1
+d4c80e1c-6d89-4476-ad23-2e4558a325a9,P00320,Patient Arrival,2026-04-29 09:21:24.000000 UTC,Low Wait,No Rework,3,1
+13735e49-25ff-47c8-b6ca-e1d04be327ac,P02308,Patient Arrival,2026-05-31 00:30:27.000000 UTC,Low Wait,No Rework,3,1
+b4771565-4281-4dd0-ac62-2bb31914e6cb,P00155,Patient Arrival,2026-10-29 19:15:07.000000 UTC,Medium Wait,Rework,3,1
+30c149b8-6f08-4faf-b3ae-7375ef1afedd,P00414,Patient Arrival,2026-07-21 22:35:34.000000 UTC,Low Wait,Rework,3,1
+1a2a16f2-449b-483f-b6c3-dcf420bb3684,P04567,Patient Arrival,2026-05-26 03:59:07.000000 UTC,Medium Wait,No Rework,3,1
+178f9d65-dc5d-440d-8522-ddf129e9326a,P03575,Patient Arrival,2026-11-23 03:45:19.000000 UTC,Low Wait,No Rework,3,1
+2c1ecf7a-1e80-46c1-bf36-de9dee54135b,P01776,Patient Arrival,2026-11-28 01:38:24.000000 UTC,Low Wait,No Rework,3,1
+41a76ac5-b03c-4198-a9d3-92ca6a7f6b48,P02994,Patient Arrival,2026-05-04 11:59:20.000000 UTC,Medium Wait,Rework,3,1
+67c9e452-ed9f-4602-b78c-5950b37a0ac1,P01825,Patient Arrival,2026-12-02 11:18:42.000000 UTC,Low Wait,Rework,3,1
+c92a55c5-c98c-4e4d-9386-94472ccd2229,P01923,Patient Arrival,2026-03-17 21:48:12.000000 UTC,Low Wait,No Rework,3,1
+f96531dd-7b57-4c9d-b561-ee165fbf2f69,P02107,Patient Arrival,2026-08-07 18:57:27.000000 UTC,Medium Wait,No Rework,3,1
+88f2b763-ea8a-4590-a51d-4fba9bb15ba6,P02498,Patient Arrival,2026-06-30 11:41:04.000000 UTC,Low Wait,No Rework,3,1
+53ff7cab-72b3-4995-8f12-3d4b6c81ebbb,P02820,Patient Arrival,2026-06-12 02:13:35.000000 UTC,Low Wait,No Rework,3,1
+c7f78415-39e7-487d-9222-3b62658f7b5a,P02141,Patient Arrival,2026-03-24 21:17:52.000000 UTC,Low Wait,No Rework,3,1
+20c96e13-c3f0-48c5-afb8-34c7c7452073,P04130,Patient Arrival,2026-12-14 23:23:24.000000 UTC,Low Wait,Rework,3,1
+b42e03c1-1441-4b46-8d44-f8dcefd4da95,P02500,Patient Arrival,2026-03-14 11:32:53.000000 UTC,Low Wait,No Rework,3,1
+44a6146d-be62-46f8-afbd-5600de48d4b0,P03448,Patient Arrival,2026-10-31 21:08:45.000000 UTC,Medium Wait,No Rework,3,1
+01eb408b-7dbc-4d00-91e7-75d8b22e40c1,P03496,Patient Arrival,2026-04-07 01:25:14.000000 UTC,Medium Wait,No Rework,3,1
+e5126135-ce51-445b-9a0e-821eaa8fab4a,P03787,Patient Arrival,2026-01-04 13:24:21.000000 UTC,Low Wait,Rework,3,1
+46a89713-7432-4604-b29e-58262e28ea1b,P04396,Patient Arrival,2026-06-20 00:39:37.000000 UTC,Low Wait,No Rework,3,1
+3526c967-7011-4aa2-aac3-d8f18e10ae92,P01281,Patient Arrival,2026-03-19 06:35:54.000000 UTC,Low Wait,No Rework,3,1
+1581e45f-583e-4ca7-998d-d528e05fa475,P01659,Patient Arrival,2026-07-28 09:24:25.000000 UTC,Low Wait,No Rework,3,1
+61d34d63-9ebe-400c-8ea3-313d94680ec7,P00854,Patient Arrival,2026-12-07 11:33:18.000000 UTC,Medium Wait,No Rework,3,1
+3dd68242-6e06-4b56-af88-d3bd0255256e,P00881,Patient Arrival,2026-02-17 07:45:14.000000 UTC,Low Wait,Rework,3,1
+418feac8-c92e-4307-921c-d9bab9b22b06,P03872,Patient Arrival,2026-12-03 16:30:57.000000 UTC,Low Wait,No Rework,3,1
+fd78bc89-0ab7-4bb0-9f79-672f607b210a,P01084,Patient Arrival,2026-11-14 13:51:58.000000 UTC,Low Wait,No Rework,3,1
+9117a476-0db5-407f-bdc9-3309e6d28bea,P03627,Patient Arrival,2026-09-12 21:21:36.000000 UTC,Medium Wait,Rework,3,1
+5b7a52fd-e147-4b60-8bd0-0ab6310ddb15,P01502,Patient Arrival,2026-11-30 00:50:22.000000 UTC,Low Wait,No Rework,3,1
+b4c5dac5-6380-481e-83d0-dcf5d598ede6,P03699,Patient Arrival,2026-07-18 08:24:16.000000 UTC,Low Wait,Rework,3,1
+3d8ee469-379b-4803-8aac-580e201f3e23,P04123,Patient Arrival,2026-10-27 06:56:54.000000 UTC,Low Wait,No Rework,3,1
+ea40addc-251e-4c14-9ff5-6f36125c7d9c,P04199,Patient Arrival,2026-12-19 17:15:12.000000 UTC,Medium Wait,No Rework,3,1
+d0690eeb-0a3e-4c54-9e5e-52b85551464d,P00684,Patient Arrival,2026-08-15 09:01:03.000000 UTC,Low Wait,No Rework,3,1
+bed807ce-d5ff-48b3-abb5-5baf8ffe3599,P04100,Patient Arrival,2026-09-08 18:39:21.000000 UTC,Low Wait,No Rework,3,1
+cc433707-b761-44a8-96e3-7d5c790156ff,P00870,Patient Arrival,2026-03-26 01:49:53.000000 UTC,Medium Wait,Rework,3,1
+8846cdbc-dc69-445b-b914-d7746ef66a15,P04241,Patient Arrival,2026-10-23 05:03:49.000000 UTC,Low Wait,Rework,3,1
+f1a9fd84-733e-4c06-b0a7-30dd48dc12cb,P04402,Patient Arrival,2026-01-05 18:59:00.000000 UTC,Medium Wait,No Rework,3,1
+88c94d69-c6e0-428b-a5a5-ed0dd2525d28,P00979,Patient Arrival,2026-05-27 00:57:20.000000 UTC,Low Wait,No Rework,3,1
+7a85cf4a-1d03-454e-80ac-b9d591c60375,P01067,Patient Arrival,2026-04-15 22:05:19.000000 UTC,Medium Wait,No Rework,3,1
+529c7077-4e78-42b2-a772-d48cd2b41100,P01974,Patient Arrival,2026-08-29 04:28:28.000000 UTC,Medium Wait,Rework,3,1
+ac1f5bc4-be04-476e-a7ed-0f26be6fb3a9,P00161,Patient Arrival,2026-12-21 09:11:42.000000 UTC,Low Wait,No Rework,3,1
+e4a2c001-ed41-49b1-8131-c9210e398207,P03591,Patient Arrival,2026-07-15 02:52:58.000000 UTC,Low Wait,Rework,3,1
+9ecc803e-2e4d-45d6-92bc-dbe7c2a8e259,P04175,Patient Arrival,2026-01-17 02:33:51.000000 UTC,Low Wait,No Rework,3,1
+ae5e7b0c-8815-4545-ab10-f9fea297cc9a,P01428,Patient Arrival,2026-07-11 16:04:45.000000 UTC,Low Wait,No Rework,3,1
+05571676-e719-4c56-8660-395b240257e2,P03859,Patient Arrival,2026-10-22 16:32:41.000000 UTC,Low Wait,No Rework,3,1
+d57cf304-2cd9-4a42-9638-34f38ad8f191,P04014,Patient Arrival,2026-09-09 12:57:06.000000 UTC,Low Wait,Rework,3,1
+128b033b-ee3b-47f3-a17e-9f254efdb6da,P01152,Patient Arrival,2026-02-19 09:54:00.000000 UTC,Low Wait,No Rework,3,1
+56b3c90d-30cb-49ed-a407-0e28c88ebb22,P02462,Patient Arrival,2026-08-12 14:29:22.000000 UTC,Medium Wait,No Rework,3,1
+5aa6539a-3783-4509-b53f-459ae18b2077,P04445,Patient Arrival,2026-08-11 00:44:09.000000 UTC,Low Wait,No Rework,3,1
+4f44da06-95af-4ac4-af17-12d77acc1e59,P02190,Patient Arrival,2026-06-10 14:31:11.000000 UTC,Low Wait,Rework,3,1
+6d26a3b0-a5a9-4b46-804e-b515fe4d6304,P03068,Patient Arrival,2026-05-31 20:33:14.000000 UTC,Medium Wait,No Rework,3,1
+6df8d179-fb27-407b-a644-dfa4d3369c7b,P03528,Patient Arrival,2026-06-27 20:49:30.000000 UTC,Low Wait,No Rework,3,1
+c1b59c22-28d6-4f67-b194-9c82bcc0cfc2,P02458,Patient Arrival,2026-07-01 17:59:55.000000 UTC,Low Wait,No Rework,3,1
+36324a63-e549-4941-aff6-1c18a2b1678f,P03045,Patient Arrival,2026-03-11 07:38:50.000000 UTC,Medium Wait,No Rework,3,1
+ddaf5db8-f5d5-44ca-a272-abfc6b1046d6,P00653,Patient Arrival,2026-02-19 14:47:37.000000 UTC,Medium Wait,No Rework,3,1
+1923f36d-4074-4494-8c69-b84f0b076810,P03287,Patient Arrival,2026-09-04 23:13:15.000000 UTC,Low Wait,No Rework,3,1
+2bd34aae-8882-48be-890c-47f7814b6565,P01400,Patient Arrival,2026-03-11 07:50:00.000000 UTC,Low Wait,Rework,3,1
+3cdfc982-1ac8-4727-9bd3-b83624e87853,P03921,Patient Arrival,2026-04-30 03:59:39.000000 UTC,Low Wait,No Rework,3,1
+2c4e9fa4-81ff-4103-b066-893feba81357,P03662,Patient Arrival,2026-02-05 02:58:44.000000 UTC,Medium Wait,No Rework,3,1
+daed147c-a595-4f8d-aa02-ec25feb3c585,P02298,Patient Arrival,2026-03-12 09:11:55.000000 UTC,Medium Wait,No Rework,3,1
+7324a5bc-0b6d-4055-9fc0-1a11abf4791d,P03507,Patient Arrival,2026-07-05 14:08:31.000000 UTC,Medium Wait,No Rework,3,1
+1bfa9029-e327-4689-8f48-aebf0635a935,P01463,Patient Arrival,2026-01-16 11:54:14.000000 UTC,Low Wait,No Rework,3,1
+fcffe7a4-936a-43ce-8693-8abc8f66d6e2,P04473,Patient Arrival,2026-11-01 10:47:53.000000 UTC,Medium Wait,No Rework,3,1
+ff6a63b1-1292-4b40-8a2f-1fd548340720,P03004,Patient Arrival,2026-04-04 06:17:24.000000 UTC,Low Wait,No Rework,3,1
+0f0b505e-42f5-45db-9a63-126c092c938b,P03875,Patient Arrival,2026-07-15 12:40:44.000000 UTC,Low Wait,No Rework,3,1
+fec383dc-ad6a-425b-a0a4-0304d97b82ca,P01485,Patient Arrival,2026-01-27 07:05:32.000000 UTC,Low Wait,No Rework,3,1
+0ca2d7be-5180-4f51-8ff4-454509b5eb3b,P03065,Patient Arrival,2026-06-15 03:01:01.000000 UTC,Low Wait,Rework,3,1
+6fd23927-0b93-4b7b-ad8c-a60244cfd18e,P01570,Patient Arrival,2026-03-10 09:46:00.000000 UTC,Low Wait,No Rework,3,1
+1f7a8284-cdaf-4228-8267-5a9faa6ce7d2,P02215,Patient Arrival,2026-09-09 21:57:27.000000 UTC,Low Wait,Rework,3,1
+efd8a819-a1c5-484e-beac-f8e1ad5b0747,P03132,Patient Arrival,2026-02-01 05:14:49.000000 UTC,Low Wait,No Rework,3,1
+18776cf6-d7d2-4e3c-a618-c821d41c3925,P00356,Patient Arrival,2026-08-25 04:54:37.000000 UTC,Low Wait,No Rework,3,1
+cefaa7e0-66e0-40b7-8cdd-29dfddc192c3,P04416,Patient Arrival,2026-09-03 03:10:13.000000 UTC,Medium Wait,No Rework,3,1
+ff95a73e-0fb2-4b28-9942-5f94638071e8,P02454,Patient Arrival,2026-02-28 04:08:20.000000 UTC,Low Wait,No Rework,3,1
+0f56f16c-5354-499f-9963-e3977bba3d34,P01457,Patient Arrival,2026-01-20 11:23:37.000000 UTC,Medium Wait,No Rework,3,1
+bce5920b-e8e0-40fc-8d08-fc4b4013b92d,P01668,Patient Arrival,2026-02-22 01:53:07.000000 UTC,Low Wait,Rework,3,1
+2b1be9ea-0897-4974-b774-74613a767135,P01267,Patient Arrival,2026-07-12 13:30:19.000000 UTC,Medium Wait,No Rework,3,1
+4ec83679-30ea-45e6-a420-1fd32011e46d,P02076,Patient Arrival,2026-11-20 08:17:39.000000 UTC,Medium Wait,Rework,3,1
+9c2fdc9f-9ddf-4090-8278-1fbf97ce38b1,P01258,Patient Arrival,2026-05-28 16:18:01.000000 UTC,Medium Wait,Rework,3,1
+defec3be-4b5a-44b9-8a06-80bf816d41c6,P02640,Patient Arrival,2026-07-07 14:30:27.000000 UTC,Medium Wait,No Rework,3,1
+a1f5fe7d-f983-42ae-b2c5-bb493a2af091,P00252,Patient Arrival,2026-05-27 03:47:59.000000 UTC,Medium Wait,Rework,3,1
+15facd9a-bf51-4bc8-b6d0-be7e7176e166,P01920,Patient Arrival,2026-02-18 19:47:28.000000 UTC,Low Wait,No Rework,3,1
+dd75e6c1-5d17-4fff-ba73-76e7a40a5725,P00281,Patient Arrival,2026-03-18 03:08:45.000000 UTC,Medium Wait,No Rework,3,1
+20a8d050-7921-41ad-a17e-3d5fc26615f0,P01169,Patient Arrival,2026-05-05 02:05:57.000000 UTC,Medium Wait,No Rework,3,1
+d008b7d4-807b-43fa-a2e7-82d86627b8da,P02711,Patient Arrival,2026-06-12 06:47:03.000000 UTC,Low Wait,No Rework,3,1
+e0799589-ac3e-4245-8c57-a2cec05d1b59,P04376,Patient Arrival,2026-07-22 15:22:19.000000 UTC,Medium Wait,No Rework,3,1
+991dd494-502f-47fa-aecd-16feb463fc2b,P03236,Patient Arrival,2026-11-02 12:20:48.000000 UTC,Low Wait,No Rework,3,1
+552f8a76-aac3-463d-9060-e6a6f414a650,P03991,Patient Arrival,2026-07-18 16:17:45.000000 UTC,Low Wait,No Rework,3,1
+7f2462af-56f8-4d24-9d52-e2d61c334bbf,P01197,Patient Arrival,2026-07-24 08:09:49.000000 UTC,Low Wait,No Rework,3,1
+8f26ed23-a621-4122-a521-369baaac5013,P01937,Patient Arrival,2026-05-07 08:25:28.000000 UTC,Low Wait,No Rework,3,1
+10282692-f99f-49a0-90fa-fcd9dd706189,P00648,Patient Arrival,2026-10-11 22:37:18.000000 UTC,Medium Wait,No Rework,3,1
+dc5332a2-ba8e-4c73-afdb-6e4f861fb2f3,P00714,Patient Arrival,2026-06-10 06:05:42.000000 UTC,Medium Wait,Rework,3,1
+e6bf5b7d-85cf-4f35-8545-6510458cf6cd,P01392,Patient Arrival,2026-10-16 17:54:53.000000 UTC,Medium Wait,No Rework,3,1
+82e5c4ac-1160-48ff-b668-0aac12d01905,P01852,Patient Arrival,2026-03-14 02:59:45.000000 UTC,Low Wait,No Rework,3,1
+f84c0988-cf02-49a7-b436-f86059ab8215,P02725,Patient Arrival,2026-06-11 12:02:49.000000 UTC,Medium Wait,Rework,3,1
+15e10930-d98b-4939-a9c0-17ceb866f77f,P04178,Patient Arrival,2026-12-15 23:58:07.000000 UTC,Low Wait,No Rework,3,1
+8c0037c5-9967-47f7-9c53-c916df353962,P01787,Patient Arrival,2026-08-13 07:15:02.000000 UTC,Medium Wait,No Rework,3,1
+05a683c2-f1b5-47d2-b583-67851df35b23,P03781,Patient Arrival,2026-10-26 21:36:52.000000 UTC,Low Wait,No Rework,3,1
+9473f490-af5b-49f3-afef-529f1d30318c,P01180,Patient Arrival,2026-12-02 02:12:33.000000 UTC,Medium Wait,Rework,3,1
+df8a580d-bece-45d9-8e43-24534649cbdf,P00612,Patient Arrival,2026-07-17 03:07:22.000000 UTC,Low Wait,No Rework,3,1
+a36b5706-7aa2-42b2-9917-7f971737fc4f,P03106,Patient Arrival,2026-08-13 19:19:07.000000 UTC,Medium Wait,No Rework,3,1
+65a6392a-c13e-4696-b7a7-e67dbcdbad09,P03480,Patient Arrival,2026-10-07 12:25:07.000000 UTC,Low Wait,No Rework,3,1
+6bc966ed-a12e-44d5-99bb-0ad3779f0196,P03851,Patient Arrival,2026-05-17 01:06:19.000000 UTC,Medium Wait,Rework,3,1
+fa50abbf-6722-47ad-aaba-1e52b1a6af5d,P01215,Patient Arrival,2026-06-02 20:20:00.000000 UTC,Medium Wait,No Rework,3,1
+9f0d4520-51d7-440a-a098-7670d6b6209d,P01280,Patient Arrival,2026-04-22 18:41:49.000000 UTC,Medium Wait,No Rework,3,1
+60cea5b9-9f23-4d88-867c-61a6b9d5912d,P04267,Patient Arrival,2026-07-16 03:59:20.000000 UTC,Low Wait,No Rework,3,1
+b00514de-17f7-4bdb-88f4-a6b0060addf1,P02189,Patient Arrival,2026-11-05 04:27:35.000000 UTC,Medium Wait,No Rework,3,1
+050cc8a0-d749-4e1c-a84c-a892593496b2,P02654,Patient Arrival,2026-04-19 14:11:00.000000 UTC,Low Wait,No Rework,3,1
+e038d198-2081-4672-a8bb-bf3eb0a59934,P03740,Patient Arrival,2026-10-21 01:09:30.000000 UTC,Medium Wait,No Rework,3,1
+42a883cd-5ab4-4d9a-8750-f22b995bbf1a,P01531,Patient Arrival,2026-01-26 18:38:53.000000 UTC,Low Wait,No Rework,3,1
+e817094b-b784-409d-9b59-b1771d5646fe,P00113,Patient Arrival,2026-10-26 09:43:22.000000 UTC,Medium Wait,No Rework,3,1
+058326e1-0979-4dcc-8882-5c7f4e6032bc,P03874,Patient Arrival,2026-11-02 13:08:11.000000 UTC,Low Wait,No Rework,3,1
+62d464c8-1ca3-41f8-9f49-2cda07f51a4a,P00623,Patient Arrival,2026-03-23 20:43:12.000000 UTC,Medium Wait,Rework,3,1
+d4499b02-1c70-4f9a-bd39-775fd443a00a,P00148,Patient Arrival,2026-08-02 11:47:34.000000 UTC,Medium Wait,Rework,3,1
+71d4fca5-fbcd-4cbe-a89c-21f8b2334912,P01916,Patient Arrival,2026-07-30 20:11:23.000000 UTC,Medium Wait,No Rework,3,1
+2842d362-371b-4b37-86e8-4fd2d70e55e2,P00084,Patient Arrival,2026-02-11 18:44:49.000000 UTC,Medium Wait,No Rework,3,1
+89eac726-a987-4dfb-bfd5-f3e78205d491,P00140,Patient Arrival,2026-01-18 07:45:34.000000 UTC,Low Wait,Rework,3,1
+932e4eba-2757-4b1a-b953-6f8d120b7894,P00372,Patient Arrival,2026-05-05 23:06:34.000000 UTC,Low Wait,No Rework,3,1
+66d362cc-4091-49b2-aebb-6cc9ff84b546,P04055,Patient Arrival,2026-07-14 20:18:33.000000 UTC,Low Wait,No Rework,3,1
+e378e1ae-03d4-41f3-8ddb-9d266dfd0de0,P02259,Patient Arrival,2026-04-20 05:20:24.000000 UTC,Low Wait,No Rework,3,1
+84cfeb65-2230-4fb7-8f2e-ab9fa1ad732d,P02562,Patient Arrival,2026-09-28 05:01:53.000000 UTC,Medium Wait,No Rework,3,1
+3124c56d-b641-4d0f-93b0-9ccbd7e13964,P01529,Patient Arrival,2026-05-02 09:42:53.000000 UTC,Medium Wait,No Rework,3,1
+cd06c3f3-357b-4015-b3d9-220ba0b9eda0,P00319,Patient Arrival,2026-12-07 22:43:02.000000 UTC,Medium Wait,No Rework,3,1
+848a3687-55c7-4672-b450-5fd7e6f7a050,P01186,Patient Arrival,2026-03-06 02:53:14.000000 UTC,Low Wait,No Rework,3,1
+2673474f-ccfe-4356-9052-38bbb6f56f5c,P02280,Patient Arrival,2026-01-01 22:25:10.000000 UTC,Low Wait,No Rework,3,1
+30eb90ac-b3f9-408e-a485-86cfce2d2b7e,P04371,Patient Arrival,2026-05-16 08:02:02.000000 UTC,Medium Wait,No Rework,3,1
+0d0da8b7-955e-4626-a72a-f5e2e6191967,P01648,Patient Arrival,2026-06-08 19:17:16.000000 UTC,Low Wait,No Rework,3,1
+94afe3a4-48be-4ad0-bd34-4e7f83f253c5,P01884,Patient Arrival,2026-06-02 01:50:09.000000 UTC,Medium Wait,Rework,3,1
+ab546c42-d3b2-4f50-8044-5358788a5cdc,P04480,Patient Arrival,2026-09-07 03:14:18.000000 UTC,Medium Wait,No Rework,3,1
+6e87b1de-753f-47c4-aeca-6cc1d7941552,P02982,Patient Arrival,2026-06-28 05:28:20.000000 UTC,Low Wait,Rework,3,1
+325ad92e-f5df-4206-9d31-dc4f104e74ce,P01375,Patient Arrival,2026-09-12 06:45:05.000000 UTC,Medium Wait,Rework,3,1
+f9c6a363-5c18-4fd6-9a9a-6ae4311b6685,P03227,Patient Arrival,2026-01-15 14:42:21.000000 UTC,Medium Wait,No Rework,3,1
+a07442c8-8c57-4d16-b77e-8e36eb3a28cb,P04099,Patient Arrival,2026-05-25 05:29:00.000000 UTC,Medium Wait,No Rework,3,1
+dfdc05eb-7f70-4b5a-9056-06259736d8d3,P03705,Patient Arrival,2026-10-23 12:35:18.000000 UTC,Low Wait,Rework,3,1
+f7df0f41-7ffb-4fee-b759-5f56cbcc6065,P03642,Patient Arrival,2026-09-07 20:44:18.000000 UTC,Low Wait,Rework,3,1
+11d081b6-a33d-48b8-a0b3-716f7eb76cfe,P03278,Patient Arrival,2026-11-23 06:27:28.000000 UTC,Low Wait,No Rework,3,1
+20853fe0-75c2-48da-9d4d-7ffecb109e7f,P00162,Patient Arrival,2026-10-19 14:15:20.000000 UTC,Medium Wait,No Rework,3,1
+9faf84b7-bc46-4529-8b0d-c44e6e3f1471,P01627,Patient Arrival,2026-12-11 16:43:49.000000 UTC,Medium Wait,Rework,3,1
+dd79388c-9308-441b-a8ad-d99cdc6ab58f,P00200,Patient Arrival,2026-08-07 14:55:15.000000 UTC,Low Wait,Rework,3,1
+f6169318-6ad6-4646-b024-6e887ec6e74a,P01546,Patient Arrival,2026-07-28 21:04:26.000000 UTC,Medium Wait,No Rework,3,1
+9047b1a7-438f-4c98-a258-bc6b9bd31727,P03055,Patient Arrival,2026-01-10 08:16:53.000000 UTC,Low Wait,No Rework,3,1
+2d96f663-4d9d-4edf-845b-5ea07688d341,P03167,Patient Arrival,2026-07-29 07:13:03.000000 UTC,Low Wait,No Rework,3,1
+48cb8983-c769-4458-95ad-37562e6e9218,P00363,Patient Arrival,2026-04-02 20:41:34.000000 UTC,Low Wait,No Rework,3,1
+26af98a3-987b-4a22-ad13-5092943c1c72,P02919,Patient Arrival,2026-05-24 02:52:22.000000 UTC,Medium Wait,No Rework,3,1
+e0b698ea-884a-4392-bff5-c4ae7e17cf72,P03261,Patient Arrival,2026-01-23 20:22:39.000000 UTC,Low Wait,No Rework,3,1
+dbe6d4d4-23f5-40b3-8ff9-59165fa391dc,P02416,Patient Arrival,2026-03-25 17:26:18.000000 UTC,Low Wait,No Rework,3,1
+317f0958-a9f8-4aa9-99a9-d713308eb051,P02827,Patient Arrival,2026-02-27 11:54:39.000000 UTC,Low Wait,No Rework,3,1
+e6ff849b-5562-48fe-8af4-21a3baaaab86,P03710,Patient Arrival,2026-08-16 04:21:09.000000 UTC,Low Wait,No Rework,3,1
+d509e1a4-8685-4e4d-b886-8107d11ed4fa,P02133,Patient Arrival,2026-03-25 15:59:20.000000 UTC,Medium Wait,No Rework,3,1
+9c4d7399-887e-465b-8393-13635ef468bf,P01110,Patient Arrival,2026-04-11 13:48:27.000000 UTC,Medium Wait,Rework,3,1
+5454a525-4b7f-4da0-bc74-ac263763b6bf,P01936,Patient Arrival,2026-10-26 05:12:37.000000 UTC,Low Wait,No Rework,3,1
+16899003-c106-44a7-afee-557f54aae761,P04147,Patient Arrival,2026-08-12 15:34:16.000000 UTC,Low Wait,No Rework,3,1
+643a0b7f-4a30-488c-b1e9-c4846b033784,P03245,Patient Arrival,2026-05-03 05:34:39.000000 UTC,Low Wait,No Rework,3,1
+2bd0b0b0-f6eb-465b-a7d6-c938c08317ac,P00439,Patient Arrival,2026-08-05 12:23:30.000000 UTC,Low Wait,No Rework,3,1
+07b52165-4d46-4898-906e-2f2e1b28ba07,P03220,Patient Arrival,2026-05-20 03:53:57.000000 UTC,Medium Wait,No Rework,3,1
+3fc3cebe-4d50-4e57-bc14-c96880fb6ccb,P01386,Patient Arrival,2026-03-16 18:43:53.000000 UTC,Low Wait,No Rework,3,1
+79bc8b9f-e378-4a99-b5fa-1b68b686b24b,P03503,Patient Arrival,2026-05-14 17:01:43.000000 UTC,Low Wait,No Rework,3,1
+2b7171ce-d25e-4393-bd07-591ff327e8b3,P04580,Patient Arrival,2026-05-13 01:06:35.000000 UTC,Medium Wait,No Rework,3,1
+e35ce025-d84f-4e6e-818d-684d39927392,P02726,Patient Arrival,2026-02-11 17:12:28.000000 UTC,Low Wait,Rework,3,1
+273a8125-3b80-4908-bb21-3f104949c6bd,P01853,Patient Arrival,2026-07-23 19:22:11.000000 UTC,Low Wait,No Rework,3,1
+222dc7b2-cebe-4dbe-a54a-3c18e4235c32,P03552,Patient Arrival,2026-10-10 12:03:23.000000 UTC,Low Wait,No Rework,3,1
+7340265f-f767-44b3-8472-98e5c980fc2b,P01462,Patient Arrival,2026-09-09 18:21:44.000000 UTC,Low Wait,No Rework,3,1
+82924749-79ca-47db-8ba1-9bf7c7dfc92b,P02148,Patient Arrival,2026-11-24 19:01:37.000000 UTC,Low Wait,Rework,3,1
+7eb2b934-8ff7-4f54-949c-e34fb4af6487,P01996,Patient Arrival,2026-03-21 19:18:18.000000 UTC,Medium Wait,No Rework,3,1
+d4ba796c-8e82-4684-83ef-6a734f0d657c,P04273,Patient Arrival,2026-09-06 03:46:03.000000 UTC,Medium Wait,No Rework,3,1
+e36eac2e-21df-4a09-8df8-23b54777aac7,P04444,Patient Arrival,2026-09-11 08:18:38.000000 UTC,Low Wait,No Rework,3,1
+383ad27a-c2f3-40c7-8970-87cc4edb038f,P01088,Patient Arrival,2026-10-19 19:07:48.000000 UTC,Medium Wait,Rework,3,1
+f0aa64a2-88d9-40d5-b980-c1501f2ccf5d,P02573,Patient Arrival,2026-06-01 07:45:38.000000 UTC,Low Wait,No Rework,3,1
+fcb7786f-05aa-43dc-ba76-1f38ebda0854,P04386,Patient Arrival,2026-09-25 17:35:23.000000 UTC,Low Wait,Rework,3,1
+8ae4486c-3692-4ff4-84df-262dba65d5df,P01349,Patient Arrival,2026-07-16 15:43:58.000000 UTC,Low Wait,No Rework,3,1
+ea25594c-df89-4d27-8ef6-7193dfff1c75,P00916,Patient Arrival,2026-05-11 17:15:56.000000 UTC,Medium Wait,No Rework,3,1
+7008b4bf-d774-4185-b626-10662765c688,P04492,Patient Arrival,2026-05-03 17:18:05.000000 UTC,Low Wait,No Rework,3,1
+1d939f72-39f6-4406-b91f-71bf463840cb,P02471,Patient Arrival,2026-04-27 00:08:40.000000 UTC,Low Wait,No Rework,3,1
+28483e5b-12d2-4ef0-bb86-39555a567f18,P02614,Patient Arrival,2026-12-28 17:01:20.000000 UTC,Medium Wait,No Rework,3,1
+c0e4e01f-9abf-499a-a5d4-a4b42cc6504d,P00136,Patient Arrival,2026-09-18 14:28:15.000000 UTC,Low Wait,No Rework,3,1
+ec6af060-814e-436d-b161-439f4f090960,P03468,Patient Arrival,2026-09-29 12:09:30.000000 UTC,Low Wait,Rework,3,1
+ed7729bf-cc5c-4f0e-a928-a3673b662610,P01081,Patient Arrival,2026-05-24 16:50:21.000000 UTC,Low Wait,No Rework,3,1
+67836bd6-fecd-4b48-a594-b4f019b86426,P01483,Patient Arrival,2026-03-20 21:15:16.000000 UTC,Medium Wait,No Rework,3,1
+b10cc3e8-aa64-46f1-97bb-9063832f3d98,P02483,Patient Arrival,2026-06-27 09:43:47.000000 UTC,Low Wait,No Rework,3,1
+e0aa45ba-5e0b-492b-9d04-09b3c3c04022,P03702,Patient Arrival,2026-12-27 03:20:18.000000 UTC,Low Wait,Rework,3,1
+502efab1-42be-4b5e-b9eb-15a017218492,P01610,Patient Arrival,2026-03-18 01:49:04.000000 UTC,Medium Wait,Rework,3,1
+6cb4a047-ae57-4f7c-a1ee-65232150d324,P03402,Patient Arrival,2026-04-13 18:30:31.000000 UTC,Medium Wait,Rework,3,1
+4088eec3-a856-490d-b925-874366945786,P03742,Patient Arrival,2026-01-18 20:51:53.000000 UTC,Low Wait,No Rework,3,1
+fc0ddc1c-7224-4839-b74c-8a4f25c40f90,P01210,Patient Arrival,2026-05-06 14:14:49.000000 UTC,Medium Wait,No Rework,3,1
+e96f272d-505a-4ec2-9b4e-aa541cdd90b0,P02615,Patient Arrival,2026-12-26 23:38:30.000000 UTC,Low Wait,No Rework,3,1
+570859bd-eebf-4328-b783-c033fc763d00,P03723,Patient Arrival,2026-08-13 10:50:10.000000 UTC,Medium Wait,No Rework,3,1
+b4c96515-aa0c-4245-9e3b-4d72f9cc1b7f,P00143,Patient Arrival,2026-07-06 23:39:46.000000 UTC,Low Wait,No Rework,3,1
+2c48ad58-8862-40d3-8489-a9da39807743,P03308,Patient Arrival,2026-07-25 23:09:00.000000 UTC,Low Wait,Rework,3,1
+b6030371-0d4f-4027-959d-86027582df10,P02490,Patient Arrival,2026-09-29 12:55:46.000000 UTC,Low Wait,Rework,3,1
+45065850-ea89-4120-a032-b4a581715301,P02952,Patient Arrival,2026-12-07 02:28:48.000000 UTC,Medium Wait,No Rework,3,1
+3070bd4a-b7d9-4100-bcab-2050098a5a73,P04010,Patient Arrival,2026-02-03 12:17:24.000000 UTC,Low Wait,Rework,3,1
+3fc591af-1eda-4900-84dd-e9fd7b10dad1,P03784,Patient Arrival,2026-07-13 11:00:57.000000 UTC,Low Wait,Rework,3,1
+3653856f-22cb-4956-b003-c88f32e5c43e,P04066,Patient Arrival,2026-04-09 13:55:01.000000 UTC,Medium Wait,Rework,3,1
+9279046d-b701-4da0-8399-cae6726d4cd5,P02314,Patient Arrival,2026-09-04 21:11:09.000000 UTC,Low Wait,Rework,3,1
+04412acd-ef7d-4c91-b09a-bec1f947cae9,P01705,Patient Arrival,2026-07-22 11:45:09.000000 UTC,Low Wait,No Rework,3,1
+1ed697e8-a21e-4c6c-a3c2-155ce12f29a2,P01890,Patient Arrival,2026-11-07 12:36:57.000000 UTC,Medium Wait,No Rework,3,1
+f25e9847-d2e1-48f4-99f7-c8c99fa941c9,P00753,Patient Arrival,2026-12-14 20:23:03.000000 UTC,Medium Wait,Rework,3,1
+4902ca87-ab9b-4e72-88ad-f6500cdbfc35,P01631,Patient Arrival,2026-04-29 05:00:36.000000 UTC,Low Wait,Rework,3,1
+836bd0ce-e1e5-4930-a279-ecc760a25322,P04082,Patient Arrival,2026-05-08 02:12:58.000000 UTC,Medium Wait,No Rework,3,1
+423fa0ba-fcc0-4b31-9a41-01ca835794a2,P00574,Patient Arrival,2026-01-21 23:28:25.000000 UTC,Medium Wait,No Rework,3,1
+d2dc9b7f-a33c-41da-b8fb-9057054424ef,P00141,Patient Arrival,2026-04-04 05:55:43.000000 UTC,Medium Wait,Rework,3,1
+de8849e0-2277-4869-b2d7-74f7c8c1656c,P03470,Patient Arrival,2026-09-25 19:21:56.000000 UTC,Medium Wait,No Rework,3,1
+7a06dab2-84b1-423d-9994-ee2298ec0f24,P00973,Patient Arrival,2026-03-13 15:06:04.000000 UTC,Low Wait,No Rework,3,1
+7375062f-4a3a-4f35-8021-4da785545253,P01845,Patient Arrival,2026-09-29 05:02:47.000000 UTC,Medium Wait,No Rework,3,1
+87f3aad6-47ca-4b29-a425-5eed6eebca67,P03341,Patient Arrival,2026-12-21 07:41:41.000000 UTC,Medium Wait,No Rework,3,1
+1ba63c9a-b641-43fd-bc17-3ca03e7381ee,P00955,Patient Arrival,2026-10-19 02:43:58.000000 UTC,Medium Wait,Rework,3,1
+8eab0bb2-ab3e-4fe0-942a-a042fded3996,P00242,Patient Arrival,2026-04-18 01:18:09.000000 UTC,Low Wait,No Rework,3,1
+578139ba-f155-417b-a7a9-53f2cc3e4062,P02999,Patient Arrival,2026-09-07 21:50:50.000000 UTC,Medium Wait,Rework,3,1
+763fce04-0a46-49e8-9b58-199e313490a1,P03509,Patient Arrival,2026-03-17 10:27:05.000000 UTC,Low Wait,Rework,3,1
+f6d7cba8-fa0a-4e2b-a208-1b4caa236b49,P01021,Patient Arrival,2026-02-28 01:31:25.000000 UTC,Medium Wait,No Rework,3,1
+d84ca144-dd17-4c09-bc0a-5f355470d63a,P03601,Patient Arrival,2026-01-10 03:22:06.000000 UTC,Low Wait,No Rework,3,1
+855e90e6-b7fb-4f94-b0f5-a87daeb8354a,P03290,Patient Arrival,2026-03-26 17:23:18.000000 UTC,Medium Wait,No Rework,3,1
+399bd87d-117c-49a3-acf9-3599cc1b0091,P04136,Patient Arrival,2026-11-06 05:26:19.000000 UTC,Medium Wait,Rework,3,1
+bac5a874-1e98-42e2-9a0e-b5f2826a1fa0,P01035,Patient Arrival,2026-01-28 17:56:55.000000 UTC,Low Wait,No Rework,3,1
+401853df-4b38-4113-9429-3cc0d2d66dd6,P03067,Patient Arrival,2026-10-14 14:49:28.000000 UTC,Low Wait,No Rework,3,1
+33dd88fb-237b-4645-8f29-68f755c20dad,P03900,Patient Arrival,2026-11-03 10:13:03.000000 UTC,Medium Wait,No Rework,3,1
+6d42cd64-6046-4ec6-bf0b-ae1258085610,P00590,Patient Arrival,2026-06-03 10:22:03.000000 UTC,Low Wait,No Rework,3,1
+a27a6cfa-31a2-44af-81e6-474c0d1c3fe8,P00383,Patient Arrival,2026-04-12 18:53:56.000000 UTC,Medium Wait,Rework,3,1
+bd418e4d-f658-476f-ba20-45b25837426e,P01217,Patient Arrival,2026-12-03 00:20:29.000000 UTC,Low Wait,No Rework,3,1
+5ee83f3f-e37c-402f-9c61-b7a22b9166eb,P02044,Patient Arrival,2026-08-14 17:39:00.000000 UTC,Low Wait,No Rework,3,1
+8048c4d0-0bea-4e70-ba09-25f738353b7f,P03952,Patient Arrival,2026-11-12 00:13:43.000000 UTC,Medium Wait,No Rework,3,1
+9a6afca7-e130-4c61-8357-5aa8dbf4cb0c,P04478,Patient Arrival,2026-04-20 18:00:09.000000 UTC,Low Wait,Rework,3,1
+78c4766c-6716-4e17-8c20-f41cd6a69b2c,P00353,Patient Arrival,2026-07-06 13:47:49.000000 UTC,Medium Wait,Rework,3,1
+0f1a504d-eba4-426a-b299-46f1323a8475,P04499,Patient Arrival,2026-08-26 02:20:25.000000 UTC,Medium Wait,No Rework,3,1
+aacb6343-59b4-446a-bde4-fc483332fbe4,P04519,Patient Arrival,2026-11-06 12:42:30.000000 UTC,Medium Wait,No Rework,3,1
+20a11f15-3e73-4459-8a89-949679e2b6c9,P02971,Patient Arrival,2026-06-02 22:10:03.000000 UTC,Low Wait,No Rework,3,1
+633ffeb9-d036-41df-8657-ba82872c0b12,P00614,Patient Arrival,2026-03-02 16:47:18.000000 UTC,Medium Wait,No Rework,3,1
+e0d8493f-8da4-465e-9997-57205b5f0697,P03249,Patient Arrival,2026-01-30 06:04:27.000000 UTC,Low Wait,Rework,3,1
+6c7d0ae8-ea0c-4fc9-85f4-14de1615dccc,P03898,Patient Arrival,2026-01-25 11:28:22.000000 UTC,Low Wait,No Rework,3,1
+b887d4c0-87d2-4deb-bec7-8876846e8ade,P03107,Patient Arrival,2026-09-16 05:26:10.000000 UTC,Medium Wait,No Rework,3,1
+27eb8951-f762-4a0a-b0e7-d44eee7e58c2,P00489,Patient Arrival,2026-03-25 15:03:41.000000 UTC,Low Wait,No Rework,3,1
+3095f263-b9a4-469c-b1a5-b031d4bdad52,P00591,Patient Arrival,2026-06-25 17:51:23.000000 UTC,Medium Wait,Rework,3,1
+c2d6a54d-43ea-4165-b932-f4b682dbf9d5,P01842,Patient Arrival,2026-10-19 17:37:14.000000 UTC,Low Wait,Rework,3,1
+54b204ed-08a5-4090-8141-99273975b282,P01376,Patient Arrival,2026-11-10 19:43:03.000000 UTC,Medium Wait,No Rework,3,1
+545da26c-133a-45c3-b5d4-63d30255ec7c,P00029,Patient Arrival,2026-10-05 11:09:12.000000 UTC,Low Wait,Rework,3,1
+a2683e9f-9b57-49b8-b815-295cbbf18023,P03267,Patient Arrival,2026-06-13 21:05:08.000000 UTC,Low Wait,No Rework,3,1
+77086634-6b6b-4ebe-8ec1-9c039cdb9706,P00035,Patient Arrival,2026-03-12 22:38:14.000000 UTC,Medium Wait,No Rework,3,1
+dc62fa5e-774d-4389-8d26-88e06ca7e257,P03942,Patient Arrival,2026-06-17 01:03:08.000000 UTC,Low Wait,No Rework,3,1
+3bfa94fd-7a54-46c4-aa26-55ee42ad58ae,P03947,Patient Arrival,2026-12-18 13:30:58.000000 UTC,Medium Wait,No Rework,3,1
+101eaac9-980d-4b64-b3ce-3df3581c047c,P01415,Patient Arrival,2026-11-10 01:39:43.000000 UTC,Low Wait,No Rework,3,1
+42d4de05-1218-4006-af9d-71729d3b1507,P03014,Patient Arrival,2026-04-15 20:53:57.000000 UTC,Low Wait,Rework,3,1
+1213620f-cbd9-4273-b378-6bc1f9513756,P02197,Patient Arrival,2026-11-13 23:57:49.000000 UTC,Medium Wait,No Rework,3,1
+760a50b0-985b-4127-9484-e99bbb396085,P03333,Patient Arrival,2026-12-10 09:44:30.000000 UTC,Medium Wait,No Rework,3,1
+eca92777-408c-4953-b46f-bfef20b2abb6,P00717,Patient Arrival,2026-04-22 03:06:27.000000 UTC,Low Wait,No Rework,3,1
+28d9a5d5-3c30-4871-8166-3525d3ee6ac8,P00567,Patient Arrival,2026-03-18 12:38:40.000000 UTC,Medium Wait,Rework,3,1
+2f937f90-54eb-416d-9390-520f257ecb86,P03331,Patient Arrival,2026-08-01 04:02:23.000000 UTC,Low Wait,No Rework,3,1
+26f8db41-afef-4b7c-8e5e-c2d0db3f9da9,P01425,Patient Arrival,2026-12-09 18:16:13.000000 UTC,Medium Wait,No Rework,3,1
+65eedd87-bcf4-4d52-aad5-efd44eab1cca,P01641,Patient Arrival,2026-08-14 16:29:57.000000 UTC,Medium Wait,Rework,3,1
+2136a517-094f-4d33-9022-e9743e79cef0,P00682,Patient Arrival,2026-05-07 06:27:19.000000 UTC,Low Wait,No Rework,3,1
+80a283c3-d959-4019-b5fe-d648f8f2859c,P00452,Patient Arrival,2026-04-28 09:04:31.000000 UTC,Low Wait,No Rework,3,1
+d5871a58-3277-41b8-97b8-69831c8c03a6,P02742,Patient Arrival,2026-04-18 17:03:07.000000 UTC,Low Wait,Rework,3,1
+bfa5ef93-27f6-471b-a5b1-700fbec4f109,P00796,Patient Arrival,2026-12-06 14:07:52.000000 UTC,Low Wait,No Rework,3,1
+2da89e9d-cbb7-4702-85b3-2dacda4f1e0c,P01909,Patient Arrival,2026-06-17 08:02:39.000000 UTC,Low Wait,Rework,3,1
+4a09c16c-c970-4f73-9927-283592d95a99,P04525,Patient Arrival,2026-12-20 04:05:29.000000 UTC,Medium Wait,No Rework,3,1
+f2e6d9ed-6c49-484e-a33c-c94752014244,P00216,Patient Arrival,2026-01-22 22:58:47.000000 UTC,Low Wait,No Rework,3,1
+2fa37ba4-6b43-4cfa-baac-a3a571302a45,P00058,Patient Arrival,2026-12-01 04:29:55.000000 UTC,Low Wait,Rework,3,1
+bf932775-5528-42ef-bdd8-420c416d72a0,P02854,Patient Arrival,2026-04-08 06:17:31.000000 UTC,Medium Wait,No Rework,3,1
+69dd4613-78a4-4aba-b043-3cd75d0f27d4,P01537,Patient Arrival,2026-09-07 06:05:23.000000 UTC,Low Wait,Rework,3,1
+410677ab-70e9-467f-977f-85b18a3fb428,P01151,Patient Arrival,2026-09-05 10:57:55.000000 UTC,Medium Wait,No Rework,3,1
+35a13332-30d9-4f38-a788-4622bdde9607,P02683,Patient Arrival,2026-07-24 20:22:18.000000 UTC,Medium Wait,No Rework,3,1
+2aa7517f-181e-4438-aa7e-194a0715a465,P04324,Patient Arrival,2026-12-25 02:07:20.000000 UTC,Low Wait,Rework,3,1
+71a88368-d518-4e62-9b79-dd39e17ed490,P01661,Patient Arrival,2026-07-09 04:41:17.000000 UTC,Low Wait,No Rework,3,1
+7a62c458-a2a2-40fa-b38d-b8acce6a4061,P02339,Patient Arrival,2026-12-29 11:29:37.000000 UTC,Medium Wait,No Rework,3,1
+f0ed3ab2-1a3b-427e-bc11-fb8892ea05fa,P02523,Patient Arrival,2026-12-01 19:18:11.000000 UTC,Medium Wait,No Rework,3,1
+841bd475-ec3e-4c71-8ff9-d630a1812e67,P03940,Patient Arrival,2026-07-25 16:29:33.000000 UTC,Low Wait,No Rework,3,1
+f12d9a13-cde7-4dae-bb7a-b2d3457eba4c,P03771,Patient Arrival,2026-04-09 16:19:22.000000 UTC,Low Wait,No Rework,3,1
+45b99444-0b99-4252-ae69-8188697497c8,P03796,Patient Arrival,2026-09-22 03:47:24.000000 UTC,Medium Wait,No Rework,3,1
+ab862408-bb10-46bb-8ad2-5c79da343735,P02768,Patient Arrival,2026-05-06 16:10:12.000000 UTC,Low Wait,No Rework,3,1
+0190a187-b2fd-48f8-9b9b-d10f8d6c0ed5,P01791,Patient Arrival,2026-03-20 14:56:20.000000 UTC,Low Wait,Rework,3,1
+fdf86f9f-19e1-43a4-907d-ca2792bd35bd,P04322,Patient Arrival,2026-04-25 07:23:06.000000 UTC,Medium Wait,No Rework,3,1
+86259d1d-b443-49bd-ac98-1643a300eb69,P03293,Patient Arrival,2026-09-19 23:10:31.000000 UTC,Medium Wait,Rework,3,1
+42992950-f8f8-41c6-a9e1-718a3168f468,P01208,Patient Arrival,2026-08-16 15:08:26.000000 UTC,Medium Wait,No Rework,3,1
+26f8669e-a421-4b78-91b4-7c41cbc733ab,P04317,Patient Arrival,2026-02-10 11:46:32.000000 UTC,Low Wait,No Rework,3,1
+9e435a32-f254-4d01-a69a-8c728deae209,P01125,Patient Arrival,2026-06-06 01:37:27.000000 UTC,Low Wait,Rework,3,1
+9f492548-7b38-440d-8ded-df632ff405eb,P01779,Patient Arrival,2026-06-07 02:37:19.000000 UTC,Low Wait,No Rework,3,1
+6b299688-6f2b-478f-9428-179ae6dc9284,P03181,Patient Arrival,2026-03-17 12:34:32.000000 UTC,Low Wait,Rework,3,1
+82b5f604-990b-4351-9f41-569f92528e4d,P04455,Patient Arrival,2026-07-01 15:44:39.000000 UTC,Medium Wait,No Rework,3,1
+f28b2e35-1bb7-4af3-ba25-832c8dce77a0,P00600,Patient Arrival,2026-04-09 15:39:55.000000 UTC,Low Wait,No Rework,3,1
+9454b941-30bb-4ca3-889c-3affb7b2b036,P04365,Patient Arrival,2026-01-06 20:17:48.000000 UTC,Low Wait,No Rework,3,1
+7ed22e2a-8ff1-4302-be3d-e339ea26d55f,P03996,Patient Arrival,2026-05-26 06:37:07.000000 UTC,Low Wait,Rework,3,1
+b703eb27-7caf-4245-8da2-a3241c49a2c9,P00324,Patient Arrival,2026-08-14 21:28:28.000000 UTC,Low Wait,No Rework,3,1
+5e93f0a2-2aa2-4462-9b09-32fb6ecd9479,P03747,Patient Arrival,2026-08-15 17:03:08.000000 UTC,Medium Wait,No Rework,3,1
+e1aa745b-4762-4f55-a362-3d68b836bcf4,P03210,Patient Arrival,2026-10-14 08:30:35.000000 UTC,Medium Wait,No Rework,3,1
+2adb5e41-f983-4e66-aaa6-2cb03a9e9aed,P01801,Patient Arrival,2026-08-17 00:10:31.000000 UTC,Medium Wait,No Rework,3,1
+47ca53b1-8728-49a7-a715-678eb1a6ebe3,P01196,Patient Arrival,2026-07-04 09:13:01.000000 UTC,Medium Wait,Rework,3,1
+33a47252-f510-4ac6-ba9b-23f411f6ed8f,P01665,Patient Arrival,2026-01-26 16:12:41.000000 UTC,Medium Wait,No Rework,3,1
+c031a722-0662-4aee-91f3-1f5cd9962d7e,P01849,Patient Arrival,2026-03-19 11:49:43.000000 UTC,Medium Wait,No Rework,3,1
+c3f6e3bf-fc9b-4a15-a75b-70b565a6fb95,P03972,Patient Arrival,2026-08-24 20:18:17.000000 UTC,Low Wait,Rework,3,1
+230a6681-6e45-476d-9119-fd6104bf1d57,P00700,Patient Arrival,2026-07-16 04:21:12.000000 UTC,Medium Wait,No Rework,3,1
+661f4d9a-c327-49cc-ac87-b797fe8a6dd7,P00290,Patient Arrival,2026-10-04 15:09:50.000000 UTC,Low Wait,No Rework,3,1
+dc683326-e71d-481b-b9e8-e0e4f2d2ceff,P00228,Patient Arrival,2026-06-12 00:57:36.000000 UTC,Medium Wait,No Rework,3,1
+2b9d66c5-a5be-4cec-99ad-7d1c6ef32a09,P03040,Patient Arrival,2026-06-01 18:01:58.000000 UTC,Low Wait,Rework,3,1
+b3e00d6d-9d5f-4b20-af23-ff6f2b597c93,P02373,Patient Arrival,2026-05-26 11:10:45.000000 UTC,Low Wait,Rework,3,1
+45b819a8-bb96-464a-84df-4772429303c7,P02708,Patient Arrival,2026-08-17 00:17:38.000000 UTC,Medium Wait,No Rework,3,1
+8c97c844-01b0-4f72-9e2a-8ea2dcf3e2ba,P02173,Patient Arrival,2026-03-16 01:24:36.000000 UTC,Medium Wait,No Rework,3,1
+621530d8-a529-4b55-880b-2b021fba71ce,P02294,Patient Arrival,2026-08-15 16:50:51.000000 UTC,Low Wait,Rework,3,1
+ba3e2e8b-e0ad-4634-8f83-ae35fd803171,P00961,Patient Arrival,2026-01-25 21:20:03.000000 UTC,Low Wait,No Rework,3,1
+89a2ae7b-c8ed-47cc-946a-a0ad110c638d,P04048,Patient Arrival,2026-12-10 11:35:01.000000 UTC,Medium Wait,Rework,3,1
+19bd52df-08de-43e4-b720-39e6cf9188e5,P00336,Patient Arrival,2026-02-04 10:17:26.000000 UTC,Low Wait,No Rework,3,1
+7e6bc24f-c747-4505-8a78-3b6e221ead22,P01318,Patient Arrival,2026-10-05 21:01:23.000000 UTC,Medium Wait,No Rework,3,1
+46326cea-befd-4edf-9f7c-3cb0c22c8f45,P00393,Patient Arrival,2026-10-23 23:35:08.000000 UTC,Medium Wait,No Rework,3,1
+0c2541c7-522b-4a20-856c-bbf8a74ad25c,P01932,Patient Arrival,2026-07-05 03:39:45.000000 UTC,Low Wait,No Rework,3,1
+043ad632-be98-48fe-b062-c679e8999d1e,P03696,Patient Arrival,2026-12-12 17:19:42.000000 UTC,Medium Wait,No Rework,3,1
+3787d8a8-1c99-4c4f-af0e-efb405523388,P02205,Patient Arrival,2026-07-04 07:28:50.000000 UTC,Low Wait,Rework,3,1
+2b99e3b7-df43-4ed4-8e22-c3317a0fac32,P02109,Patient Arrival,2026-03-30 15:51:26.000000 UTC,Low Wait,No Rework,3,1
+4781aee1-460a-41fd-a86d-59bbed302988,P01473,Patient Arrival,2026-12-30 08:00:51.000000 UTC,Medium Wait,No Rework,3,1
+04c90e3b-2d9f-48b3-92c6-07b148064d56,P00818,Patient Arrival,2026-08-01 20:30:56.000000 UTC,Medium Wait,No Rework,3,1
+8851ec8d-d361-4a4f-b300-ed65e9dbea44,P00536,Patient Arrival,2026-03-23 07:13:05.000000 UTC,Low Wait,No Rework,3,1
+e8dbc160-4719-453b-be29-b8f39ef0e481,P02755,Patient Arrival,2026-03-22 02:36:19.000000 UTC,Low Wait,No Rework,3,1
+ddd4cc8d-411e-4a22-bda7-0e37b71160be,P03525,Patient Arrival,2026-12-28 04:46:42.000000 UTC,Low Wait,Rework,3,1
+341fc162-b7bc-4f98-a58c-fde9dcd6aed8,P03836,Patient Arrival,2026-02-05 03:01:58.000000 UTC,Low Wait,Rework,3,1
+e0eb125d-d765-4b0e-8a16-30e76e14eb47,P01702,Patient Arrival,2026-03-07 19:32:19.000000 UTC,Low Wait,No Rework,3,1
+cbc804a7-74e1-4d5f-a2d3-ce13189d51db,P01864,Patient Arrival,2026-09-01 14:36:07.000000 UTC,Low Wait,No Rework,3,1
+d258dc7c-952f-468f-a3f1-9ee283ab4e7a,P00706,Patient Arrival,2026-02-13 10:55:59.000000 UTC,Medium Wait,No Rework,3,1
+ae17df56-a5c7-4403-8be7-7acca67c0ad6,P01240,Patient Arrival,2026-12-06 04:09:13.000000 UTC,Medium Wait,No Rework,3,1
+7f31da4a-202a-4c46-92c5-e61df018e44f,P03508,Patient Arrival,2026-06-22 08:00:27.000000 UTC,Low Wait,No Rework,3,1
+a9ae830d-c9ec-40aa-9f0f-7c6e955b7613,P04246,Patient Arrival,2026-03-25 21:02:59.000000 UTC,Low Wait,Rework,3,1
+fa39da5f-985c-4d9b-b4a8-ab1cb2d34d36,P02288,Patient Arrival,2026-06-06 13:32:30.000000 UTC,Medium Wait,No Rework,3,1
+26c9d904-1814-4274-953b-dc04cc399753,P03895,Patient Arrival,2026-10-04 18:58:32.000000 UTC,Low Wait,No Rework,3,1
+ca4c20d3-8765-4611-b88d-f89d55db1320,P00287,Patient Arrival,2026-06-16 15:10:22.000000 UTC,Low Wait,Rework,3,1
+0683c853-8b83-4efb-a3c9-ef0c9b9dae5d,P00640,Patient Arrival,2026-08-26 19:53:24.000000 UTC,Low Wait,No Rework,3,1
+5fa37740-2f45-4e8b-8eba-a1a284f989b6,P04185,Patient Arrival,2026-09-23 09:44:01.000000 UTC,Low Wait,No Rework,3,1
+a73539c2-b44b-462f-8860-3d7518a1656e,P02374,Patient Arrival,2026-10-19 05:37:25.000000 UTC,Low Wait,No Rework,3,1
+1bfa7a96-f7da-473e-8023-74d35029c4d6,P00237,Patient Arrival,2026-04-06 18:48:11.000000 UTC,Medium Wait,No Rework,3,1
+dbd4edfd-9f0e-4a12-b61a-1e4909306171,P00503,Patient Arrival,2026-03-21 02:24:16.000000 UTC,Low Wait,No Rework,3,1
+f2aa89cc-83cd-408a-87a0-1da6241a410e,P03389,Patient Arrival,2026-08-29 13:02:38.000000 UTC,Medium Wait,Rework,3,1
+7ea75353-44e9-482d-b213-0e8ba0116894,P03630,Patient Arrival,2026-06-11 22:03:04.000000 UTC,Low Wait,Rework,3,1
+b0c3abca-0963-4fac-bdfd-ee04b90d87d3,P02265,Patient Arrival,2026-01-12 15:18:14.000000 UTC,Medium Wait,No Rework,3,1
+10a9cec2-2ad9-4837-8bf4-132ac21ec74a,P03515,Patient Arrival,2026-10-04 05:31:45.000000 UTC,Medium Wait,No Rework,3,1
+28437166-4676-420a-ab06-472617e40f50,P01758,Patient Arrival,2026-07-15 05:03:57.000000 UTC,Medium Wait,No Rework,3,1
+03dc4b89-b6d2-4174-8082-eeddece609b6,P01643,Patient Arrival,2026-07-29 18:40:05.000000 UTC,Medium Wait,No Rework,3,1
+f9e6ba58-4916-4e5f-b98b-aefda6a1864b,P02886,Patient Arrival,2026-09-20 14:46:54.000000 UTC,Low Wait,No Rework,3,1
+c7ca319a-fe3d-43c2-aed4-0d48f8e9f9b9,P03233,Patient Arrival,2026-05-23 04:53:43.000000 UTC,Low Wait,No Rework,3,1
+c28b41a7-92aa-4a6d-b270-291b3056c038,P03382,Patient Arrival,2026-05-15 18:43:47.000000 UTC,Medium Wait,No Rework,3,1
+6a27732d-6b2f-41c1-8ca2-a6d903553e04,P00033,Patient Arrival,2026-04-17 08:11:29.000000 UTC,Low Wait,No Rework,3,1
+b44064da-875d-4839-94c5-fb47df10238a,P04508,Patient Arrival,2026-08-31 21:25:14.000000 UTC,Low Wait,No Rework,3,1
+88ceca39-72f4-47f3-be86-6cd522e88902,P03866,Patient Arrival,2026-06-05 08:53:53.000000 UTC,Medium Wait,No Rework,3,1
+b98e0fcc-f1a1-45f5-9756-b412c1e21afe,P02303,Patient Arrival,2026-10-17 17:24:41.000000 UTC,Low Wait,Rework,3,1
+f1c93cfe-93e9-4702-9ae5-4a47ea2dca2c,P01620,Patient Arrival,2026-01-17 19:34:54.000000 UTC,Low Wait,No Rework,3,1
+1ff65c85-cb8f-4b9c-9297-9473af21d54e,P02334,Patient Arrival,2026-08-10 12:22:32.000000 UTC,Low Wait,No Rework,3,1
+49d89240-ff09-4c31-8110-3cb25787fa4c,P03652,Patient Arrival,2026-07-22 01:18:28.000000 UTC,Low Wait,No Rework,3,1
+ad977d2f-f97f-417f-9b45-2d96611a2099,P01684,Patient Arrival,2026-09-09 19:37:34.000000 UTC,Medium Wait,No Rework,3,1
+6cabf056-8548-4fc2-b31a-4aef96f037cc,P02063,Patient Arrival,2026-10-28 18:26:33.000000 UTC,Low Wait,No Rework,3,1
+70a17b50-07aa-4bc0-98fe-3ec9d9d8551b,P02934,Patient Arrival,2026-08-07 17:09:03.000000 UTC,Low Wait,No Rework,3,1
+2256181a-0fdb-45c6-a6dd-e16237ef9e14,P03329,Patient Arrival,2026-03-06 09:31:02.000000 UTC,Medium Wait,No Rework,3,1
+7ab14c6d-50a2-4932-a58b-212466259f07,P00455,Patient Arrival,2026-08-11 18:20:27.000000 UTC,Low Wait,No Rework,3,1
+a236f5db-f159-46df-9cca-579d8c250e2e,P03121,Patient Arrival,2026-02-03 08:51:25.000000 UTC,Medium Wait,Rework,3,1
+72ee564c-60f0-4aea-9016-f32f07e2d26a,P02033,Patient Arrival,2026-04-17 14:42:15.000000 UTC,Medium Wait,No Rework,3,1
+cfe578e2-bd16-4748-bec7-d94c3a28aa55,P00840,Patient Arrival,2026-02-21 06:41:11.000000 UTC,Low Wait,No Rework,3,1
+fe31c8fa-0939-4082-9942-83561e9b7359,P03274,Patient Arrival,2026-06-30 18:18:26.000000 UTC,Low Wait,No Rework,3,1
+67fef8d3-bdda-4594-9f57-9f790ff26efd,P03358,Patient Arrival,2026-03-01 08:10:30.000000 UTC,Medium Wait,No Rework,3,1
+f1f03c66-eb2a-4e1b-b78b-58342cd2791f,P01883,Patient Arrival,2026-11-29 06:25:36.000000 UTC,Low Wait,No Rework,3,1
+a4b99707-ef53-4d72-8b3f-cbc73f0f71c0,P03457,Patient Arrival,2026-01-10 02:04:49.000000 UTC,Low Wait,Rework,3,1
+4a32a929-c41b-4ee7-9550-099dc3ebd3e0,P01943,Patient Arrival,2026-05-07 04:17:50.000000 UTC,Low Wait,Rework,3,1
+17480b9a-afeb-45c7-85ca-ead4b65d5c66,P04361,Patient Arrival,2026-12-25 06:31:06.000000 UTC,Medium Wait,No Rework,3,1
+1c50609f-c4bb-4512-b7ee-983a80102972,P01085,Patient Arrival,2026-10-11 18:44:23.000000 UTC,Low Wait,Rework,3,1
+f4088ccc-238c-45d0-a30d-70d184139e2b,P01478,Patient Arrival,2026-07-31 08:30:53.000000 UTC,Medium Wait,No Rework,3,1
+b03d10db-b96e-4470-80a2-586536c3716e,P04498,Patient Arrival,2026-01-27 16:46:40.000000 UTC,Low Wait,No Rework,3,1
+7bf6038e-6eff-411d-a9c3-accafa9f7e78,P02511,Patient Arrival,2026-06-06 15:41:25.000000 UTC,Medium Wait,No Rework,3,1
+969c3446-d1ca-42af-a88e-9cb7c3005d92,P01005,Patient Arrival,2026-02-23 02:03:29.000000 UTC,Low Wait,Rework,3,1
+db1f7342-60c3-429c-8fff-3fab93a9c77e,P00212,Patient Arrival,2026-02-22 05:22:04.000000 UTC,Low Wait,Rework,3,1
+1b070170-db8f-47f0-ba57-460180866a5a,P00371,Patient Arrival,2026-07-11 06:28:23.000000 UTC,Low Wait,No Rework,3,1
+b2608d68-58c7-4fe4-a551-c116719338ae,P02473,Patient Arrival,2026-08-28 22:05:22.000000 UTC,Medium Wait,No Rework,3,1
+d6e757bb-ca68-4587-8683-19845e93e1f1,P03051,Patient Arrival,2026-02-08 14:51:35.000000 UTC,Low Wait,No Rework,3,1
+4d9d7464-2752-4122-bb7d-89dc4c50e5b9,P04581,Patient Arrival,2026-12-26 19:09:54.000000 UTC,Low Wait,No Rework,3,1
+856851a3-e0ea-4588-9181-d8e6f7cbff99,P00911,Patient Arrival,2026-07-17 23:33:23.000000 UTC,Low Wait,No Rework,3,1
+f4a10a38-5e22-488a-a5e1-af1c1808c17a,P02101,Patient Arrival,2026-07-09 03:14:29.000000 UTC,Medium Wait,Rework,3,1
+6f7cb7d8-a564-4042-a962-da178150eb57,P03737,Patient Arrival,2026-04-10 08:31:40.000000 UTC,Low Wait,Rework,3,1
+029c657e-9c4d-4127-ab61-9a6c759ed812,P04135,Patient Arrival,2026-01-23 08:56:43.000000 UTC,Medium Wait,Rework,3,1
+067f7854-a459-45d3-acec-7d522708eeba,P00861,Patient Arrival,2026-04-03 01:17:11.000000 UTC,Medium Wait,No Rework,3,1
+27c69dc5-7440-42d7-88ca-54d405767dbc,P04253,Patient Arrival,2026-07-18 12:58:42.000000 UTC,Medium Wait,No Rework,3,1
+9895a079-7631-40a8-8690-16f100b60d4e,P00069,Patient Arrival,2026-03-29 14:53:42.000000 UTC,Low Wait,No Rework,3,1
+1bf1b11e-148e-4dc4-b16c-cb493b78d0ae,P01750,Patient Arrival,2026-07-12 17:43:04.000000 UTC,Low Wait,Rework,3,1
+3f667866-9824-4ad9-a30f-9967fbd490b0,P01950,Patient Arrival,2026-10-02 14:40:02.000000 UTC,Medium Wait,No Rework,3,1
+b8e59a6d-679c-445c-bb33-eb5417f711f1,P00042,Patient Arrival,2026-11-27 07:11:07.000000 UTC,Low Wait,No Rework,3,1
+d3333893-7096-40ff-9fcc-fae551676117,P00705,Patient Arrival,2026-11-03 06:33:12.000000 UTC,Medium Wait,No Rework,3,1
+b07a959d-70c7-4f3a-b844-fd61d0111b50,P02849,Patient Arrival,2026-09-23 03:28:27.000000 UTC,Low Wait,No Rework,3,1
+1e028eb1-a831-4899-a899-bf58e830dec5,P02578,Patient Arrival,2026-07-10 03:40:55.000000 UTC,Low Wait,No Rework,3,1
+5ab2a73c-1d2e-492d-b3cc-9297ea91a826,P00696,Patient Arrival,2026-11-28 02:27:57.000000 UTC,Low Wait,No Rework,3,1
+c7b221de-a1bb-473f-999f-3002fd5f3d32,P02788,Patient Arrival,2026-08-17 20:41:40.000000 UTC,Low Wait,No Rework,3,1
+658d15c9-44b9-4dce-8249-ce156f995b5e,P00329,Patient Arrival,2026-05-19 12:18:46.000000 UTC,Medium Wait,No Rework,3,1
+183d1ef3-9be3-4706-8b2d-a8f1dd98ae12,P03309,Patient Arrival,2026-11-08 07:44:56.000000 UTC,Medium Wait,No Rework,3,1
+e7f34069-da8c-4166-8bf0-4eb27b2a5757,P00690,Patient Arrival,2026-03-04 09:44:02.000000 UTC,Medium Wait,No Rework,3,1
+56bbaae4-f49b-45c2-ba51-3e17c18c6939,P02372,Patient Arrival,2026-08-13 11:32:20.000000 UTC,Low Wait,No Rework,3,1
+d57bd305-9b40-49c0-93d6-7fa18127f56a,P03664,Patient Arrival,2026-06-11 00:13:45.000000 UTC,Medium Wait,Rework,3,1
+f7a43960-ee7d-40d7-bb80-7cac20676a62,P00713,Patient Arrival,2026-10-14 20:09:54.000000 UTC,Low Wait,No Rework,3,1
+da3eef40-292b-47bf-9b69-ae8e052c23bf,P01693,Patient Arrival,2026-04-16 02:15:28.000000 UTC,Low Wait,Rework,3,1
+e903efda-f92b-4828-911f-ec6c93b61dc9,P03299,Patient Arrival,2026-03-28 21:23:36.000000 UTC,Low Wait,No Rework,3,1
+d49d46c8-2ea0-492e-af63-4198d550a087,P02765,Patient Arrival,2026-01-14 01:49:29.000000 UTC,Medium Wait,Rework,3,1
+6ef0ed42-6eaa-467b-a4cc-a555e158b59b,P03904,Patient Arrival,2026-01-23 01:28:34.000000 UTC,Medium Wait,Rework,3,1
+7ca914d8-3322-4026-a5d5-7560be710c01,P04583,Patient Arrival,2026-11-06 09:46:40.000000 UTC,Low Wait,No Rework,3,1
+f476c735-bbbe-4e6f-8309-a31edc72c8a3,P04509,Patient Arrival,2026-12-07 10:15:56.000000 UTC,Low Wait,No Rework,3,1
+3dbb4ab0-c01e-4ad2-a844-aa5bb9774e0b,P03964,Patient Arrival,2026-06-22 22:49:21.000000 UTC,Low Wait,Rework,3,1
+bb210801-18da-42ec-bdac-8dcc8c0dafa4,P02636,Patient Arrival,2026-11-14 10:24:23.000000 UTC,Low Wait,Rework,3,1
+ebbcd14e-f038-4b10-9cad-63a8536a0f02,P03726,Patient Arrival,2026-04-11 05:38:28.000000 UTC,Medium Wait,No Rework,3,1
+6df05441-8e6b-40d2-9235-e6952ab41451,P01034,Patient Arrival,2026-12-18 07:00:15.000000 UTC,Low Wait,No Rework,3,1
+1e1718b6-1650-443e-bb86-1462613d3d3b,P01959,Patient Arrival,2026-01-08 22:47:55.000000 UTC,Medium Wait,No Rework,3,1
+43047442-a445-4a60-a513-f8d098351895,P00139,Patient Arrival,2026-12-07 17:10:21.000000 UTC,Medium Wait,No Rework,3,1
+8d7b1983-d19e-4ed5-a4f6-0f3279fc6400,P01037,Patient Arrival,2026-08-02 07:42:03.000000 UTC,Low Wait,No Rework,3,1
+92661003-fe1e-4a39-a30f-025f91f90dfb,P02513,Patient Arrival,2026-07-11 08:42:34.000000 UTC,Medium Wait,Rework,3,1
+e8554a74-4b47-436a-aa08-12b7ab7ff1f3,P01011,Patient Arrival,2026-11-14 07:25:01.000000 UTC,Low Wait,No Rework,3,1
+0efbbd67-d89c-4e70-8d49-6e84056215bf,P02839,Patient Arrival,2026-08-16 14:21:17.000000 UTC,Medium Wait,No Rework,3,1
+a90d1db6-cfdb-44b8-b000-5f78e03fa767,P02040,Patient Arrival,2026-09-25 07:50:22.000000 UTC,Low Wait,No Rework,3,1
+bbe17167-8053-4637-9b59-85b749ad5a71,P01535,Patient Arrival,2026-07-11 03:03:59.000000 UTC,Low Wait,Rework,3,1
+340c9821-b077-45e0-b08e-5362ee811ed9,P00165,Patient Arrival,2026-10-14 01:32:12.000000 UTC,Low Wait,No Rework,3,1
+a5f7db98-8794-4556-bae7-27b5165aec26,P02706,Patient Arrival,2026-01-06 17:03:49.000000 UTC,Medium Wait,No Rework,3,1
+ced0faf3-5bf3-433c-85d9-c2568ed110c8,P00219,Patient Arrival,2026-10-11 14:08:14.000000 UTC,Medium Wait,Rework,3,1
+066cc5e9-0061-45d0-9df0-fe5eb2f2a6c0,P02015,Patient Arrival,2026-12-29 12:19:41.000000 UTC,Medium Wait,No Rework,3,1
+4516f01e-b31d-49d8-bdc0-9dea974b9560,P02321,Patient Arrival,2026-06-20 09:39:11.000000 UTC,Low Wait,Rework,3,1
+024c4266-d706-41dc-a1a1-5f807229bba5,P02609,Patient Arrival,2026-09-09 13:36:25.000000 UTC,Low Wait,No Rework,3,1
+3f09818d-b116-46dd-8df0-b0c068af2d2b,P02412,Patient Arrival,2026-07-18 03:41:12.000000 UTC,Low Wait,No Rework,3,1
+daab6455-a833-4f2e-aa4c-d495ce342fed,P04320,Patient Arrival,2026-05-08 05:25:48.000000 UTC,Medium Wait,No Rework,3,1
+14fc1e6d-2550-467a-9525-5a1204b6e94d,P03893,Patient Arrival,2026-04-24 04:10:39.000000 UTC,Medium Wait,No Rework,3,1
+88f2b17f-8045-4c5b-8227-e9563ee1b9de,P02302,Patient Arrival,2026-07-19 20:21:44.000000 UTC,Low Wait,No Rework,3,1
+2360c987-f4c3-49d4-805a-58fa52d17c6f,P00022,Patient Arrival,2026-11-06 12:04:18.000000 UTC,Low Wait,No Rework,3,1
+8e9a368d-4be7-48c8-8c2a-6a28b3527ae1,P03025,Patient Arrival,2026-05-20 04:22:49.000000 UTC,Medium Wait,No Rework,3,1
+9b328dd9-7880-41a1-9c14-c21313cd8899,P00541,Patient Arrival,2026-04-01 16:56:05.000000 UTC,Low Wait,No Rework,3,1
+2d8c6400-b049-41a0-8a85-e8daf87feeb0,P00807,Patient Arrival,2026-02-21 14:18:45.000000 UTC,Medium Wait,No Rework,3,1
+fa5bd55d-b2a2-4ec5-877c-195c00ab7d5d,P01135,Patient Arrival,2026-06-13 02:46:18.000000 UTC,Medium Wait,No Rework,3,1
+4b22f422-0b08-4e43-8702-6b296beded6f,P03008,Patient Arrival,2026-11-16 20:57:04.000000 UTC,Low Wait,No Rework,3,1
+40d76c4a-05ea-4f71-9265-f25179a6ca20,P04224,Patient Arrival,2026-10-12 18:39:18.000000 UTC,Low Wait,No Rework,3,1
+95011ed7-1a43-45e0-8ce2-fc4d81034205,P00676,Patient Arrival,2026-01-15 05:28:55.000000 UTC,Medium Wait,No Rework,3,1
+b36269eb-4721-4b8f-80aa-f23c47ef64aa,P02715,Patient Arrival,2026-07-13 15:33:19.000000 UTC,Low Wait,No Rework,3,1
+e8bd6801-dc87-4258-aa97-d17c4350f3b8,P02278,Patient Arrival,2026-03-27 22:06:25.000000 UTC,Low Wait,No Rework,3,1
+40355734-b65f-43c6-a7ff-35f30638570d,P00056,Patient Arrival,2026-10-15 18:34:56.000000 UTC,Low Wait,No Rework,3,1
+5a7d9a29-8316-4669-9957-bb14821c0364,P00341,Patient Arrival,2026-08-19 11:30:55.000000 UTC,Medium Wait,No Rework,3,1
+34fbc316-e175-4b02-ad1d-28a4e85d5678,P03538,Patient Arrival,2026-06-29 10:00:44.000000 UTC,Medium Wait,No Rework,3,1
+d63cce30-aaec-41d3-8304-b39da9ac4bbf,P01022,Patient Arrival,2026-03-09 08:25:43.000000 UTC,Medium Wait,No Rework,3,1
+fed405fc-d676-49f8-b614-aff964428247,P01308,Patient Arrival,2026-02-20 13:13:27.000000 UTC,Medium Wait,No Rework,3,1
+a5ad05e2-2b33-4ba4-bb8f-a46e4573432c,P02300,Patient Arrival,2026-07-18 20:03:35.000000 UTC,Low Wait,No Rework,3,1
+e4728038-472c-45f6-9419-c5dbef3480ea,P03114,Patient Arrival,2026-11-16 06:17:07.000000 UTC,Low Wait,No Rework,3,1
+4f137a73-a127-483d-b9ce-61d75ac5066f,P03935,Patient Arrival,2026-07-25 07:11:46.000000 UTC,Medium Wait,Rework,3,1
+a308b7f1-f81e-4cbb-8f8d-74ab463e718a,P01259,Patient Arrival,2026-12-20 18:46:05.000000 UTC,Low Wait,No Rework,3,1
+b37a0e2d-4e9b-4abd-bb72-7bba51d27ad6,P00732,Patient Arrival,2026-07-03 20:50:10.000000 UTC,Low Wait,No Rework,3,1
+7c1aa46f-42ea-4d06-a7ff-b29b921efc85,P02305,Patient Arrival,2026-07-25 23:39:34.000000 UTC,Medium Wait,No Rework,3,1
+8e351b71-b17b-4ad4-b8ab-6f58d5cceb00,P01582,Patient Arrival,2026-12-24 04:09:50.000000 UTC,Low Wait,No Rework,3,1
+76896ffa-0d2a-4e04-9a97-6aac9df202af,P02772,Patient Arrival,2026-06-14 17:25:16.000000 UTC,Low Wait,No Rework,3,1
+ff58bcd2-3b25-4659-93bb-75c5e3912eed,P04080,Patient Arrival,2026-06-18 15:44:54.000000 UTC,Low Wait,No Rework,3,1
+a7ebc699-bbf8-45f2-8989-79f0ef792727,P04293,Patient Arrival,2026-12-05 17:25:28.000000 UTC,Low Wait,Rework,3,1
+1f727101-ebbb-4511-be6d-b4ae7bc431aa,P03579,Patient Arrival,2026-04-08 21:13:15.000000 UTC,Low Wait,No Rework,3,1
+422b9885-69db-46eb-a8e7-8f6789b9d52f,P04517,Patient Arrival,2026-10-01 02:15:39.000000 UTC,Medium Wait,No Rework,3,1
+d1470fbd-2255-4638-bd55-dd4079f85cfd,P01387,Patient Arrival,2026-07-04 00:23:08.000000 UTC,Medium Wait,No Rework,3,1
+0d77aff0-505e-4e78-aaa8-08fe2168203e,P04063,Patient Arrival,2026-10-06 03:34:45.000000 UTC,Medium Wait,No Rework,3,1
+89b3365a-0614-4678-8ad4-b8ef250ed20c,P03163,Patient Arrival,2026-05-26 13:32:21.000000 UTC,Medium Wait,No Rework,3,1
+1c848181-522b-4a13-b698-8d3990c09f44,P00317,Patient Arrival,2026-11-30 09:12:28.000000 UTC,Medium Wait,No Rework,3,1
+750efbed-ea73-4af5-bd35-d45961805eb5,P01523,Patient Arrival,2026-05-02 05:16:04.000000 UTC,Medium Wait,No Rework,3,1
+f67e47a9-545c-43a3-bc25-c8fab6f084ac,P01560,Patient Arrival,2026-06-06 13:17:51.000000 UTC,Low Wait,No Rework,3,1
+2fce23a8-f615-4622-b493-91d3ad725f9a,P00510,Patient Arrival,2026-03-31 03:01:47.000000 UTC,Low Wait,No Rework,3,1
+149caa66-c09a-4a7e-9124-c19b60df91fc,P03291,Patient Arrival,2026-01-21 08:11:57.000000 UTC,Low Wait,No Rework,3,1
+a4caa3ef-005e-4ed5-be2f-bce2279f37ed,P04407,Patient Arrival,2026-12-14 15:44:32.000000 UTC,Low Wait,Rework,3,1
+b1756c76-2b94-4f09-baca-3dc12fffc09e,P02512,Patient Arrival,2026-02-10 11:25:31.000000 UTC,Medium Wait,No Rework,3,1
+f33ce4d1-c7ed-4fe4-9d84-7783c4e37395,P03478,Patient Arrival,2026-02-25 18:36:20.000000 UTC,Low Wait,No Rework,3,1
+b3a50457-feda-4151-b230-6b08b4dfc6e6,P00619,Patient Arrival,2026-01-15 20:58:49.000000 UTC,Low Wait,No Rework,3,1
+a1fe9f7b-b858-42c7-b1f2-0dba3e5aafdd,P00102,Patient Arrival,2026-01-07 11:45:25.000000 UTC,Medium Wait,Rework,3,1
+080c216a-bba9-45d0-8c28-78a94abcab1f,P00699,Patient Arrival,2026-08-19 04:37:40.000000 UTC,Medium Wait,Rework,3,1
+4c001f35-8454-4b4c-a875-2555a7083828,P03681,Patient Arrival,2026-12-01 03:06:37.000000 UTC,Low Wait,Rework,3,1
+a249947a-39e4-4245-895d-b03cf9abf9c3,P03372,Patient Arrival,2026-09-02 03:33:09.000000 UTC,Medium Wait,No Rework,3,1
+d84eb2b8-5e10-4904-bc4c-7f002a7f1ff1,P01115,Patient Arrival,2026-08-08 17:11:16.000000 UTC,Medium Wait,Rework,3,1
+2181701b-8291-49fa-aecc-e3a8a7f2e461,P04340,Patient Arrival,2026-10-09 05:17:03.000000 UTC,Medium Wait,No Rework,3,1
+0aa81ea8-4262-468c-bb6f-3d5f12c99530,P02421,Patient Arrival,2026-12-28 13:57:27.000000 UTC,Medium Wait,No Rework,3,1
+5a0b4381-2869-4718-863a-fbe8b00f8589,P00442,Patient Arrival,2026-07-28 22:03:16.000000 UTC,Low Wait,No Rework,3,1
+769eefc1-1f9f-4c59-83d3-3884c7b8a9ba,P04139,Patient Arrival,2026-06-02 03:05:02.000000 UTC,Low Wait,No Rework,3,1
+b3394b03-4db6-436a-99bf-5553f2f1662f,P02345,Patient Arrival,2026-06-30 06:51:12.000000 UTC,Low Wait,Rework,3,1
+cfe7091f-8825-4fa0-acaa-9f66a6ad239b,P03700,Patient Arrival,2026-11-10 13:07:05.000000 UTC,Low Wait,No Rework,3,1
+b6050751-b190-4dac-995c-2f388358f4b4,P00222,Patient Arrival,2026-05-15 19:09:33.000000 UTC,Medium Wait,No Rework,3,1
+edeffda1-3395-4d34-be68-a6b659ccac70,P01629,Patient Arrival,2026-06-28 04:21:28.000000 UTC,Medium Wait,Rework,3,1
+a3a566f2-77c2-4dfe-abe8-a609a24757a7,P02479,Patient Arrival,2026-07-08 18:50:44.000000 UTC,Medium Wait,Rework,3,1
+f3edd133-0aa5-41d2-99ff-d89b4d3e3fd6,P03734,Patient Arrival,2026-05-22 08:22:56.000000 UTC,Low Wait,No Rework,3,1
+98252e39-f11f-4b05-9def-9415ce29a94d,P01307,Patient Arrival,2026-06-09 12:01:13.000000 UTC,Low Wait,Rework,3,1
+6b76fc65-0e60-4b8e-803f-8f6fddea2868,P01102,Patient Arrival,2026-03-27 12:40:27.000000 UTC,Low Wait,Rework,3,1
+2f5961b0-a029-4a9e-90a5-9721cb61d7b5,P01316,Patient Arrival,2026-09-13 03:23:08.000000 UTC,Low Wait,No Rework,3,1
+8a0739c8-9021-47fd-93c9-d29f32594ae8,P02186,Patient Arrival,2026-08-20 19:19:20.000000 UTC,Medium Wait,No Rework,3,1
+4b3cecc8-6ca8-40cd-9214-f8daf05cda7a,P00238,Patient Arrival,2026-07-10 21:17:56.000000 UTC,Low Wait,No Rework,3,1
+38eea673-a94f-431a-8a35-e744fa74b5b8,P03305,Patient Arrival,2026-07-16 19:15:52.000000 UTC,Low Wait,Rework,3,1
+c87dc05e-4506-43dc-98b5-2215e7562765,P00521,Patient Arrival,2026-02-02 16:07:26.000000 UTC,Low Wait,No Rework,3,1
+82bf1b2c-9326-4727-abca-5e527f764d3c,P00072,Patient Arrival,2026-07-17 13:04:29.000000 UTC,Medium Wait,No Rework,3,1
+0cac6496-2e2c-4cbe-9de6-8c727315d6e8,P02007,Patient Arrival,2026-07-20 11:59:55.000000 UTC,Low Wait,No Rework,3,1
+11b4a58e-a045-4c32-ac0b-eb6ac03a40d5,P04529,Patient Arrival,2026-05-17 15:21:19.000000 UTC,Low Wait,No Rework,3,1
+68888543-ec37-48b7-81ed-b5380c2014fd,P00435,Patient Arrival,2026-03-29 11:34:46.000000 UTC,Medium Wait,No Rework,3,1
+605ea62f-3dde-4ba9-9ebb-1f46fe52527f,P00569,Patient Arrival,2026-04-29 17:22:03.000000 UTC,Low Wait,No Rework,3,1
+272619c3-1b22-49e6-a8ca-03ca90209386,P01590,Patient Arrival,2026-06-10 11:15:47.000000 UTC,Low Wait,No Rework,3,1
+2fe6581d-6d02-4dc2-93c5-4cfda57ee15a,P04071,Patient Arrival,2026-06-24 08:31:21.000000 UTC,Low Wait,No Rework,3,1
+562849b0-a663-4598-9a22-626ddcd51b00,P01494,Patient Arrival,2026-02-09 15:06:32.000000 UTC,Medium Wait,No Rework,3,1
+37c4d75b-52f6-4fa5-ab8f-7140188eab89,P03535,Patient Arrival,2026-08-13 09:57:52.000000 UTC,Low Wait,Rework,3,1
+ba83a538-3173-4b96-80fa-69a790586681,P00243,Patient Arrival,2026-02-07 17:59:37.000000 UTC,Low Wait,Rework,3,1
+9889ac81-e259-4200-9e91-af71e5800d00,P02111,Patient Arrival,2026-07-16 03:37:53.000000 UTC,Low Wait,No Rework,3,1
+f43a5d28-22e7-4af6-82ad-7bc76e682477,P00761,Patient Arrival,2026-10-25 01:19:08.000000 UTC,Medium Wait,Rework,3,1
+4d8a4f75-71cd-441f-b933-42f51566e3f6,P00540,Patient Arrival,2026-05-12 18:32:21.000000 UTC,Low Wait,Rework,3,1
+15e93849-2c76-4855-b464-1ee01c8c8254,P02438,Patient Arrival,2026-07-15 00:22:28.000000 UTC,Low Wait,No Rework,3,1
+b56b1aaf-1e63-4f23-9f1e-cc2e6abb14c6,P02671,Patient Arrival,2026-08-17 04:31:47.000000 UTC,Medium Wait,No Rework,3,1
+8ff39755-73fe-45a8-9a22-d2050c831fa2,P00426,Patient Arrival,2026-12-30 14:00:18.000000 UTC,Low Wait,Rework,3,1
+27c1be7d-1213-411f-a94f-0ad9d00be8b4,P03716,Patient Arrival,2026-09-18 01:40:46.000000 UTC,Medium Wait,No Rework,3,1
+bcf2835a-3503-4530-ae60-ae986c0a3b08,P00543,Patient Arrival,2026-03-14 19:50:13.000000 UTC,Low Wait,Rework,3,1
+4cb7a9aa-96c7-4c7f-a236-44c562d25290,P03504,Patient Arrival,2026-01-13 09:27:17.000000 UTC,Medium Wait,No Rework,3,1
+ca615b18-d588-45c9-a1a5-f0d88b2f055e,P00295,Patient Arrival,2026-09-01 12:52:58.000000 UTC,Medium Wait,Rework,3,1
+7b05cf9d-3d84-468f-bdbe-800e8480e10b,P03273,Patient Arrival,2026-01-21 23:16:39.000000 UTC,Medium Wait,No Rework,3,1
+1cde1fc9-f560-4d22-844b-31488a7d6704,P00472,Patient Arrival,2026-07-07 14:00:30.000000 UTC,Low Wait,No Rework,3,1
+a78e488f-b36e-445e-991e-eae45df3e5e3,P00793,Patient Arrival,2026-06-13 19:19:51.000000 UTC,Medium Wait,No Rework,3,1
+89e98bb3-d40e-48af-a8ec-8b6120698945,P03828,Patient Arrival,2026-08-13 03:05:42.000000 UTC,Medium Wait,Rework,3,1
+b4d46940-bb31-4860-bd56-2a5f9cd0f9db,P01171,Patient Arrival,2026-12-14 00:44:54.000000 UTC,Low Wait,No Rework,3,1
+58b339ae-14d9-4242-b30a-df86dd1932a6,P00563,Patient Arrival,2026-09-03 21:00:17.000000 UTC,Medium Wait,No Rework,3,1
+3510a5bf-4837-4004-9034-a1413da4cec2,P04450,Patient Arrival,2026-06-17 18:42:23.000000 UTC,Medium Wait,No Rework,3,1
+a2003f7a-7967-4ff9-afff-4409bdafbe28,P01715,Patient Arrival,2026-10-29 08:51:42.000000 UTC,Low Wait,No Rework,3,1
+6b124989-e802-4b9b-a020-843bf4131859,P02376,Patient Arrival,2026-02-22 13:29:32.000000 UTC,Medium Wait,No Rework,3,1
+d7a32d15-da4a-479f-a7f4-56a9cb2fa7a1,P02167,Patient Arrival,2026-11-02 06:46:17.000000 UTC,Low Wait,No Rework,3,1
+c0197f0e-84dc-4775-a909-91053f6e3828,P01126,Patient Arrival,2026-02-02 18:30:17.000000 UTC,Low Wait,Rework,3,1
+46260a70-29f9-4ffc-af49-85eda318f204,P01533,Patient Arrival,2026-12-21 11:38:00.000000 UTC,Medium Wait,No Rework,3,1
+da09370c-3655-43f3-8a57-7755df40ab30,P03653,Patient Arrival,2026-06-04 07:14:20.000000 UTC,Low Wait,Rework,3,1
+a0a42e8a-092a-4253-add3-2e5e59e9e7e3,P01330,Patient Arrival,2026-01-25 01:45:57.000000 UTC,Low Wait,No Rework,3,1
+a0ea049d-5ef8-4b6d-beb3-018dcd016d4d,P02846,Patient Arrival,2026-04-28 18:45:52.000000 UTC,Medium Wait,Rework,3,1
+91d3dd5f-6eac-4dbf-b6a3-337e7a727c26,P01906,Patient Arrival,2026-02-03 20:14:27.000000 UTC,Medium Wait,Rework,3,1
+5c3649a7-f1d9-4c39-8fd5-13a8462b15af,P01064,Patient Arrival,2026-07-15 10:17:30.000000 UTC,Low Wait,No Rework,3,1
+dc70eb11-c12b-4a7a-b907-c3757f1cbb90,P01312,Patient Arrival,2026-03-31 16:13:15.000000 UTC,Low Wait,No Rework,3,1
+00a58411-b236-4409-b6e1-90e154339a33,P01563,Patient Arrival,2026-04-30 13:00:21.000000 UTC,Low Wait,No Rework,3,1
+13bae0d0-6105-4bc8-9e52-38e2493c6b4e,P02206,Patient Arrival,2026-01-14 20:44:19.000000 UTC,Medium Wait,No Rework,3,1
+d7cc43eb-3cec-4d26-a61f-1b4e1206d234,P02329,Patient Arrival,2026-05-09 11:06:16.000000 UTC,Medium Wait,Rework,3,1
+23f47278-da7f-46be-8700-993a90a73890,P04111,Patient Arrival,2026-04-26 18:05:36.000000 UTC,Medium Wait,No Rework,3,1
+5b211a73-1525-4d6e-83cf-72be41aaa86a,P03265,Patient Arrival,2026-12-08 12:25:41.000000 UTC,Medium Wait,No Rework,3,1
+a00b394c-9bec-420f-8f64-ca398db40d4d,P03748,Patient Arrival,2026-10-10 16:39:35.000000 UTC,Low Wait,No Rework,3,1
+cbe94640-f880-4d31-9fd5-956bf22599ac,P00378,Patient Arrival,2026-03-25 14:07:38.000000 UTC,Medium Wait,No Rework,3,1
+28f7ed02-5cfd-4af0-b648-069e2e28ba32,P00446,Patient Arrival,2026-04-26 11:51:53.000000 UTC,Medium Wait,No Rework,3,1
+1257fbc9-b7c9-45e0-a33c-112f3e1fab57,P02029,Patient Arrival,2026-10-09 19:55:14.000000 UTC,Medium Wait,No Rework,3,1
+adfdbc69-9f49-43c3-9fad-38fe50cf48ab,P01946,Patient Arrival,2026-02-20 17:55:56.000000 UTC,Medium Wait,No Rework,3,1
+4bdfd11c-80a2-4404-bd1a-b8c87215d15f,P00604,Patient Arrival,2026-09-26 22:01:26.000000 UTC,Low Wait,Rework,3,1
+47382812-ca90-40d6-895c-0b0695279260,P04382,Patient Arrival,2026-01-31 21:06:27.000000 UTC,Low Wait,No Rework,3,1
+025535b6-6601-4950-bf39-a7e25e0fdd5e,P01083,Patient Arrival,2026-10-30 14:07:08.000000 UTC,Medium Wait,No Rework,3,1
+7cb69d93-b84e-4c40-a38e-233c9ddf7018,P00895,Patient Arrival,2026-10-07 02:59:11.000000 UTC,Low Wait,No Rework,3,1
+9fcf143d-a9d5-4fca-bf2e-9bd6e8833e03,P00808,Patient Arrival,2026-11-21 13:26:15.000000 UTC,Low Wait,No Rework,3,1
+0e5457e6-0659-422e-9e69-375beb74fb02,P00725,Patient Arrival,2026-08-24 08:26:02.000000 UTC,Medium Wait,No Rework,3,1
+19a38ec5-5d13-4bf1-adf1-251a8e37f2ff,P04362,Patient Arrival,2026-02-05 10:20:52.000000 UTC,Medium Wait,No Rework,3,1
+18e150d6-f244-4c32-8e1e-1006480c9c03,P04494,Patient Arrival,2026-04-04 16:30:55.000000 UTC,Low Wait,No Rework,3,1
+faa7a74e-0857-42e5-851b-8bc022b2bcc9,P00227,Patient Arrival,2026-09-01 11:18:44.000000 UTC,Low Wait,No Rework,3,1
+5e2919a6-15ab-4b7c-93a7-e4881e6141d6,P03945,Patient Arrival,2026-06-23 22:56:51.000000 UTC,Low Wait,No Rework,3,1
+159a0584-4e15-44a0-8286-5864fc7e97d4,P02807,Patient Arrival,2026-09-28 09:45:39.000000 UTC,Low Wait,Rework,3,1
+2ad10c0b-d552-4810-bf84-fc6e1f0c5d14,P01202,Patient Arrival,2026-03-10 07:14:23.000000 UTC,Medium Wait,Rework,3,1
+1db6373f-98e9-4d36-8e43-bba20d0b894b,P03927,Patient Arrival,2026-04-16 03:39:15.000000 UTC,Medium Wait,No Rework,3,1
+da2b5b9e-281c-4ab2-96fd-95e97674b057,P01816,Patient Arrival,2026-12-23 12:37:40.000000 UTC,Low Wait,Rework,3,1
+8afb7159-45e9-472e-87d2-94342facd97f,P03914,Patient Arrival,2026-09-16 21:02:30.000000 UTC,Low Wait,No Rework,3,1
+aebda049-e2ca-4210-87cb-0a92d804a16e,P03899,Patient Arrival,2026-10-14 15:46:36.000000 UTC,Low Wait,No Rework,3,1
+f737b86a-91d9-4a24-aab2-d93cec7e6b06,P00666,Patient Arrival,2026-09-14 20:50:58.000000 UTC,Medium Wait,No Rework,3,1
+4ca99456-460e-4517-bd93-f0499c697576,P03638,Patient Arrival,2026-05-06 00:58:27.000000 UTC,Low Wait,Rework,3,1
+c8a7a28b-ecd1-4622-b9e3-c7186c2a651c,P00054,Patient Arrival,2026-08-07 22:41:42.000000 UTC,Medium Wait,No Rework,3,1
+802a6e1e-11ac-46a7-b51d-61ee6954ac09,P02662,Patient Arrival,2026-06-26 23:51:48.000000 UTC,Medium Wait,No Rework,3,1
+12979373-8563-4190-bf21-89a90f26b361,P02880,Patient Arrival,2026-12-14 20:38:22.000000 UTC,Medium Wait,No Rework,3,1
+52287811-2cfa-4638-9701-f8a0cf57a174,P02914,Patient Arrival,2026-05-14 08:53:03.000000 UTC,Low Wait,No Rework,3,1
+de2bcf25-328b-495d-9ed1-abcb9d7d53ce,P04564,Patient Arrival,2026-05-05 20:20:39.000000 UTC,Low Wait,No Rework,3,1
+efe54a1d-a946-44ce-9a33-7ba832787afa,P00759,Patient Arrival,2026-08-24 03:37:50.000000 UTC,Low Wait,No Rework,3,1
+64834906-5c5c-4117-983f-61b4b29f072e,P02749,Patient Arrival,2026-03-30 21:36:16.000000 UTC,Medium Wait,No Rework,3,1
+a1cbd624-3c81-4cc4-b135-03e1e7dad5fc,P03721,Patient Arrival,2026-01-12 22:52:15.000000 UTC,Low Wait,No Rework,3,1
+364b352b-5916-4f0f-8ebc-39ef51cf2b01,P03998,Patient Arrival,2026-04-17 02:35:50.000000 UTC,Low Wait,No Rework,3,1
+3bf044aa-b9c7-4455-b27e-d3c5513723eb,P02785,Patient Arrival,2026-10-10 07:23:39.000000 UTC,Low Wait,No Rework,3,1
+f6f2032f-9a87-40e8-86c5-b4a9b0905d83,P03071,Patient Arrival,2026-09-08 09:47:30.000000 UTC,Medium Wait,No Rework,3,1
+088d8169-a012-4d04-b789-f2fe6372fb45,P01092,Patient Arrival,2026-04-26 14:17:11.000000 UTC,Low Wait,No Rework,3,1
+3d6fef12-e258-4add-b2bc-eb5723ada2dc,P04046,Patient Arrival,2026-11-28 19:42:57.000000 UTC,Low Wait,No Rework,3,1
+6a23a1fa-67df-475b-a8e7-a3a60c327ed5,P04225,Patient Arrival,2026-02-21 00:35:30.000000 UTC,Medium Wait,Rework,3,1
+8230dc7b-4055-48f8-9c51-81bbd7fc962c,P03883,Patient Arrival,2026-09-27 10:23:46.000000 UTC,Low Wait,Rework,3,1
+f1f8e1ae-f0b9-46ff-8de9-80f807b1a09d,P03995,Patient Arrival,2026-06-28 18:38:20.000000 UTC,Medium Wait,No Rework,3,1
+959508be-ef09-41b5-8ef3-c6c2e908f80c,P03412,Patient Arrival,2026-08-24 00:47:29.000000 UTC,Medium Wait,No Rework,3,1
+714494f8-f968-4571-932d-65151825031d,P04363,Patient Arrival,2026-07-02 03:15:16.000000 UTC,Low Wait,Rework,3,1
+4a5240c1-8465-4ff2-a2b9-8384ef9b04a3,P02484,Patient Arrival,2026-02-16 08:19:49.000000 UTC,Medium Wait,Rework,3,1
+1ba4347d-ee8e-4e4d-abfb-686dd28f9d73,P03143,Patient Arrival,2026-06-13 22:53:18.000000 UTC,Low Wait,Rework,3,1
+2fc04da6-959a-40df-9575-cc88b02f1638,P00637,Patient Arrival,2026-09-08 20:18:03.000000 UTC,Low Wait,No Rework,3,1
+65f93dfe-9cce-4781-a676-d601dec484cc,P03458,Patient Arrival,2026-09-13 20:27:57.000000 UTC,Medium Wait,Rework,3,1
+9415b3a3-06b7-4976-9ffe-218388489512,P03027,Patient Arrival,2026-09-17 17:07:14.000000 UTC,Medium Wait,No Rework,3,1
+759e9f57-2eb1-4156-bea8-93862f732ed4,P03271,Patient Arrival,2026-01-09 07:02:03.000000 UTC,Low Wait,No Rework,3,1
+dc7bd0c6-3654-4885-89b7-d546c6086687,P01058,Patient Arrival,2026-06-13 20:59:27.000000 UTC,Medium Wait,No Rework,3,1
+7c99b31c-6af5-4c39-badc-0d36607a61d7,P02957,Patient Arrival,2026-04-19 13:30:53.000000 UTC,Low Wait,No Rework,3,1
+872572bb-804d-4c1d-89fa-5e28fd42fff2,P04331,Patient Arrival,2026-10-15 16:00:44.000000 UTC,Low Wait,No Rework,3,1
+db5cc207-7c41-4dd2-bb1a-ba3827d61b2c,P00400,Patient Arrival,2026-08-20 00:14:24.000000 UTC,Low Wait,No Rework,3,1
+d9a358a4-3192-49b6-ab8c-c8715372862c,P01931,Patient Arrival,2026-02-12 02:50:00.000000 UTC,Medium Wait,No Rework,3,1
+fb211687-ef5f-4000-9eab-296f9280ed40,P02599,Patient Arrival,2026-01-11 18:09:43.000000 UTC,Low Wait,No Rework,3,1
+201798d6-9719-490d-9e74-654b53d35bf7,P04435,Patient Arrival,2026-10-14 04:50:00.000000 UTC,Low Wait,No Rework,3,1
+8117b662-ca98-4238-906e-43a2c552f1f0,P00010,Patient Arrival,2026-11-06 12:40:51.000000 UTC,Low Wait,Rework,3,1
+f23d9714-63bb-4684-b33c-dc6ef7bb7699,P03013,Patient Arrival,2026-01-13 15:56:15.000000 UTC,Medium Wait,No Rework,3,1
+25e9cdd4-e7d6-438f-9ec0-6fdb1e18200e,P03615,Patient Arrival,2026-07-12 10:53:17.000000 UTC,Medium Wait,Rework,3,1
+69d474df-f0be-484f-ab57-28c79273c3bc,P04258,Patient Arrival,2026-04-14 09:11:44.000000 UTC,Low Wait,No Rework,3,1
+c2e7db9f-e80c-4488-a882-91b1a616247b,P04168,Patient Arrival,2026-11-19 17:08:20.000000 UTC,Low Wait,No Rework,3,1
+ce08c3e1-1501-4c53-9f14-e9b9cb5a88e0,P04127,Patient Arrival,2026-03-28 13:43:57.000000 UTC,Medium Wait,No Rework,3,1
+dbc55004-37a1-4567-a6d3-46b0c030b724,P00578,Patient Arrival,2026-07-15 00:08:08.000000 UTC,Low Wait,Rework,3,1
+b2d09899-249b-468d-8fff-5066bb7dcd0e,P03194,Patient Arrival,2026-08-28 08:19:53.000000 UTC,Medium Wait,Rework,3,1
+2c7b718b-7283-4918-b8dc-4dfffd163736,P02633,Patient Arrival,2026-03-04 09:31:14.000000 UTC,Medium Wait,No Rework,3,1
+91328fd2-eafc-447e-bccc-fbc94fa6b625,P03673,Patient Arrival,2026-03-07 19:48:23.000000 UTC,Medium Wait,No Rework,3,1
+82a45439-aa81-40b5-ba4f-65259431c2b7,P04156,Patient Arrival,2026-06-07 21:18:48.000000 UTC,Low Wait,No Rework,3,1
+7be32493-4e24-434e-a220-3389fd9de5ba,P02983,Patient Arrival,2026-09-22 18:49:03.000000 UTC,Low Wait,Rework,3,1
+02dd8150-89be-41bf-a830-089512ae4e8e,P02062,Patient Arrival,2026-07-29 00:12:25.000000 UTC,Low Wait,No Rework,3,1
+a1d35581-d7c1-4fae-ae92-6e5eae59af42,P03104,Patient Arrival,2026-05-02 03:29:34.000000 UTC,Low Wait,No Rework,3,1
+05fd9631-1325-4f7a-9f3c-49ce762eef9b,P02415,Patient Arrival,2026-10-23 08:14:50.000000 UTC,Low Wait,Rework,3,1
+c12e2386-1ede-4b16-b083-50da8e5e3e43,P03925,Patient Arrival,2026-11-23 11:34:14.000000 UTC,Low Wait,No Rework,3,1
+7eb8c51f-aa9d-4969-8589-bbc7c18b4926,P00559,Patient Arrival,2026-04-14 06:21:07.000000 UTC,Medium Wait,No Rework,3,1
+22edaf1a-407f-4393-a8c6-58a46294d35a,P01198,Patient Arrival,2026-05-17 14:07:58.000000 UTC,Medium Wait,No Rework,3,1
+15909b78-af09-4366-abe2-5bc7732709d6,P04387,Patient Arrival,2026-06-24 10:15:17.000000 UTC,Medium Wait,Rework,3,1
+7933f592-0162-4fe3-9142-e3572d91c876,P00645,Patient Arrival,2026-12-14 09:25:32.000000 UTC,Medium Wait,No Rework,3,1
+1b3e4946-44d8-4a5e-a546-6eebc775d59f,P04303,Patient Arrival,2026-04-15 16:22:35.000000 UTC,Low Wait,No Rework,3,1
+62e08643-7a74-498f-96b9-3a6691e38a62,P02071,Patient Arrival,2026-09-07 14:41:17.000000 UTC,Medium Wait,No Rework,3,1
+0f8a5275-0829-46b5-9fb3-aba1a8ee85ff,P01222,Patient Arrival,2026-02-27 03:53:53.000000 UTC,Medium Wait,No Rework,3,1
+462f5b57-c56c-470d-98fa-6e809f6d5aaa,P00263,Patient Arrival,2026-10-03 10:57:34.000000 UTC,Low Wait,No Rework,3,1
+72db4a26-314b-4647-9c2e-0d6055cdd30b,P01755,Patient Arrival,2026-08-25 18:28:31.000000 UTC,Low Wait,No Rework,3,1
+da46dd10-4e02-4f98-9253-84a521f6b357,P03012,Patient Arrival,2026-09-13 10:53:57.000000 UTC,Low Wait,Rework,3,1
+90125d08-6acd-4d9c-8087-a01d3d96ea88,P03380,Patient Arrival,2026-05-23 06:29:30.000000 UTC,Low Wait,No Rework,3,1
+411edad1-63ee-43a1-9f58-530151f22022,P01893,Patient Arrival,2026-06-06 05:19:06.000000 UTC,Medium Wait,No Rework,3,1
+bd48f3d6-e429-4e3e-b207-0ba028575a0b,P03280,Patient Arrival,2026-04-29 12:26:30.000000 UTC,Low Wait,No Rework,3,1
+bf885a4e-e959-42e0-8851-a866774bd2ae,P03306,Patient Arrival,2026-12-11 08:49:46.000000 UTC,Medium Wait,No Rework,3,1
+d2b57a74-ea1a-4bb5-9c43-cd10cd75e24c,P01114,Patient Arrival,2026-03-24 15:26:37.000000 UTC,Low Wait,No Rework,3,1
+a437b4ff-87ec-4cad-9945-f600df36c4fa,P03783,Patient Arrival,2026-05-28 08:10:45.000000 UTC,Low Wait,No Rework,3,1
+530bf11f-a232-4d9f-bd8e-4b0e67f4e3c7,P00670,Patient Arrival,2026-04-08 16:38:38.000000 UTC,Medium Wait,No Rework,3,1
+6b3ad39f-61be-4881-9df6-b693d016adfb,P02365,Patient Arrival,2026-02-13 12:13:13.000000 UTC,Low Wait,No Rework,3,1
+58617b2c-d5af-465b-8093-833a11d555ae,P01673,Patient Arrival,2026-06-18 01:55:47.000000 UTC,Medium Wait,No Rework,3,1
+2c649e8b-3180-4552-ad5f-3f30bb86284f,P03728,Patient Arrival,2026-01-22 03:46:31.000000 UTC,Medium Wait,No Rework,3,1
+97c6f976-183b-427d-9cee-61fa9685af5c,P01036,Patient Arrival,2026-06-13 08:02:41.000000 UTC,Low Wait,No Rework,3,1
+9f0a57ed-359e-40bc-a176-dfedda2d1460,P03062,Patient Arrival,2026-06-21 11:40:10.000000 UTC,Medium Wait,Rework,3,1
+d9cc6ff0-d915-4efe-a06b-3bb9e2236208,P03671,Patient Arrival,2026-03-12 17:48:04.000000 UTC,Low Wait,No Rework,3,1
+96d9e9fc-250c-48c0-bf45-228f55473edf,P00993,Patient Arrival,2026-08-16 19:09:12.000000 UTC,Medium Wait,No Rework,3,1

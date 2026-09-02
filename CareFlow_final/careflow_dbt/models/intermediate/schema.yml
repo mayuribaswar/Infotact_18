@@ -33,3 +33,41 @@ models:
 
       - name: activity_priority
         description: "Priority assigned to the activity"
+
+  - name: int_ordered_events
+    description: "Hospital events ordered chronologically for each patient"
+
+    columns:
+      - name: Event_ID
+        description: "Unique event identifier"
+        tests:
+          - not_null
+
+      - name: Patient_ID
+        description: "Patient identifier"
+        tests:
+          - not_null
+
+      - name: Activity
+        description: "Clinical activity"
+        tests:
+          - not_null
+
+      - name: event_timestamp
+        description: "Clinical event timestamp"
+        tests:
+          - not_null
+
+      - name: wait_category
+        description: "Waiting time classification"
+
+      - name: rework_status
+        description: "Rework classification"
+
+      - name: activity_priority
+        description: "Priority assigned to the activity"
+
+      - name: event_order
+        description: "Sequential chronological order of events for each patient"
+        tests:
+          - not_null
