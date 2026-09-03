@@ -962,4 +962,261 @@ contains the process-transition information required for downstream CareFlow das
 
 ```
 ```
+CareFlow – Day 13
+Process Flow and Bottleneck Analysis
+Objective
 
+The objective of Day 13 is to analyze patient activity transitions and identify process bottlenecks in the hospital workflow.
+
+The analysis calculates the time taken between consecutive patient activities and identifies transitions that require more time.
+
+Day 13 Tasks
+Analyze consecutive patient activities.
+Identify activity-to-activity transitions.
+Calculate transition time in minutes.
+Calculate transition frequency.
+Calculate unique patient count.
+Calculate average transition time.
+Calculate minimum and maximum transition time.
+Calculate median transition time.
+Calculate P90 transition time.
+Classify transitions into Low, Medium, and High bottlenecks.
+Validate the bottleneck MART table.
+Run dbt tests.
+Commit the Day 13 work to GitHub.
+Data Source
+
+The analysis uses the cleaned staging model:
+
+stg_hospital_event_log
+
+Important fields used:
+
+Patient_ID
+Activity
+Department
+event_timestamp
+wait_time_minutes
+Severity
+Activity_Status
+Event_Order
+Process Flow Logic
+
+Patient activities are ordered using:
+
+PARTITION BY Patient_ID
+ORDER BY event_timestamp, Event_Order
+
+The LEAD() window function is then used to identify the next activity.
+
+Example:
+
+Registration
+     ↓
+Consultation
+     ↓
+Laboratory
+     ↓
+Pharmacy
+     ↓
+Discharge
+
+This creates transition pairs such as:
+
+Registration → Consultation
+Consultation → Laboratory
+Laboratory → Pharmacy
+Pharmacy → Discharge
+Transition Time
+
+Transition time represents the time between the current activity and the next activity.
+
+Formula:
+
+Transition Time =
+Next Activity Timestamp - Current Activity Timestamp
+
+The result is calculated in minutes using BigQuery's:
+
+TIMESTAMP_DIFF()
+Bottleneck Metrics
+
+The intermediate model calculates:
+
+Metric	Description
+Transition Count	Number of times a transition occurs
+Patient Count	Number of unique patients using the transition
+Average Transition Time	Average time between activities
+Minimum Transition Time	Minimum observed transition time
+Maximum Transition Time	Maximum observed transition time
+Median Transition Time	Middle transition-time value
+P90 Transition Time	90th percentile transition time
+Average Source Wait Time	Average waiting time associated with the source activity
+Bottleneck Classification
+
+Transitions are classified according to their waiting/transition time.
+
+Bottleneck Level	Condition
+High	Average ≥ 120 minutes OR P90 ≥ 240 minutes
+Medium	Average ≥ 60 minutes OR P90 ≥ 120 minutes
+Low	Otherwise
+
+Bottleneck scores:
+
+High   = 3
+Medium = 2
+Low    = 1
+dbt Models Created
+Intermediate Model
+models/intermediate/int_process_bottlenecks.sql
+
+Purpose:
+
+Creates consecutive activity transitions.
+Calculates transition time.
+Aggregates transition metrics.
+Prepares data for bottleneck classification.
+MART Model
+models/marts/fct_process_bottlenecks.sql
+
+Purpose:
+
+Classifies process transitions.
+Assigns bottleneck levels.
+Assigns bottleneck scores.
+Provides analysis-ready data for dashboards.
+Tests Created
+Process Bottleneck Test
+tests/test_process_bottlenecks.sql
+
+Checks that:
+
+Transition times are not negative.
+Transition counts are greater than zero.
+Bottleneck Classification Test
+tests/test_bottleneck_classification.sql
+
+Checks that:
+
+High   → 3
+Medium → 2
+Low    → 1
+BigQuery Validation
+
+Validation queries are stored in:
+
+bigquery/13_process_bottleneck_validation.sql
+
+The validation queries identify:
+
+Top bottlenecks by average transition time.
+Most frequent activity transitions.
+High-level bottleneck transitions.
+Bottleneck distribution.
+Transitions with the highest P90 time.
+Data-quality issues.
+dbt Commands
+
+Run dbt from the directory containing dbt_project.yml.
+
+cd C:\Users\Shree\OneDrive\Desktop\Infotact_18\CareFlow_final\careflow_dbt
+
+Check the dbt configuration:
+
+dbt debug
+
+Run the intermediate model:
+
+dbt run --select int_process_bottlenecks
+
+Run the MART model:
+
+dbt run --select fct_process_bottlenecks
+
+Run tests:
+
+dbt test
+
+Run the complete project:
+
+dbt build
+Expected Output
+
+The final MART table is:
+
+careflow_staging.fct_process_bottlenecks
+
+The table provides:
+
+activity_from
+activity_to
+transition_count
+patient_count
+avg_transition_time_minutes
+min_transition_time_minutes
+max_transition_time_minutes
+median_transition_time_minutes
+p90_transition_time_minutes
+avg_source_wait_time_minutes
+bottleneck_level
+bottleneck_score
+Business Insights
+
+Day 13 helps CareFlow identify:
+
+Frequently occurring patient transitions.
+Long-running process transitions.
+High waiting-time areas.
+Potential hospital workflow bottlenecks.
+Processes that may require operational improvement.
+
+The results can later be used in the CareFlow dashboard for process monitoring and bottleneck visualization.
+
+GitHub Commit
+
+After successful dbt execution and testing:
+
+git status
+
+Add changes:
+
+git add .
+
+Commit:
+
+git commit -m "Day 13: Add process bottleneck analysis"
+
+Push to GitHub:
+
+git push
+Day 13 Completion Checklist
+
+Process transition analysis created
+
+Transition-time metrics created
+
+Bottleneck classification created
+
+MART model created
+
+Data-quality tests created
+
+Classification tests created
+
+BigQuery validation queries created
+
+README documentation created
+
+dbt test completed successfully
+
+Git commit completed
+
+GitHub push completed
+
+Day 13 Summary
+
+Day 13 extends the CareFlow clinical process-mining pipeline by converting patient activity sequences into measurable process transitions.
+
+Using LEAD(), transition times are calculated between consecutive activities. Statistical metrics such as average, median, and P90 transition time are then used to classify process transitions as Low, Medium, or High bottlenecks.
+
+This creates a foundation for identifying workflow delays and improving hospital process efficiency.
