@@ -598,4 +598,368 @@ Day 11  ✅ Ordered event model
 **Current Status: Day 11 Completed ✅**
 
 The project is now ready for **activity transition pair generation and transition-time analysis**.
+# CareFlow Process Mining — Day 12
+
+## Activity Transition Pair Generation
+
+### Objective
+
+The objective of Day 12 is to generate consecutive activity transition pairs for each patient using SQL and dbt.
+
+A transition represents movement from one healthcare activity to the next activity in a patient's journey.
+
+Example:
+
+Registration → Consultation  
+Consultation → Diagnosis  
+Diagnosis → Treatment
+
+---
+
+## Member 2 Task
+
+**Commit:**
+
+`feat: generate transition pairs in sql`
+
+### Work Completed
+
+- Used the ordered event model created on Day 11.
+- Used the SQL `LEAD()` window function to identify the next activity.
+- Partitioned events by `patient_id`.
+- Ordered events using `event_timestamp`.
+- Generated `from_activity` and `to_activity`.
+- Generated corresponding source and destination timestamps.
+- Removed the final event of each patient's journey because it has no next activity.
+- Created a dbt intermediate model for activity transitions.
+
+---
+
+## dbt Model
+
+### File
+
+`models/intermediate/int_activity_transitions.sql`
+
+### Source Model
+
+`int_ordered_events`
+
+### Generated Model
+
+`int_activity_transitions`
+
+---
+
+## SQL Logic
+
+The transition pairs are generated using the `LEAD()` function:
+
+```sql
+LEAD(activity) OVER (
+    PARTITION BY patient_id
+    ORDER BY event_timestamp
+)
+
+````markdown
+# CareFlow - Day 13
+
+## Process Flow and Bottleneck Analysis
+
+### Objective
+
+The objective of Day 13 is to analyze patient activity transitions and identify process bottlenecks.
+
+The analysis calculates the time taken between consecutive activities for each patient case.
+
+---
+
+## Day 13 Tasks
+
+1. Analyze consecutive patient activities.
+2. Calculate transition time.
+3. Calculate transition frequency.
+4. Calculate unique patient count.
+5. Calculate average transition time.
+6. Calculate minimum and maximum transition time.
+7. Calculate median transition time.
+8. Calculate P90 transition time.
+9. Classify process bottlenecks.
+10. Validate the MART layer.
+11. Run dbt tests.
+12. Commit the changes to GitHub.
+
+---
+
+## New Files
+
+```text
+careflow_dbt/
+│
+├── models/
+│   ├── intermediate/
+│   │   └── int_process_bottlenecks.sql
+│   │
+│   ├── marts/
+│   │   └── fct_process_bottlenecks.sql
+│   │
+│   └── schema.yml
+│
+└── tests/
+    ├── test_process_bottlenecks.sql
+    └── test_bottleneck_classification.sql
+
+bigquery/
+└── 13_process_bottleneck_validation.sql
+````
+
+---
+
+## Process Logic
+
+For every Case_ID:
+
+```text
+Activity 1
+     ↓
+Activity 2
+     ↓
+Activity 3
+     ↓
+Activity 4
+```
+
+The model uses the SQL `LEAD()` window function to identify the next activity.
+
+Example:
+
+```text
+Registration → Consultation
+Consultation → Laboratory
+Laboratory → Pharmacy
+Pharmacy → Discharge
+```
+
+---
+
+## Transition Time
+
+Transition time is calculated as:
+
+```text
+Next Activity Timestamp
+        -
+Current Activity Timestamp
+```
+
+The result is stored in minutes.
+
+---
+
+## Metrics
+
+The model calculates:
+
+* Transition Count
+* Patient Count
+* Average Transition Time
+* Minimum Transition Time
+* Maximum Transition Time
+* Median Transition Time
+* P90 Transition Time
+* Average Source Waiting Time
+
+---
+
+## Bottleneck Classification
+
+| Level  | Condition                                               |
+| ------ | ------------------------------------------------------- |
+| High   | Average transition >= 120 minutes OR P90 >= 240 minutes |
+| Medium | Average transition >= 60 minutes OR P90 >= 120 minutes  |
+| Low    | Otherwise                                               |
+
+Numeric scores:
+
+```text
+High   = 3
+Medium = 2
+Low    = 1
+```
+
+---
+
+## dbt Commands
+
+IMPORTANT:
+
+Run dbt from the directory containing:
+
+```text
+dbt_project.yml
+```
+
+For the normal CareFlow structure:
+
+```powershell
+cd C:\Users\Shree\OneDrive\Desktop\Infotact_18\CareFlow_final\careflow_dbt
+```
+
+Check the project:
+
+```powershell
+dbt debug
+```
+
+Run the intermediate model:
+
+```powershell
+dbt run --select int_process_bottlenecks
+```
+
+Run the MART:
+
+```powershell
+dbt run --select fct_process_bottlenecks
+```
+
+Run tests:
+
+```powershell
+dbt test
+```
+
+Run the complete project:
+
+```powershell
+dbt build
+```
+
+---
+
+## If dbt_project.yml Cannot Be Found
+
+From CareFlow_final:
+
+```powershell
+Get-ChildItem -Path . -Filter dbt_project.yml -Recurse
+```
+
+The command will show the location of `dbt_project.yml`.
+
+Then enter that directory.
+
+Example:
+
+```powershell
+cd .\careflow_dbt
+```
+
+Then:
+
+```powershell
+dbt debug
+```
+
+---
+
+## BigQuery Validation
+
+Run:
+
+```text
+bigquery/13_process_bottleneck_validation.sql
+```
+
+The queries identify:
+
+1. Top bottlenecks.
+2. Most frequent transitions.
+3. High bottleneck transitions.
+4. Bottleneck distribution.
+5. Longest P90 transitions.
+6. Data-quality issues.
+
+---
+
+## Expected Outcome
+
+At the end of Day 13, CareFlow should answer:
+
+### Question 1
+
+Which activity transitions happen most frequently?
+
+### Question 2
+
+Which transitions take the longest time?
+
+### Question 3
+
+Which transitions are High bottlenecks?
+
+### Question 4
+
+Which process areas should be prioritized for improvement?
+
+---
+
+## GitHub
+
+After successful validation:
+
+```powershell
+git status
+```
+
+Then:
+
+```powershell
+git add .
+```
+
+Commit:
+
+```powershell
+git commit -m "Day 13: Add process bottleneck analysis"
+```
+
+Push:
+
+```powershell
+git push
+```
+
+---
+
+## Day 13 Completion Checklist
+
+* [ ] Intermediate bottleneck model created
+* [ ] MART bottleneck model created
+* [ ] Schema tests added
+* [ ] Data-quality test added
+* [ ] Classification test added
+* [ ] BigQuery validation completed
+* [ ] dbt debug passed
+* [ ] dbt run passed
+* [ ] dbt test passed
+* [ ] dbt build passed
+* [ ] README updated
+* [ ] Git commit created
+* [ ] GitHub push completed
+
+---
+
+## Final Day 13 Deliverable
+
+The final MART table:
+
+```text
+fct_process_bottlenecks
+```
+
+contains the process-transition information required for downstream CareFlow dashboard and process-mining analysis.
+
+```
+```
 

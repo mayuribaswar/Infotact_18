@@ -1,0 +1,79 @@
+version: 2
+
+models:
+
+  - name: int_process_bottlenecks
+    description: >
+      Aggregates patient activity transitions and calculates
+      transition-time metrics for process bottleneck analysis.
+
+    columns:
+
+      - name: activity_from
+        description: "Starting activity in the patient process."
+        tests:
+          - not_null
+
+      - name: activity_to
+        description: "Next activity in the patient process."
+        tests:
+          - not_null
+
+      - name: transition_count
+        description: "Number of occurrences of the transition."
+        tests:
+          - not_null
+
+      - name: patient_count
+        description: "Number of unique patient cases using the transition."
+        tests:
+          - not_null
+
+      - name: avg_transition_time_minutes
+        description: "Average time between the two activities."
+        tests:
+          - not_null
+
+
+  - name: fct_process_bottlenecks
+    description: >
+      Process bottleneck mart containing transition frequency,
+      waiting-time metrics and bottleneck classification.
+
+    columns:
+
+      - name: activity_from
+        description: "Starting activity."
+        tests:
+          - not_null
+
+      - name: activity_to
+        description: "Ending activity."
+        tests:
+          - not_null
+
+      - name: transition_count
+        description: "Total transition occurrences."
+        tests:
+          - not_null
+
+      - name: patient_count
+        description: "Number of unique patient cases."
+        tests:
+          - not_null
+
+      - name: bottleneck_level
+        description: "Bottleneck severity classification."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Low
+                  - Medium
+                  - High
+
+      - name: bottleneck_score
+        description: "Numeric bottleneck score."
+        tests:
+          - not_null
