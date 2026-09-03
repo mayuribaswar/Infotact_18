@@ -1,0 +1,3 @@
+from_activity,to_activity,frequency,is_self_loop
+Pharmacy,Billing,924,False
+Billing,Billing,76,True
