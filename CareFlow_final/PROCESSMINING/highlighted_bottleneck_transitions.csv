@@ -1,0 +1,30 @@
+activity_from,activity_to,transition_count,patient_count,avg_transition_time_minutes,min_transition_time_minutes,max_transition_time_minutes,median_transition_time_minutes,p90_transition_time_minutes,avg_source_wait_time_minutes,bottleneck_level,bottleneck_score,highlight
+Surgery,ICU Admission,131,131,495.23,249,724,479,680,13.68,High,3,BOTTLENECK
+Diagnosis,ICU Admission,83,83,477.4,243,714,493,649,13.82,High,3,BOTTLENECK
+Diagnosis,Surgery,175,175,185.06,97,260,191,244,14.43,High,3,BOTTLENECK
+Diagnosis,Treatment,2338,2338,88.34,32,145,88,126,13.4,Medium,2,WATCH
+Ward Transfer,Treatment,2109,2109,88.07,33,144,88,124,13.32,Medium,2,WATCH
+Doctor Consultation,CT Scan,815,776,87.59,27,148,88,129,13.9,Medium,2,WATCH
+Surgery,Treatment,26,26,87.54,47,135,83,127,14.0,Medium,2,WATCH
+ICU Admission,Treatment,114,114,86.95,35,139,83,127,12.54,Medium,2,WATCH
+Doctor Consultation,MRI,829,793,85.59,25,149,84,128,13.43,Medium,2,WATCH
+Registration,Waiting,4587,4587,72.51,25,119,73,101,13.73,Medium,2,WATCH
+Doctor Consultation,ECG,538,538,31.54,8,54,32,46,13.74,Low,1,NORMAL
+Doctor Consultation,Blood Test,871,835,31.52,7,55,31,47,13.51,Low,1,NORMAL
+Patient Arrival,Registration,4587,4587,31.31,7,55,31,45,13.56,Low,1,NORMAL
+Waiting,Doctor Consultation,4587,4587,31.24,7,55,31,45,55.06,Low,1,NORMAL
+Surgery,Ward Transfer,18,18,31.22,8,51,32,47,15.5,Low,1,NORMAL
+Blood Test,Doctor Consultation,871,835,31.21,7,55,31,45,13.57,Low,1,NORMAL
+Pharmacy,Billing,4587,4587,31.08,7,55,31,45,13.4,Low,1,NORMAL
+Diagnosis,Ward Transfer,1991,1991,31.01,7,55,31,44,13.37,Low,1,NORMAL
+Doctor Consultation,X-Ray,495,495,31.0,8,54,31,45,13.43,Low,1,NORMAL
+Treatment,Pharmacy,4587,4587,30.96,7,55,31,45,13.29,Low,1,NORMAL
+Doctor Consultation,Diagnosis,4587,4587,30.96,7,55,31,45,13.58,Low,1,NORMAL
+X-Ray,Doctor Consultation,495,495,30.94,7,55,31,43,13.51,Low,1,NORMAL
+Billing,Discharge,4587,4587,30.93,7,55,31,45,13.68,Low,1,NORMAL
+CT Scan,Doctor Consultation,815,776,30.9,7,54,31,45,69.87,Low,1,NORMAL
+Doctor Consultation,Urine Test,837,809,30.87,7,55,31,45,13.42,Low,1,NORMAL
+MRI,Doctor Consultation,829,793,30.77,7,55,31,46,68.37,Low,1,NORMAL
+ECG,Doctor Consultation,538,538,30.75,9,54,31,45,13.73,Low,1,NORMAL
+Urine Test,Doctor Consultation,837,809,30.51,7,55,31,44,13.51,Low,1,NORMAL
+ICU Admission,Ward Transfer,100,100,29.99,9,55,30,45,14.27,Low,1,NORMAL
