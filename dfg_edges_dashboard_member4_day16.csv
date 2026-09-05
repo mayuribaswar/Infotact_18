@@ -1,0 +1,30 @@
+activity_from,activity_to,transition_count,patient_count,avg_transition_time_minutes,median_transition_time_minutes,p90_transition_time_minutes,bottleneck_level,bottleneck_score
+Surgery,ICU Admission,131,131,495.23,479,680,High,3
+Diagnosis,ICU Admission,83,83,477.4,493,649,High,3
+Diagnosis,Surgery,175,175,185.06,191,244,High,3
+Diagnosis,Treatment,2338,2338,88.34,88,126,Medium,2
+Ward Transfer,Treatment,2109,2109,88.07,88,124,Medium,2
+Doctor Consultation,CT Scan,815,776,87.59,88,129,Medium,2
+Surgery,Treatment,26,26,87.54,83,127,Medium,2
+ICU Admission,Treatment,114,114,86.95,83,127,Medium,2
+Doctor Consultation,MRI,829,793,85.59,84,128,Medium,2
+Registration,Waiting,4587,4587,72.51,73,101,Medium,2
+Doctor Consultation,ECG,538,538,31.54,32,46,Low,1
+Doctor Consultation,Blood Test,871,835,31.52,31,47,Low,1
+Patient Arrival,Registration,4587,4587,31.31,31,45,Low,1
+Waiting,Doctor Consultation,4587,4587,31.24,31,45,Low,1
+Surgery,Ward Transfer,18,18,31.22,32,47,Low,1
+Blood Test,Doctor Consultation,871,835,31.21,31,45,Low,1
+Pharmacy,Billing,4587,4587,31.08,31,45,Low,1
+Diagnosis,Ward Transfer,1991,1991,31.01,31,44,Low,1
+Doctor Consultation,X-Ray,495,495,31.0,31,45,Low,1
+Treatment,Pharmacy,4587,4587,30.96,31,45,Low,1
+Doctor Consultation,Diagnosis,4587,4587,30.96,31,45,Low,1
+X-Ray,Doctor Consultation,495,495,30.94,31,43,Low,1
+Billing,Discharge,4587,4587,30.93,31,45,Low,1
+CT Scan,Doctor Consultation,815,776,30.9,31,45,Low,1
+Doctor Consultation,Urine Test,837,809,30.87,31,45,Low,1
+MRI,Doctor Consultation,829,793,30.77,31,46,Low,1
+ECG,Doctor Consultation,538,538,30.75,31,45,Low,1
+Urine Test,Doctor Consultation,837,809,30.51,31,44,Low,1
+ICU Admission,Ward Transfer,100,100,29.99,30,45,Low,1
