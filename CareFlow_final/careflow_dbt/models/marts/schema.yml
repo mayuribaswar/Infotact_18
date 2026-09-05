@@ -1,79 +1,107 @@
 version: 2
 
 models:
+
+  # =========================================================
+  # DIMENSION: PATIENTS
+  # =========================================================
   - name: dim_patients
     description: "Dimension table containing patient demographic and baseline admission profiles."
+
     columns:
       - name: patient_id
         description: "Primary key for patient identification."
         tests:
           - unique
           - not_null
+
       - name: gender
         description: "Recorded gender of the patient."
+
       - name: age
         description: "Age of the patient at admission."
+
       - name: admission_type
         description: "Admission category (e.g., Emergency, Outpatient, Inpatient)."
 
+
+  # =========================================================
+  # FACT: HOSPITAL EVENTS
+  # =========================================================
   - name: fct_hospital_events
     description: "Grain-level fact table recording every individual clinical and operational touchpoint."
+
     columns:
       - name: event_id
         description: "Primary key uniquely identifying each operational event."
         tests:
           - unique
           - not_null
-      - name: case_id
-        description: "Identifier linking all events within a single hospital admission journey."
-        tests:
-          - not_null
+
       - name: patient_id
         description: "Foreign key referencing dim_patients."
         tests:
           - not_null
+
       - name: department
         description: "Hospital department responsible for the activity."
+
       - name: activity_name
         description: "Operational activity performed (e.g., Triage, Consultation, Lab Test)."
+
       - name: process_duration_minutes
         description: "Active time taken to complete the activity in minutes."
 
+
+  # =========================================================
+  # FACT: PATIENT JOURNEYS
+  # =========================================================
   - name: fct_patient_journeys
     description: "Aggregated journey-level fact table summarizing full patient visit lifecycles."
+
     columns:
       - name: case_id
         description: "Primary key representing an entire patient admission-to-discharge episode."
         tests:
           - unique
           - not_null
+
       - name: patient_id
         description: "Foreign key referencing the patient profile."
         tests:
           - not_null
+
       - name: total_events
         description: "Total count of steps/hops executed during the visit."
+
       - name: total_wait_time_minutes
         description: "Cumulative idle wait time spent across queues."
+
       - name: total_los_days
         description: "Total Length of Stay (LOS) in days."
+
       - name: had_rework
         description: "Boolean indicator flag showing if the patient looped back to a previous stage."
 
+
+  # =========================================================
+  # FACT: PROCESS BOTTLENECKS
+  # =========================================================
   - name: fct_process_bottlenecks
     description: "Production analytical mart tracking queue bottlenecks, wait delays, and transition performance."
+
     columns:
-      - name: transition_path
-        description: "Directed step transition path (e.g., Triage -> Doctor Consultation)."
-        tests:
-          - not_null
       - name: department
         description: "Department where the bottleneck occurred."
+
       - name: avg_wait_time_minutes
         description: "Average waiting duration experienced between sequential hops."
+
       - name: bottleneck_rank
         description: "Relative rank of the delay duration within the department."
+
       - name: severity_level
         description: "Operational threshold status (Critical, Warning, Optimal)."
+
       - name: status_hex_color
         description: "Hex color value for dynamic conditional formatting in Power BI."
