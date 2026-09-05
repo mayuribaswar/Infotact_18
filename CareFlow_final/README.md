@@ -1220,3 +1220,336 @@ Day 13 extends the CareFlow clinical process-mining pipeline by converting patie
 Using LEAD(), transition times are calculated between consecutive activities. Statistical metrics such as average, median, and P90 transition time are then used to classify process transitions as Low, Medium, or High bottlenecks.
 
 This creates a foundation for identifying workflow delays and improving hospital process efficiency.
+Day 14 – MART Layer Completion
+Objective
+
+Prepare and validate the analytical MART models.
+
+MART Models
+dim_patients
+fct_hospital_events
+fct_patient_journeys
+fct_process_bottlenecks
+Activities
+Reviewed MART model structure.
+Validated fact and dimension relationships.
+Reviewed patient journey calculations.
+Reviewed bottleneck calculations.
+Prepared dbt schema tests.
+Status
+
+MART models prepared
+
+Relationships reviewed
+
+dbt tests configured
+
+Day 15 – Staging Validation
+File
+validation/day15_staging_validation.sql
+Objective
+
+Validate the staging layer and ensure that raw hospital-event data is transformed correctly.
+
+Validations
+Row count
+NULL event IDs
+NULL patient IDs
+NULL activities
+NULL timestamps
+Duplicate event IDs
+Activity distribution
+Unique patient count
+Event date range
+Status
+
+Staging row count validated
+
+NULL checks completed
+
+Duplicate checks completed
+
+Timestamp validation completed
+
+Activity distribution checked
+
+Day 16 – Intermediate Validation
+File
+validation/day16_intermediate_validation.sql
+Objective
+
+Validate the patient-process and activity-transition intermediate models.
+
+Models
+int_patient_process
+int_activity_transitions
+Validations
+Patient count
+Row count
+NULL values
+Event ordering
+Activity transitions
+Transition frequency
+Invalid transitions
+Top activity transitions
+Status
+
+Patient process validated
+
+Event ordering validated
+
+Activity transitions validated
+
+Transition distribution checked
+
+Day 17 – MART Validation
+File
+validation/day17_mart_validation.sql
+Objective
+
+Validate the final analytical MART layer.
+
+Models
+dim_patients
+fct_hospital_events
+fct_patient_journeys
+fct_process_bottlenecks
+Validations
+Patient uniqueness
+Event uniqueness
+NULL values
+Event counts
+Activity distribution
+Fact-to-dimension relationships
+Orphan events
+Patient event counts
+Status
+
+Dimension validation completed
+
+Fact validation completed
+
+Duplicate validation completed
+
+Relationship validation completed
+
+Orphan-record validation completed
+
+Day 18 – Final End-to-End Validation
+File
+validation/day18_final_end_to_end_validation.sql
+Objective
+
+Validate the complete CareFlow pipeline from raw data to the final MART layer.
+
+Validation Flow
+RAW
+ ↓
+STAGING
+ ↓
+INTERMEDIATE
+ ↓
+MART
+Validations
+Raw vs staging row count
+Staging vs MART row count
+Unique patient reconciliation
+Final NULL validation
+Duplicate event validation
+Orphan event validation
+Event date range
+Activity summary
+Final patient and event summary
+dbt Commands
+dbt debug
+dbt parse
+dbt compile
+dbt test
+dbt build
+Status
+
+End-to-end validation completed
+
+dbt tests executed
+
+Pipeline build validated
+
+Day 19 – Validation Summary
+File
+validation/day19_validation_summary.sql
+Objective
+
+Consolidate the validation results from the staging, intermediate, and MART layers.
+
+Activities
+Reviewed overall patient count.
+Reviewed total event count.
+Reviewed total activities.
+Reviewed department performance.
+Reviewed patient journey metrics.
+Reviewed bottleneck metrics.
+Reviewed severity distribution.
+Reviewed overall data quality.
+Status
+
+Validation results consolidated
+
+KPI-level checks performed
+
+Data quality reviewed
+
+Day 20 – KPI & Analytics Validation
+File
+validation/day20_kpi_validation.sql
+Objective
+
+Generate and validate core analytical KPIs from the CareFlow MART layer.
+
+KPIs Validated
+Overall KPIs
+Total patients
+Total events
+Total activities
+Total departments
+Patient Journey KPIs
+Total journeys
+Unique patients
+Average events per journey
+Average waiting time
+Average length of stay
+Rework KPIs
+Total journeys
+Journeys with rework
+Rework percentage
+Department KPIs
+Total events
+Unique patients
+Average process duration
+Activity KPIs
+Event count
+Unique patients
+Average process duration
+Bottleneck KPIs
+Bottleneck count
+Average waiting time
+Severity level
+Critical bottlenecks
+Length of Stay
+Minimum LOS
+Average LOS
+Maximum LOS
+Waiting-Time Analysis
+Top patients by waiting time
+Total waiting time
+Patient LOS
+Event count
+Data Quality
+Negative process duration
+NULL duration
+NULL patient ID
+NULL activity
+Status
+
+KPI queries created
+
+Patient KPIs validated
+
+Journey KPIs validated
+
+Department KPIs validated
+
+Activity KPIs validated
+
+Bottleneck KPIs validated
+
+LOS analysis completed
+
+Waiting-time analysis completed
+
+KPI data quality checked
+
+Validation Files – Days 15 to 20
+careflow_dbt/
+└── validation/
+    ├── day15_staging_validation.sql
+    ├── day16_intermediate_validation.sql
+    ├── day17_mart_validation.sql
+    ├── day18_final_end_to_end_validation.sql
+    ├── day19_validation_summary.sql
+    └── day20_kpi_validation.sql
+dbt Testing
+
+The project uses dbt tests to validate:
+
+Primary-key uniqueness
+Required fields
+Foreign-key relationships
+Patient journey classification
+Bottleneck classification
+Journey duration
+Process bottleneck logic
+
+Example commands:
+
+dbt debug
+dbt parse
+dbt compile
+dbt test
+dbt build
+Final Validation Target
+PASS > 0
+ERROR = 0
+WARN = 0
+BigQuery Data Flow
+Hospital Event Data
+        ↓
+   careflow_raw
+        ↓
+   careflow_staging
+        ↓
+    Intermediate
+        ↓
+    careflow_mart
+        ↓
+ Data Quality Tests
+        ↓
+ KPI Validation
+        ↓
+ Analytics / Dashboard
+Day 11–20 Overall Outcome
+
+By the end of Day 20, Member 2 completed the core BigQuery and dbt data-engineering responsibilities:
+
+Intermediate process models prepared
+
+Activity transitions generated
+
+Staging layer validated
+
+Intermediate layer validated
+
+MART layer validated
+
+Patient relationships validated
+
+Duplicate and NULL checks completed
+
+End-to-end pipeline validated
+
+dbt tests executed
+
+KPI queries created
+
+Patient journey metrics validated
+
+Bottleneck metrics validated
+
+Department and activity metrics validated
+
+Analytics-ready outputs prepared
+
+Current Status
+
+Member 2 – BigQuery & dbt: Days 11–20 Completed
+
+The CareFlow data pipeline is now validated from the raw layer through the MART layer, with analytical KPIs prepared for the next dashboard/reporting phase.
