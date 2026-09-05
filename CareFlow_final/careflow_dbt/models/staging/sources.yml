@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: careflow_raw
+    database: careflow-process-mining
+    schema: careflow_raw
+    description: "Raw BigQuery ingest dataset for hospital clinical operations"
+
+    tables:
+      - name: hospital_event_log_raw
+        description: "Raw transactional hospital clinical event log"
+        columns:
+          - name: Event_ID
+            description: "Event ID in raw table"
+            tests:
+              - not_null
+          - name: Patient_ID
+            description: "Patient ID in raw table"
+            tests:
+              - not_null
+          - name: Timestamp
+            description: "Raw timestamp string/timestamp"
+            tests:
+              - not_null

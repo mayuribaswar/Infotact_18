@@ -3,19 +3,19 @@
 WITH transitions AS (
 
     SELECT
-        patient_id,
-        activity AS from_activity,
+        Patient_ID,
+        Activity AS from_activity,
 
-        LEAD(activity) OVER (
-            PARTITION BY patient_id
-            ORDER BY event_timestamp
+        LEAD(Activity) OVER (
+            PARTITION BY Patient_ID
+            ORDER BY event_order
         ) AS to_activity,
 
         event_timestamp AS from_timestamp,
 
         LEAD(event_timestamp) OVER (
-            PARTITION BY patient_id
-            ORDER BY event_timestamp
+            PARTITION BY Patient_ID
+            ORDER BY event_order
         ) AS to_timestamp
 
     FROM {{ ref('int_ordered_events') }}
@@ -23,11 +23,12 @@ WITH transitions AS (
 )
 
 SELECT
-    patient_id,
+    Patient_ID,
     from_activity,
     to_activity,
     from_timestamp,
-    to_timestamp
+    to_timestamp,
+    TIMESTAMP_DIFF(to_timestamp, from_timestamp, MINUTE) AS transition_time_minutes
 
 FROM transitions
 

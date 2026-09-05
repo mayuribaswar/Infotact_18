@@ -1,73 +1,29 @@
 version: 2
 
 models:
-  - name: int_normalized_event_log
-    description: "Normalized hospital event log derived from the staging model"
-
+  - name: int_activity_transitions
+    description: "Calculates step-to-step paths and lead-time deltas using window functions."
     columns:
-      - name: Event_ID
-        description: "Unique event identifier"
-        tests:
-          - not_null
-
-      - name: Patient_ID
-        description: "Patient identifier"
-        tests:
-          - not_null
-
-      - name: Activity
-        description: "Clinical activity"
-        tests:
-          - not_null
-
-      - name: event_timestamp
-        description: "Clinical event timestamp"
-        tests:
-          - not_null
-
-      - name: wait_category
-        description: "Waiting time classification"
-
-      - name: rework_status
-        description: "Rework classification"
-
-      - name: activity_priority
-        description: "Priority assigned to the activity"
+      - name: event_id
+        description: "Foreign key referencing the current event."
+      - name: next_activity
+        description: "Subsequent activity determined via lead() analytical function."
+      - name: wait_duration_minutes
+        description: "Calculated lag duration between the current event end and the next event start."
 
   - name: int_ordered_events
-    description: "Hospital events ordered chronologically for each patient"
-
+    description: "Orders clinical events chronologically by case_id and timestamp."
     columns:
-      - name: Event_ID
-        description: "Unique event identifier"
-        tests:
-          - not_null
+      - name: case_id
+        description: "Encounter tracking identifier."
+      - name: event_order_seq
+        description: "Integer sequence index (1, 2, 3...) of activities within a case."
 
-      - name: Patient_ID
-        description: "Patient identifier"
-        tests:
-          - not_null
+  - name: int_normalized_events
+    description: "Standardizes department names, activity nomenclature, and event timestamps."
 
-      - name: Activity
-        description: "Clinical activity"
-        tests:
-          - not_null
+  - name: int_patient_journeys
+    description: "Intermediate rollup calculating total encounter durations and visit completion flags."
 
-      - name: event_timestamp
-        description: "Clinical event timestamp"
-        tests:
-          - not_null
-
-      - name: wait_category
-        description: "Waiting time classification"
-
-      - name: rework_status
-        description: "Rework classification"
-
-      - name: activity_priority
-        description: "Priority assigned to the activity"
-
-      - name: event_order
-        description: "Sequential chronological order of events for each patient"
-        tests:
-          - not_null
+  - name: int_process_bottlenecks
+    description: "Pre-aggregated operational bottleneck metrics grouping wait intervals by path and department."

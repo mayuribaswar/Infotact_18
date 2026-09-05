@@ -3,3 +3,16 @@ target/
 dbt_packages/
 logs/
 .env
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# BigQuery service account keys & credentials
+*.json
+credentials/
+
+# OS / Python files
+.env
+__pycache__/
+.DS_Store

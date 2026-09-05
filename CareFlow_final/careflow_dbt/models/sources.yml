@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: careflow_raw
-    database: careflow-process-mining
-    schema: careflow_raw
-
-    tables:
-      - name: hospital_event_log_raw
