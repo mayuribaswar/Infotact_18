@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: fct_process_bottlenecks
+    description: "Aggregated transition bottlenecks identifying latency, wait times, and severity classifications."
+    columns:
+      - name: activity_from
+        description: "Origin clinical activity step"
+        tests:
+          - not_null
+
+      - name: activity_to
+        description: "Destination clinical activity step"
+        tests:
+          - not_null
+
+      - name: transition_count
+        description: "Total transitions recorded between these steps"
+        tests:
+          - not_null
+
+      - name: avg_transition_time_minutes
+        description: "Mean transition latency in minutes"
+        tests:
+          - not_null
+
+      - name: bottleneck_level
+        description: "Categorical bottleneck risk (High, Medium, Low)"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['High', 'Medium', 'Low']
+
+      - name: bottleneck_score
+        description: "Numeric severity rating (1 to 3)"
+        tests:
+          - not_null
