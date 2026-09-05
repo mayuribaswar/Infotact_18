@@ -1,0 +1,48 @@
+activity_from,activity_to,transition_count_int,patient_count_int,avg_transition_time_minutes_int,min_transition_time_minutes_int,max_transition_time_minutes_int,median_transition_time_minutes_int,p90_transition_time_minutes_int,avg_source_wait_time_minutes_int,transition_count_fct,patient_count_fct,avg_transition_time_minutes_fct,min_transition_time_minutes_fct,max_transition_time_minutes_fct,median_transition_time_minutes_fct,p90_transition_time_minutes_fct,avg_source_wait_time_minutes_fct,bottleneck_level,bottleneck_score,_merge,transition_count_difference,patient_count_difference,avg_transition_time_minutes_difference,min_transition_time_minutes_difference,max_transition_time_minutes_difference,median_transition_time_minutes_difference,p90_transition_time_minutes_difference,avg_source_wait_time_minutes_difference,metrics_match,self_transition
+Billing,Billing,76,76,0.0,0,0,0,0,13.25,76,76,0.0,0,0,0,0,13.25,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Billing,Discharge,4587,4587,30.93,7,55,31,45,13.68,4587,4587,30.93,7,55,31,45,13.68,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Blood Test,Blood Test,24,24,0.0,0,0,0,0,15.46,24,24,0.0,0,0,0,0,15.46,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Blood Test,Doctor Consultation,871,835,31.21,7,55,31,45,13.57,871,835,31.21,7,55,31,45,13.57,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+CT Scan,CT Scan,14,14,0.0,0,0,0,0,57.93,14,14,0.0,0,0,0,0,57.93,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+CT Scan,Doctor Consultation,815,776,30.9,7,54,31,45,69.87,815,776,30.9,7,54,31,45,69.87,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Diagnosis,Diagnosis,86,86,0.0,0,0,0,0,13.53,86,86,0.0,0,0,0,0,13.53,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Diagnosis,ICU Admission,83,83,477.4,243,714,493,649,13.82,83,83,477.4,243,714,493,649,13.82,High,3,both,0,0,0.0,0,0,0,0,0.0,True,False
+Diagnosis,Surgery,175,175,185.06,97,260,191,244,14.43,175,175,185.06,97,260,191,244,14.43,High,3,both,0,0,0.0,0,0,0,0,0.0,True,False
+Diagnosis,Treatment,2338,2338,88.34,32,145,88,126,13.4,2338,2338,88.34,32,145,88,126,13.4,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Diagnosis,Ward Transfer,1991,1991,31.01,7,55,31,44,13.37,1991,1991,31.01,7,55,31,44,13.37,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Discharge,Discharge,91,91,0.0,0,0,0,0,14.31,91,91,0.0,0,0,0,0,14.31,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Doctor Consultation,Blood Test,871,835,31.52,7,55,31,47,13.51,871,835,31.52,7,55,31,47,13.51,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,CT Scan,815,776,87.59,27,148,88,129,13.9,815,776,87.59,27,148,88,129,13.9,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,Diagnosis,4587,4587,30.96,7,55,31,45,13.58,4587,4587,30.96,7,55,31,45,13.58,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,Doctor Consultation,170,168,0.0,0,0,0,0,14.28,170,168,0.0,0,0,0,0,14.28,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Doctor Consultation,ECG,538,538,31.54,8,54,32,46,13.74,538,538,31.54,8,54,32,46,13.74,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,MRI,829,793,85.59,25,149,84,128,13.43,829,793,85.59,25,149,84,128,13.43,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,Urine Test,837,809,30.87,7,55,31,45,13.42,837,809,30.87,7,55,31,45,13.42,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Doctor Consultation,X-Ray,495,495,31.0,8,54,31,45,13.43,495,495,31.0,8,54,31,45,13.43,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+ECG,Doctor Consultation,538,538,30.75,9,54,31,45,13.73,538,538,30.75,9,54,31,45,13.73,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+ECG,ECG,13,13,0.0,0,0,0,0,14.23,13,13,0.0,0,0,0,0,14.23,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+ICU Admission,ICU Admission,3,3,0.0,0,0,0,0,6.67,3,3,0.0,0,0,0,0,6.67,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+ICU Admission,Treatment,114,114,86.95,35,139,83,127,12.54,114,114,86.95,35,139,83,127,12.54,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+ICU Admission,Ward Transfer,100,100,29.99,9,55,30,45,14.27,100,100,29.99,9,55,30,45,14.27,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+MRI,Doctor Consultation,829,793,30.77,7,55,31,46,68.37,829,793,30.77,7,55,31,46,68.37,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+MRI,MRI,27,27,0.0,0,0,0,0,74.38,27,27,0.0,0,0,0,0,74.38,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Patient Arrival,Patient Arrival,80,80,0.0,0,0,0,0,12.28,80,80,0.0,0,0,0,0,12.28,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Patient Arrival,Registration,4587,4587,31.31,7,55,31,45,13.56,4587,4587,31.31,7,55,31,45,13.56,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Pharmacy,Billing,4587,4587,31.08,7,55,31,45,13.4,4587,4587,31.08,7,55,31,45,13.4,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Pharmacy,Pharmacy,104,104,0.0,0,0,0,0,13.35,104,104,0.0,0,0,0,0,13.35,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Registration,Registration,85,85,0.0,0,0,0,0,12.69,85,85,0.0,0,0,0,0,12.69,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Registration,Waiting,4587,4587,72.51,25,119,73,101,13.73,4587,4587,72.51,25,119,73,101,13.73,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Surgery,ICU Admission,131,131,495.23,249,724,479,680,13.68,131,131,495.23,249,724,479,680,13.68,High,3,both,0,0,0.0,0,0,0,0,0.0,True,False
+Surgery,Surgery,4,4,0.0,0,0,0,0,7.75,4,4,0.0,0,0,0,0,7.75,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Surgery,Treatment,26,26,87.54,47,135,83,127,14.0,26,26,87.54,47,135,83,127,14.0,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Surgery,Ward Transfer,18,18,31.22,8,51,32,47,15.5,18,18,31.22,8,51,32,47,15.5,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Treatment,Pharmacy,4587,4587,30.96,7,55,31,45,13.29,4587,4587,30.96,7,55,31,45,13.29,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Treatment,Treatment,115,115,0.0,0,0,0,0,13.27,115,115,0.0,0,0,0,0,13.27,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Urine Test,Doctor Consultation,837,809,30.51,7,55,31,44,13.51,837,809,30.51,7,55,31,44,13.51,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Urine Test,Urine Test,22,22,0.0,0,0,0,0,10.32,22,22,0.0,0,0,0,0,10.32,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Waiting,Doctor Consultation,4587,4587,31.24,7,55,31,45,55.06,4587,4587,31.24,7,55,31,45,55.06,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+Waiting,Waiting,94,94,0.0,0,0,0,0,52.46,94,94,0.0,0,0,0,0,52.46,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+Ward Transfer,Treatment,2109,2109,88.07,33,144,88,124,13.32,2109,2109,88.07,33,144,88,124,13.32,Medium,2,both,0,0,0.0,0,0,0,0,0.0,True,False
+Ward Transfer,Ward Transfer,35,35,0.0,0,0,0,0,14.11,35,35,0.0,0,0,0,0,14.11,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
+X-Ray,Doctor Consultation,495,495,30.94,7,55,31,43,13.51,495,495,30.94,7,55,31,43,13.51,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,False
+X-Ray,X-Ray,8,8,0.0,0,0,0,0,15.13,8,8,0.0,0,0,0,0,15.13,Low,1,both,0,0,0.0,0,0,0,0,0.0,True,True
